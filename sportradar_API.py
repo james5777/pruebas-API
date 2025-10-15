@@ -64,33 +64,69 @@ def get_data_from_api():
     return response.json()
 
 
-import requests
-
 url = "https://api.reporting-studio.ads.sportradar.com/grid"
 headers = {
     "accept": "application/json",
-    "Authorization": "Bearer eyJraWQiOiJsMDdheTRNdEhWTWEwTDdvZEVReUorNUg1OHI1R2syaU1lK0dORTNCenV3PSIsImFsZyI6IlJTMjU2In0.eyJhdF9oYXNoIjoiYjQ0dExKeEFmbFZVTFNJYTlfSFA3USIsInN1YiI6IjRiZTZjODhlLWI1NWUtNDU5YS1hY2IxLWY1NWIxYzY3MDE4ZCIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuZXUtd2VzdC0xLmFtYXpvbmF3cy5jb21cL2V1LXdlc3QtMV9XNWF4YWFxMWwiLCJjb2duaXRvOnVzZXJuYW1lIjoiNGJlNmM4OGUtYjU1ZS00NTlhLWFjYjEtZjU1YjFjNjcwMThkIiwib3JpZ2luX2p0aSI6ImRkZWY2Yzg3LTc5YmEtNDZhNi1hZTFkLTlkZmMxYTYwNmI4YiIsImF1ZCI6IjF0YzM3aTVvaWhucjA0YmNpcTMzMzBkbHRvIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE3NjA0NjQzMTEsIm5hbWUiOiJUaGVvZG9ybyIsImV4cCI6MTc2MDU1MDcxMSwiaWF0IjoxNzYwNDY0MzExLCJmYW1pbHlfbmFtZSI6IkRpa3V5YW1hIiwianRpIjoiYzNlODU2MGEtOGI1Mi00Yzg4LWFhODItYjBiYWQwNjA2MTA3IiwiZW1haWwiOiJ0aGVvZG9yby5kaWt1eWFtYUBxdW90YW1lZGlhLmNvIn0.If5g0SKFhsFm85nwC-qpSi52cmQDY5gxje_tdIXS0uBGRhBBA5avCKup4Xhhanz8CtdAIMWbGvn8Pa2IbUTD7KrP6ofU2FP-orZD6RpmxhPwsc32Oi494VLawqxxrmSq9KJHkFmSeU6eghvzqIhSMg_7o8cd2k9hCE8MEG73tFth_SWRJQnI_Sl1hKKNynxem8rpgFlOxqD6EEPxk4nXvbAkvkUFDw7zJOH5fvgGlzARd5jbZ0owLOS2npxXalYeFB-5RLcUmsacSRW3Hlg2NhOxEyEUGQ6_iyUaGqA-CPAsYtVbhsUJWEVIHwLBPuOelPcyhae84ncVU1QJy0daWg",
+    "Authorization": f"Bearer {id_token}",
     "Content-Type": "application/json"
 }
-payload = {
-    "split_by": ["demand.advertiser_id"],
+# === 2️⃣ Body igual que en Postman ===
+body = {
+    "split_by": [
+        "demand.advertiser_id",
+        "demand.campaign_id",
+        "user.geo.country",
+        "granularity_day",
+        # "conversion_id"
+    ],
     "start_date": "2025-10-01",
     "end_date": "2025-10-14",
-    "timezone": -5
+    "data_fields": [
+        "payout.actual_adv_usd",
+        "clicks",
+        "imps",
+        "pixel.type.ftd",
+        "pixel.type.reg_finished",
+        "pixel.type.deposit",
+        "pixel.type.login"
+    ]
 }
 
-response = requests.post(url, headers=headers, json=payload)
-print(response.status_code)
-print(response.json())
-
+# === 3️⃣ Petición ===
+response = requests.post(url, json=body, headers=headers)
 data = response.json()
-if "rows" in data and len(data["rows"]) > 0:
-    rows = data["rows"]
-    # Cada fila tiene un array de "data"
-    df = pd.DataFrame([
-        {d["name"]: d["value"] for d in row["data"]}
-        for row in rows
-    ])
-    print(df.head())
+
+# === 4️⃣ Procesar los datos ===
+rows = []
+for row in data.get("rows", []):
+    # Cada 'name' corresponde al orden en split_by
+    record = {
+        "advertiser_id": row["name"][0],
+        "campaign_id": row["name"][1],
+        "country": row["name"][2],
+        "day": row["name"][3],
+        # "conversion_id": row["name"][4],
+    }
+
+    # Los valores de métricas vienen en 'data'
+    for metric in row.get("data", []):
+        metric_name = metric.get("name")
+        metric_value = metric.get("value")
+        record[metric_name] = metric_value
+
+    rows.append(record)
+
+# === 5️⃣ Crear DataFrame ===
+df = pd.DataFrame(rows)
+
+# === 6️⃣ Calcular métricas adicionales (CTR y CPA si hay datos) ===
+if not df.empty:
+    df["CTR"] = (df["clicks"] / df["imps"] * 100).round(2)
+    df["CPA"] = (df["payout.actual_adv_usd"] / df["clicks"]).round(2)
 else:
-    print("No hay datos en el rango especificado")
+    print("⚠️ No se encontraron registros en el rango de fechas.")
+
+# === 7️⃣ Guardar resultados ===
+df.to_csv("reporte_sportradar.csv", index=False)
+print("✅ Datos guardados en 'reporte_sportradar.csv'")
+print(df.head())
