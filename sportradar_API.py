@@ -1,44 +1,25 @@
-# import requests
-# import pandas as pd
-
-# # === Credenciales ===
-# REFRESH_TOKEN = "eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.n1seeohBbBHNLZ-BKfQWSf_gFONZte5A1dXTco3HNA2pJsRtHcbt3vG7lHM33bYQTryKYIqP7XUFw8rFk_-T-B6VNwjOT0gPsgWax8nn6tA3uHPEGBFgxzian2vs_4s6N1Na8aUrWB7Gz_7t08bduYcn_vxN6Bhy2KFECAfj7vAO3rwmIzJRiNYFwE_M6ibAQyalYrrHaDgBwGChNKWnhV8FG2n1kv-0Cg2_xzHDEv3Bzd90blyLYTt_a_j9EqoxgfmyLgjGMdNOOS4xi7iC27JmiOITlktMia-17avswgZyAdyDNQKPaVVcJqWFojeD8RQdN982XNJlf_bwRbz3hg.b6OMhgJ4oyQQiMcq._6jWOQXQOtg-OzNB8yJ5x-bnNG999YlFTNZ_nDreBtAi19kvry72KhkF9NrGpCPp2thAWra5i8yP8h5RfbN1XbL-I-OSUBoiX_gANrnOeTWJsgmTsc2jW-vxTn0k3KlPnTEmjCpWM742OqsdJ9BnRHk-_99EeY6UQwhnml2czGx-BYtJF73a698x6tys_w2a2vrgAcTRkg6K0yulMQVJDpzk49b4CrBfg-c9-iNzhs7pyX0iFlgPFSkpq6FVkkBk9vhP_bu-ygUEo0FXAPf6SjqvJhx2_aruqkeJMtQ343kjmnxrlTyUMLO0rkjMb99yIpPxag0_iY7Q4RvqWQyWN1aZYB6L-n78pM11qeoS68O9-BCxvImmo2e20oLsZpEKvvO-f2J0ZVgR_JqOBs8pEA11lE4NaUP5rd6MUEWhIepC4VqgZ08Vqc1HsE7xxj8MCTF1VE5fZIdlasp-tLSXiKBM_UcOM5yxIMAYDw7tc38YePHGBTNrcpZEqJh1O6_p2UWJyiTsVKNKrStkfuUogRTjy1qhTMifpRXIzlMX8YE7b1kKVzt2yk2ITQas6lYIeb6GxDmT-seSrugl0hKgs_5QaNwC_UeFJwVWPV6s6RAcaz8Go7XjZQGF8UamOMx1kI2Y42blqnzAmzHZ9I8sbvriasj7ZU6rdA-OOfMXDzNRgI1-ETUPbmhMk2GiIELofaT6GRdPl6bmikpH8ssy6yYMtLePXJ1ESt96b36UKGDLgd_QrK-4xJhlbAiv10u3vTFN379Rjh1zS1mkoA6zFDb_zQy7iMVyKlFIRmXcuWQSYp5VbJlaoa7cYkk0TGDmNCbDftiIYqr9cnuAB57GyEjsnvst0b96HrESl5n1NYVXAGQk9J0tZu6GEX2w5LHBsVBD8OREEnNppKgzWLFF1MBslXAqxHSbuSQH0ko7XqKTtopmvGcQJXoLp_rP1n9WlpuJ9_4qh67pmP77Pnw_oSlMTPzCS4cWaZj0vla7JKuluKSD4knyJuF8WhWAulxACzt7E2_mFWT9BHGo7d3hLfsF3WBHjcT0gp9ndKFLHh5PnZKBbvk1MaIpvh_R5wOL1RkAXsxHXBqpCWe26GFCnr0FUZqWlmfnM-c0DCfFp9LstI__p2rwJeagtZF8EOpeTYvkUnmKIHX2Gy2JOItKiU2hALqfexdOQWRrKDH4qe0wjnFX0heHJBWGrRVUddsGlJDlrGDJNkIn8HDvQRj3b93snZQUdeKcR-Slo4hRWQRxOk8W6edge_0mFmx9hyDv3Dw.37PDv92uLXqa0F0DoXe-4g"
-# ID_TOKEN = "eyJraWQiOiJsMDdheTRNdEhWTWEwTDdvZEVReUorNUg1OHI1R2syaU1lK0dORTNCenV3PSIsImFsZyI6IlJTMjU2In0.eyJhdF9oYXNoIjoiUnZudjB6bzJ3dlV1aWRIRlpCamFNUSIsInN1YiI6IjRiZTZjODhlLWI1NWUtNDU5YS1hY2IxLWY1NWIxYzY3MDE4ZCIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuZXUtd2VzdC0xLmFtYXpvbmF3cy5jb21cL2V1LXdlc3QtMV9XNWF4YWFxMWwiLCJjb2duaXRvOnVzZXJuYW1lIjoiNGJlNmM4OGUtYjU1ZS00NTlhLWFjYjEtZjU1YjFjNjcwMThkIiwib3JpZ2luX2p0aSI6ImZjMWIzZWRjLTUyNmQtNGEyYi04MGQ5LTcyNDBjMGEzYWU3YSIsImF1ZCI6IjF0YzM3aTVvaWhucjA0YmNpcTMzMzBkbHRvIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE3NjA0NjM5MjUsIm5hbWUiOiJUaGVvZG9ybyIsImV4cCI6MTc2MDU1MDMyNSwiaWF0IjoxNzYwNDYzOTI1LCJmYW1pbHlfbmFtZSI6IkRpa3V5YW1hIiwianRpIjoiODVkNjlmMzctNWI2Zi00OWFkLTgzOWYtZTRiMjBiNGRhNmMyIiwiZW1haWwiOiJ0aGVvZG9yby5kaWt1eWFtYUBxdW90YW1lZGlhLmNvIn0.nVsC5_fIi2MDTdeC_eDZzYVl5Z-gpxwFTLWQmw_mhS0wMRzDwi6Zi8kvw1wUIolCNgR02y_ibUqnn2qlh2Ipd0rwPTNqgh7Nj1xFSuwtb2SvrCD-X8JG-Q_Nbd6q88JDEv1IL-6euXI2TEIr5jTq1NeQnh8sBZ_yU_bmxjvxSI2AJIGcpx1ODkM3BpbvipTGuYjE71lgfoGLHE0tO9aRXq96aS-J9SIIDGwK2xJGznvud_x7Q2RH9syCA-b_TImS9JkhNmJpTv2zgS3lq7TdGZe-4wPsL637HK10HFirRAwcYSvcMzgXTVYTQS83q6f24SvUEBz8nCERde-f3sla2Q"
-
-# # === URL para renovar token ===
-# token_url = "https://api.api-access.iam.ads.sportradar.com/prod/oauth2/token"
-
-# headers = {
-#     "Authorization": f"Bearer {ID_TOKEN}",
-#     "Content-Type": "application/json"
-# }
-
-# body = {
-#     "refreshToken": REFRESH_TOKEN
-# }
-
-# # === Solicitar nuevo token ===
-# response = requests.post(token_url, headers=headers, json=body)
-# print("🔎 Status:", response.status_code)
-# print("🔎 Respuesta:", response.text)
-
-# if response.status_code == 200:
-#     new_token = response.json().get("idToken")
-#     print("✅ Nuevo token obtenido correctamente:")
-#     print(new_token)
-# else:
-#     print("❌ Error al obtener token:", response.text)
-
-
 import requests
 import datetime
 import pandas as pd
+from pathlib import Path
+import sqlite3
 
-# Datos iniciales
-id_token = "eyJraWQiOiJsMDdheTRNdEhWTWEwTDdvZEVReUorNUg1OHI1R2syaU1lK0dORTNCenV3PSIsImFsZyI6IlJTMjU2In0.eyJhdF9oYXNoIjoiYjQ0dExKeEFmbFZVTFNJYTlfSFA3USIsInN1YiI6IjRiZTZjODhlLWI1NWUtNDU5YS1hY2IxLWY1NWIxYzY3MDE4ZCIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuZXUtd2VzdC0xLmFtYXpvbmF3cy5jb21cL2V1LXdlc3QtMV9XNWF4YWFxMWwiLCJjb2duaXRvOnVzZXJuYW1lIjoiNGJlNmM4OGUtYjU1ZS00NTlhLWFjYjEtZjU1YjFjNjcwMThkIiwib3JpZ2luX2p0aSI6ImRkZWY2Yzg3LTc5YmEtNDZhNi1hZTFkLTlkZmMxYTYwNmI4YiIsImF1ZCI6IjF0YzM3aTVvaWhucjA0YmNpcTMzMzBkbHRvIiwidG9rZW5fdXNlIjoiaWQiLCJhdXRoX3RpbWUiOjE3NjA0NjQzMTEsIm5hbWUiOiJUaGVvZG9ybyIsImV4cCI6MTc2MDU1MDcxMSwiaWF0IjoxNzYwNDY0MzExLCJmYW1pbHlfbmFtZSI6IkRpa3V5YW1hIiwianRpIjoiYzNlODU2MGEtOGI1Mi00Yzg4LWFhODItYjBiYWQwNjA2MTA3IiwiZW1haWwiOiJ0aGVvZG9yby5kaWt1eWFtYUBxdW90YW1lZGlhLmNvIn0.If5g0SKFhsFm85nwC-qpSi52cmQDY5gxje_tdIXS0uBGRhBBA5avCKup4Xhhanz8CtdAIMWbGvn8Pa2IbUTD7KrP6ofU2FP-orZD6RpmxhPwsc32Oi494VLawqxxrmSq9KJHkFmSeU6eghvzqIhSMg_7o8cd2k9hCE8MEG73tFth_SWRJQnI_Sl1hKKNynxem8rpgFlOxqD6EEPxk4nXvbAkvkUFDw7zJOH5fvgGlzARd5jbZ0owLOS2npxXalYeFB-5RLcUmsacSRW3Hlg2NhOxEyEUGQ6_iyUaGqA-CPAsYtVbhsUJWEVIHwLBPuOelPcyhae84ncVU1QJy0daWg"  # tu token actual
-refresh_token = "eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.qMluKGaFjSvkmtZ8BA-aNxT1k3oJNQ4ejuIpAyNfkKBegwzccav4TiFlEZSbIpwwIZrgEKcNGR03r3E1pdGYlmPNyc6ou7wCasN0QQO9ewDPSbTG2jAotXGD1GKsOBlHG5w1YWr4dZKX5_7MWLNBHVbVEEnFlxw-VE-ls2SbmeeIctdeHw7EBIJkmYKKVqVn2kDmJLo5AqADDXKrF93X6I4skJtn0wp7aM5pWtS7M9eIY7TfVBRPu-L8W0AMvP3cg2MhI3ObpDjJwICaYOvKxU-iu2dnN2Cfr087NOFovGMUv_g9PnKSmlW5JM44K82GfV7DpOnvbJDn72BJmxmUpg.2TdhZrHEZVsBUxgg.447u-R7e00wu3yKz6a-0YEWkIRgQ1WCuCDrzq6BRRhQJ_vzVux0GQJe2vwrVKODk4WrKs6kukcpXEJDDeK2zEY8inbYqy_XMZIYvsSMxxSdGhjAOmyeS3B9D1-AUKAqV4quxOA9fYVCdNTtCsDmW8INOzKuF4n3ZGC93SBlM5c8b07LsKqygB8Nk2ZYVmZGwmhykEegqHUa9tTSJryjkOnap5fntTQb5RKA6ZKCHUjTUK4s1lgF_bsv3TJlm62A3SQ-4ljcsgj7-rayfjxIW5OUZkEz6pP2eeMEiQUvdX3_V-Mx4ECdrAWqkiJOp0aOtYB2TOPEFWDadU9CpqG9Hmb4WGkMDIN87UMyW_oU-SXaCE9apiqJ950ouHzNj-xR_PgM_873Q4VKloDZMzS1CqBlxmPE2nPBsUGhT_eJdm6aWkOR9Od2sulS7K0uiDCKaiERe_qGgW6w3BGH0kY-L0mcJ14c8SDRmMiELRorH3IOlG48gfxS_eQ-8EK1AFxh-Uy9Mj-_dOHl4y_CwHpZEWUL6DSwFJRsNTCfcZ4030Pw2MMvSTxPTqeKiErVED2ld7LeWhGq_5NMMbmzG0SKidXxig8QJrOQyZagDEyZeH5HN6stUqXl68n7qZ_ChFQgH6eP9mb7CwZ-9xPWHCHzLQdla7ThsCbCAVyhbIZhxN8icfidfErZu5YOHdz2fy-anY35Q4sibRunynSqu8xPL03O_uO8ITafzn3sIPsQwVpoL3AnvF2dI3U-h1VcvK50V43CnrdhdC5KML6Mzgu3u0Qu02O6vlGX-mv_2Ps5fPjhuXJCloDcvZv0abWJ5oLZIy2Ve2haeS0cQAIAGeEpMuYgXexTHH9Yf4-7n68qO9DB6ybnOoedX9XQmBoB8qiXgLnVyb-Klzl0qC8STprHOXvhRooGl_tZvcwO8KE5gRHGbrry9E9kTZvS6S78Jb3qk3ny0AiSvZgsAJOnQUSo-8OXrvHCvyARveaFYsNharpeMNgprn2z0kl6W2wr7rmwwjC2-bG5IGcC6m-DKmtf6ij7Gk9VUkepA9_pLi9uptyUVylhHlczbvhUXVy66mlZP3rcFky_Mg9eYzfaaJRwk1-SL5A5RvC1EAbpc8Y9YccG94fVc3CnueSSxi3EAqWnIy3j1noZOgbdjOG1WcJjhoiLxUF3F0I8AyML-kCRRGFB_SGoYNTRQbKtBbY6BeKoWnfzLdVS7jTYx8Erhys9fYH2dSeKMOU4WFPOY__J0KmdwcgcPw5VsKx4YPFO0E5HviKk.FpmJa8WQY_3c1_y0ho4nHw"  # lo que te da el sistema al generar el token
+# ------- Parametros editables ------- #
+start_date = "2023-05-01"
+end_date = "2025-10-14"
+
+# ------- Nombres de variables para rutas y nombres de tablas ------- #
+nombre_tabla_sportradar = "general_sportradar"
+ruta_db = Path("Archivos/Archivo_base_de_datos/base_de_datos_api")
+name_csv_sportradar = Path("Archivos/Archivos_csv/reporte_sportradar.csv")
+
+
+# ------- Token de acceso y de refresco ------- #
+id_token = "eyJraWQiOiJsMDdheTRNdEhWTWEwTDdvZEVReUorNUg1OHI1R2syaU1lK0dORTNCenV3PSIsImFsZyI6IlJTMjU2In0.eyJhdF9oYXNoIjoiT1lOMEhvNEVLOUlpMTlrS0FEdW44dyIsInN1YiI6IjRiZTZjODhlLWI1NWUtNDU5YS1hY2IxLWY1NWIxYzY3MDE4ZCIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJpc3MiOiJodHRwczpcL1wvY29nbml0by1pZHAuZXUtd2VzdC0xLmFtYXpvbmF3cy5jb21cL2V1LXdlc3QtMV9XNWF4YWFxMWwiLCJjb2duaXRvOnVzZXJuYW1lIjoiNGJlNmM4OGUtYjU1ZS00NTlhLWFjYjEtZjU1YjFjNjcwMThkIiwib3JpZ2luX2p0aSI6IjQ0N2EzOTM3LWJiNzUtNGE0Ny04OTZhLWU1NDE4OWFlYmNiMSIsImF1ZCI6IjF0YzM3aTVvaWhucjA0YmNpcTMzMzBkbHRvIiwiZXZlbnRfaWQiOiJmOWE1MGJiNS03Y2YyLTRjN2QtYjY1MS1mNWViMWY5YjcyMWUiLCJ0b2tlbl91c2UiOiJpZCIsImF1dGhfdGltZSI6MTc2MDU1MTE1MSwibmFtZSI6IlRoZW9kb3JvIiwiZXhwIjoxNzYwNjM3NTUxLCJpYXQiOjE3NjA1NTExNTIsImZhbWlseV9uYW1lIjoiRGlrdXlhbWEiLCJqdGkiOiJlMDc2MzRiZS1jMmIwLTRlMTktYjUxNC0wYjEyNmJkOWZhMWQiLCJlbWFpbCI6InRoZW9kb3JvLmRpa3V5YW1hQHF1b3RhbWVkaWEuY28ifQ.FWGmnkrvHMWOxluIZnzULX1L9qZYofazEgVi3ZmuUaI7BjmSDx7HPoWeIanZdBW1ypbPh7y2aMKEseHSABsASFmHNXvJ9VlmFgd-LiGR8jXfqNEAmFISR8JbZL-X1cZjoYf5MnVupxfUzBzK-dXTTnx7ak0UNUJ1hNscr-NT1Sjy9c0be3FitAbg2P57-OK3rkTpTiWQooh0OvP-mOCh0E4GNjyINecKP1hSN7xMOH8o-4GH9j2cEUlwETkudGf4RGrblcsZfxM3Y63ScENtNW3gnagtkBiCHAthilTkZ_warB-SjDwuo-k3IH1NujFl7jpR-bdrCl2yBUNxDFAYGA"  # token actual
+refresh_token = "eyJjdHkiOiJKV1QiLCJlbmMiOiJBMjU2R0NNIiwiYWxnIjoiUlNBLU9BRVAifQ.EAXqFeYfzEQwhD0MZEAiuRx6Fq-knbRq3qm8uklosY4tKxuuxTpoelGSOGOG8cS3m0R7y-KvjpwpbZ6jxEYa_fxgHTIAwc1JXnsgDWfhTt2Uf-QEOw85KK7ow_MWgx-FOcyB4ftMVlK_UEt_0Oce3Y36dbrV_KVFEQJiaqz_q8Jnfs9NtmKk4s-vpp7aTlWrvDPvg335Gmhb7JjPIqlCbfS2NHzh9OHUjZ-O4upYjqtDhWnKRzI4LBkaX27jsdryPOT4J0iMOFpo4e3uLc-Tr80fBFVb_e87GVI4HU_HJThJkg3wzrXwfCeAdfIxz1aYtxiWJytQokyQaRGXrZ-F4g.eURLd6lqca4b6V7s.Esug-5Q0EoPCIH2JuLlTXj5RkBXTKXV8qTNzKoUnQL_Jge9dEX6gnGJ1OUm5Yl-IM8q6cmw23zfkLtyPikWVlEVBNU0AHTafUeQGBMNb6fDyuhQ_Gaut-eDC3Knd1Aj9MAL6Tbp5VuRpBt__L_tdBNE3b6JF71hEDmW9jlqFElLDHJYiUKIA93uHNwegDnaI6H9WgrxK39LA1nk4FxAs8hjZjBSs4pZPNKu7pQGo_NyHOXQOBTN-jCI-zNUBDHwxxuzpsemYmHetnhJ4IBRE9lxfKjTJmS8YZh2F6zb7ci7XeQLt_Nri8nne5OsDMgUEnT_sYEEm4Rv7NvNqa5XAU1G3VSWsI6LJXa5baWMzviGe_lDjGGEnPpVz_mY7jyZQMY6SJgreaV5e3r0yvSnVFJiHP9g7YCsJ3t0a7TgDfLZPtWth4uBgrFkPwgrQ_Yo3QKgJHGfOzOASIh9u7aJzUHRiytGHZlbnrSb5p7y5zOGB05aiQCwF5REKCRKU4jKn2NJ8M36WdS3kW2AL7cCvVvGBEebIbR2WbF2UES7a3aVR4IUVbnN89NtkFLY6PG0QuojONnFgGwy7rl-1LwX00ZvDcH0AdrLpbGVmQv-8OjEnR2DVHhqe4DElCg65u4vgC0fzessdAdKe23WdztIZBv1dpfi9PDQXvWTfl4kZp3dRI01qJkjl2Pi-31CN9715_H_QOMONjSzPN36rLfX9wOrzGjeE-G068bjmDCXkUJVfytG4sXxpucYcFsbKaQciE0ju7r4odWnQjUKJPfanBcyoQ8JQEk5mtDCYo5_Eu-naNaAy0wij1TpMKDM7fDauYBuMjuSeVHWduf0MFtLpnFDkgze4Kxdix2n0U8pzriTJTW-6PNM8ZGRUsyOmT4DJIw0IOoZplEyuInKuQIeTeq47caiRGqPrO72nOSLHX05_AChVVcwLYnhPoIKD03HVHvqvg9wNCCRb30ybm6TweWW7kogomjEgDY-W_Zk2zYj8JbfEo5_N3-8sfH-gopBF1EUQZPP6uJlwPJUtQoVO-TZqwqiVlhDZKzmf9HaQRhQ1QMNtDzk-8RIyNI98vSvyu7f93qKkty9tMrg2KWfhWfUoMrmVQlbDUXEk6oXH2k46A7tdYhMDFP7YDazOia7v1q0UKVQ0QMvhzmrqEn12XEEeiKffXJTMbbYbVtriLuyTwxdQVMGCXs7iXfaQvpc4F4cPT8HEOima2Ba8Nn2LVAdPxKkUs6ECRDilsPVIN2RrABBJE08vQiq80uTzzpyjqi49fW1TBncKSOdGifL-Pjvr_sYvxYc0YpQ5d9bOTW3TcUfnTPiunP2oCucLAi0J_L1TR6KuT40IYt0bfuRn2O7c7dtQ.DET3WW4FGzMrmgIqkLwasQ"  # lo que te da el sistema al generar el token
 token_expiration = datetime.datetime.now() + datetime.timedelta(hours=6)
 
+# ------- Funcion que usa el token de refresco para actualizar el token ------- #
 def refresh_id_token():
     global id_token, token_expiration
     url = "https://api.api-access.iam.ads.sportradar.com/prod/oauth2/token"
@@ -54,6 +35,7 @@ def refresh_id_token():
     else:
         print("❌ Error al renovar token:", response.text)
 
+# ------- Funcion para verificar si ya pasaron 6 horas desde la ultima vez que se ejecuto el token ------- #
 def get_data_from_api():
     if datetime.datetime.now() >= token_expiration:
         refresh_id_token()
@@ -64,42 +46,56 @@ def get_data_from_api():
     return response.json()
 
 
+# ------- Parametros para la consulta en la API ------- #
 url = "https://api.reporting-studio.ads.sportradar.com/grid"
 headers = {
     "accept": "application/json",
     "Authorization": f"Bearer {id_token}",
     "Content-Type": "application/json"
 }
-# === 2️⃣ Body igual que en Postman ===
+
+# ------- Parametros de agrupacion por advertiser, id de campaña, pais, granularidad(DIA) ------- #
 body = {
     "split_by": [
-        "demand.advertiser_id",
-        "demand.campaign_id",
-        "user.geo.country",
-        "granularity_day",
+        "demand.advertiser_id", ### ID de anunciante ###
+        "demand.campaign_id", ### ID de campaña ###
+        "user.geo.country", ### Pais donde se visualizo ###
+        "granularity_day", ### Granularidad (Dia) ###
         # "conversion_id"
     ],
-    "start_date": "2025-10-01",
-    "end_date": "2025-10-14",
+
+    # ------- Parametros de rango de fecha ------- #
+    "start_date": start_date, ### Fecha de inicio ###
+    "end_date": end_date, ### Fecha final ###
+
+    # ------- Metricas ------- #
     "data_fields": [
-        "payout.actual_adv_usd",
-        "clicks",
-        "imps",
-        "pixel.type.ftd",
-        "pixel.type.reg_finished",
-        "pixel.type.deposit",
-        "pixel.type.login"
+        "payout.actual_adv_usd", ### Gasto en dolares ###
+        "clicks", ### Clicks ###
+        "imps", ### Impresiones ###
+        "pixel.type.ftd", ### Pixel primeros depositos ###
+        "pixel.type.reg_finished", ### Pixel registros finalizados ###
+        "pixel.type.deposit", ### Pixel depositos ###
+        "pixel.type.login", ### Pixel inicios de sesion ###
+        "pcc_amount", ### Conversion post clic ###
+        "pvc_amount" ### Conversion post view ###
     ]
 }
 
-# === 3️⃣ Petición ===
+# ------- Limite de filas ------- #
+body["limit"] = 100000 
+
+if datetime.datetime.now() >= token_expiration:
+    refresh_id_token()
+
+# ------- Peticion a la API ------- #
 response = requests.post(url, json=body, headers=headers)
 data = response.json()
 
-# === 4️⃣ Procesar los datos ===
+# ------- Procesamiento de datos ------- #
 rows = []
+# ------- Se relaciona los diccionarios que vienen en "name" como columnas ------- #
 for row in data.get("rows", []):
-    # Cada 'name' corresponde al orden en split_by
     record = {
         "advertiser_id": row["name"][0],
         "campaign_id": row["name"][1],
@@ -108,25 +104,68 @@ for row in data.get("rows", []):
         # "conversion_id": row["name"][4],
     }
 
-    # Los valores de métricas vienen en 'data'
+# ------- Se relacionan los diccionarios que vienen en "Data" con los diccionarios que vienen en "name" ------- #
     for metric in row.get("data", []):
         metric_name = metric.get("name")
         metric_value = metric.get("value")
         record[metric_name] = metric_value
 
+# ------- Se agregan los diccionarios(filas) a la lista record ------- #
     rows.append(record)
 
-# === 5️⃣ Crear DataFrame ===
-df = pd.DataFrame(rows)
+# ------- Se crea un dataframe con cada fila de record, donde la clave es el nombre de la columna y el valor es el registro ------- #
+df_sportradar = pd.DataFrame(rows)
 
-# === 6️⃣ Calcular métricas adicionales (CTR y CPA si hay datos) ===
-if not df.empty:
-    df["CTR"] = (df["clicks"] / df["imps"] * 100).round(2)
-    df["CPA"] = (df["payout.actual_adv_usd"] / df["clicks"]).round(2)
+# ------- Se calculan metricas adicionales ------- #
+if not df_sportradar.empty:
+    df_sportradar["CPL"] = (df_sportradar["payout.actual_adv_usd"] / df_sportradar["pixel.type.reg_finished"]).round(2)
+    df_sportradar["CPA"] = (df_sportradar["payout.actual_adv_usd"] / df_sportradar["pixel.type.ftd"]).round(2)
 else:
     print("⚠️ No se encontraron registros en el rango de fechas.")
 
 # === 7️⃣ Guardar resultados ===
-df.to_csv("reporte_sportradar.csv", index=False)
+df_sportradar.to_csv(name_csv_sportradar, index=False)
 print("✅ Datos guardados en 'reporte_sportradar.csv'")
-print(df.head())
+print(df_sportradar.head())
+
+def guardar_en_sqlite(df: pd.DataFrame, nombre_tabla: str, ruta_db: Path, if_exists: str = "replace") -> None:
+    """
+    Guarda un DataFrame en una base de datos SQLite, creando o actualizando la tabla según se especifique.
+
+    Parámetros:
+    ----------
+    df : pd.DataFrame
+        El DataFrame que se desea guardar en la base de datos.
+    
+    nombre_tabla : str
+        El nombre de la tabla en la base de datos SQLite.
+    
+    ruta_db : Path
+        Ruta al archivo `.sqlite` o `.db` donde se guardarán los datos.
+    
+    if_exists : str, opcional
+        Comportamiento si la tabla ya existe. Valores permitidos:
+        - 'replace' (por defecto): elimina la tabla y la vuelve a crear.
+        - 'append': agrega los datos sin eliminar la tabla.
+        - 'fail': lanza una excepción si la tabla ya existe.
+
+    Retorna:
+    -------
+    None
+        Esta función no retorna un valor. Inserta los datos directamente en la base de datos.
+    """
+    # Validar que el Dataframe no esté vacío
+    if df.empty:
+        print(f"\n ⚠️ El dataframe está vacío. No se insertaron datos en la tabla '{nombre_tabla}'.\n ")
+        return
+    try:
+        # Conexion con SQLite
+        with sqlite3.connect(ruta_db) as conn:
+            df.to_sql(nombre_tabla, conn, if_exists=if_exists, index=False)
+        print(f"\n ✅ Se insertaron los datos en la tabla: '{nombre_tabla}' en la base de datos '{ruta_db.name}'.\n ")
+    
+    except Exception as e:
+        print(f"\n ❌ Error al guardar en SQLite: {e}")
+
+guardar_en_sqlite(df_sportradar, nombre_tabla_sportradar, ruta_db, if_exists="replace")
+

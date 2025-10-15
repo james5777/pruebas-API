@@ -34,7 +34,7 @@ if not token:
 report_url = "https://api.myadcash.com/api/v1/advertiser-report"
 
 # ------- Se ingresa la fecha de inicio y fecha final ------ #
-start_date = "2025-10-01"
+start_date = "2025-09-10"
 end_date = "2025-10-13"
 
 params = {
@@ -118,3 +118,4 @@ def guardar_en_sqlite(df: pd.DataFrame, nombre_tabla: str, ruta_db: Path, if_exi
 
 # ------- Se guarda el DataFrame en SQLite ------ #
 guardar_en_sqlite(df_ad_cash, nombre_tabla_ad_cash, ruta_db, if_exists="replace")
+

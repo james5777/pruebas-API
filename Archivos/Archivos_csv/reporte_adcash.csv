@@ -1,273 +1,685 @@
-﻿date      , country, conversions, spending            , clicks, impressions, campaignname
-2025-10-01, EC     ,           1,  9.053435000000002  ,      0,       37906, EC_Ecuabet_DeportivasMixtas_Mob_CPAT
-2025-10-01, EC     ,           0,  8.751546000000005  ,      0,       18209, EC_Ecuabet_Popunder_Casino_Desk_CPAT
-2025-10-01, EC     ,           1, 42.511816000000096  ,      0,       59368, EC_Ecuabet_Popunder_Casino_Mob_CPAT
-2025-10-01, EC     ,           0,  9.432099000000003  ,      0,       19396, EC_Ecuabet_DeportivasMixtas_Desk_CPAT
-2025-10-01, EC     ,           0, 11.205260000000004  ,      0,       23088, DB_Ecuado_Popunder_Crash_Game_Desk_CPA
-2025-10-01, EC     ,           0,  0.0                ,      0,       33215, EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
-2025-10-01, EC     ,           0,  0.0                ,      0,       35293, EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
-2025-10-01, EC     ,           1,  3.0                ,      0,       53109, EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
-2025-10-01, NI     ,           5, 11.784085999999997  ,      0,       60658, NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
-2025-10-01, NI     ,          11, 14.938437999999968  ,      0,       75923, NI_Doradobet_Reglo_Registro_MOBIEL_CPA
-2025-10-01, NI     ,           1,  1.0331209999999997 ,      0,        7084, NI_Doradobet_Reglo_Registro_DESK_CPA
-2025-10-01, PE     ,           3,  3.0                ,      0,       78336, PE_Doradobet_Jack_Pot_Desk_CPA
-2025-10-01, PE     ,           6, 12.0                ,      0,      242080, PE_Doradobet_Jack_Pot_Mobile_CPA
-2025-10-01, PE     ,           4,  8.0                ,      0,      219302, PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
-2025-10-01, PE     ,           0,  0.0                ,      0,       68280, PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
-2025-10-01, PE     ,           7, 14.0                ,      0,      174964, PE_Doradobet_Bono_Bienvenida_Desk_CPA
-2025-10-01, PE     ,           8, 16.0                ,      0,      452846, PE_Doradobet_Bono_Bienvenida_Mob_CPA
-2025-10-01, SV     ,          15, 96.43823499999986   ,      0,      129429, ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
-2025-10-01, SV     ,           0,  6.621053000000005  ,      0,       15665, ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
-2025-10-01, SV     ,           3,  6.0                ,      0,       66681, ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
-2025-10-01, SV     ,           8, 16.0                ,      0,      183525, ES_Doradobet_Popunder_Deportivas_CPA
-2025-10-02, CR     ,           0,  0.0                ,      0,        1892, CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
-2025-10-02, EC     ,           0,  9.046052           ,      0,       18604, EC_Ecuabet_DeportivasMixtas_Mob_CPAT
-2025-10-02, EC     ,           0,  1.1760749999999998 ,      0,        3584, EC_Ecuabet_Popunder_Casino_Desk_CPAT
-2025-10-02, EC     ,           0,  6.308328           ,      0,       12928, EC_Ecuabet_Popunder_Casino_Mob_CPAT
-2025-10-02, EC     ,           0,  0.566195           ,      0,        2602, EC_Ecuabet_DeportivasMixtas_Desk_CPAT
-2025-10-02, EC     ,           0,  1.001962           ,      0,        3964, DB_Ecuado_Popunder_Crash_Game_Desk_CPA
-2025-10-02, EC     ,           1,  2.0                ,      0,        8200, EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
-2025-10-02, EC     ,           0,  0.0                ,      0,        6277, EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
-2025-10-02, EC     ,           2,  6.0                ,      0,       13041, EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
-2025-10-02, NI     ,           0,  1.6067129999999998 ,      0,        4894, NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
-2025-10-02, NI     ,           0,  2.477663           ,      0,        7210, NI_Doradobet_Reglo_Registro_MOBIEL_CPA
-2025-10-02, NI     ,           0,  0.14412999999999998,      0,        1119, NI_Doradobet_Reglo_Registro_DESK_CPA
-2025-10-02, PE     ,           1,  1.0                ,      0,       51810, PE_Doradobet_Jack_Pot_Desk_CPA
-2025-10-02, PE     ,           0,  0.0                ,      0,      166667, PE_Doradobet_Jack_Pot_Mobile_CPA
-2025-10-02, PE     ,           2,  4.0                ,      0,      137215, PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
-2025-10-02, PE     ,           1,  2.0                ,      0,       35461, PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
-2025-10-02, PE     ,           8, 16.0                ,      0,      132346, PE_Doradobet_Bono_Bienvenida_Desk_CPA
-2025-10-02, PE     ,          13, 26.0                ,      0,      378036, PE_Doradobet_Bono_Bienvenida_Mob_CPA
-2025-10-02, SV     ,           0,  6.037311           ,      0,       11751, ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
-2025-10-02, SV     ,           0,  0.34962            ,      0,        1254, ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
-2025-10-02, SV     ,           0,  0.0                ,      0,        3629, ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
-2025-10-02, SV     ,           0,  0.0                ,      0,       11309, ES_Doradobet_Popunder_Deportivas_CPA
-2025-10-03, CR     ,           0,  0.0                ,      0,        4945, CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
-2025-10-03, EC     ,           0,  6.097568000000001  ,      0,       12555, EC_Ecuabet_DeportivasMixtas_Mob_CPAT
-2025-10-03, EC     ,           1,  1.097576           ,      0,        3739, EC_Ecuabet_Popunder_Casino_Desk_CPAT
-2025-10-03, EC     ,           0,  7.63295            ,      0,       15923, EC_Ecuabet_Popunder_Casino_Mob_CPAT
-2025-10-03, EC     ,           0,  0.287843           ,      0,        1981, EC_Ecuabet_DeportivasMixtas_Desk_CPAT
-2025-10-03, EC     ,           0,  0.742324           ,      0,        3251, DB_Ecuado_Popunder_Crash_Game_Desk_CPA
-2025-10-03, EC     ,           0,  0.0                ,      0,        8246, EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
-2025-10-03, EC     ,           0,  0.0                ,      0,        5922, EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
-2025-10-03, EC     ,           0,  0.0                ,      0,       12928, EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
-2025-10-03, NI     ,           1,  1.644706           ,      0,        4885, NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
-2025-10-03, NI     ,           0,  2.4699809999999998 ,      0,        6987, NI_Doradobet_Reglo_Registro_MOBIEL_CPA
-2025-10-03, NI     ,           0,  0.14439800000000003,      0,        1085, NI_Doradobet_Reglo_Registro_DESK_CPA
-2025-10-03, PE     ,           2,  2.0                ,      0,       18054, PE_Doradobet_Jack_Pot_Desk_CPA
-2025-10-03, PE     ,           0,  0.0                ,      0,       23753, PE_Doradobet_Jack_Pot_Mobile_CPA
-2025-10-03, PE     ,           1,  2.0                ,      0,       23158, PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
-2025-10-03, PE     ,           0,  0.0                ,      0,       15158, PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
-2025-10-03, PE     ,           3,  6.0                ,      0,       48383, PE_Doradobet_Bono_Bienvenida_Desk_CPA
-2025-10-03, PE     ,           0,  0.0                ,      0,       56943, PE_Doradobet_Bono_Bienvenida_Mob_CPA
-2025-10-03, SV     ,           2,  6.353893000000001  ,      0,       12826, ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
-2025-10-03, SV     ,           0,  0.273758           ,      0,        1115, ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
-2025-10-03, SV     ,           0,  0.0                ,      0,        3524, ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
-2025-10-03, SV     ,           0,  0.0                ,      0,        9971, ES_Doradobet_Popunder_Deportivas_CPA
-2025-10-04, CR     ,           0,  0.0                ,      0,       11071, CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
-2025-10-04, EC     ,           0, 26.320333999999978  ,      0,       42664, EC_Ecuabet_DeportivasMixtas_Mob_CPAT
-2025-10-04, EC     ,           0,  5.131966           ,      0,       13539, EC_Ecuabet_Popunder_Casino_Desk_CPAT
-2025-10-04, EC     ,           0, 22.092501999999996  ,      0,       36924, EC_Ecuabet_Popunder_Casino_Mob_CPAT
-2025-10-04, EC     ,           0,  2.4263760000000003 ,      0,        7942, EC_Ecuabet_DeportivasMixtas_Desk_CPAT
-2025-10-04, EC     ,           1,  3.746955           ,      0,       11799, DB_Ecuado_Popunder_Crash_Game_Desk_CPA
-2025-10-04, EC     ,           1,  2.0                ,      0,       24168, EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
-2025-10-04, EC     ,           0,  0.0                ,      0,       20593, EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
-2025-10-04, EC     ,           1,  3.0                ,      0,       35839, EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
-2025-10-04, NI     ,           5,  9.660509000000005  ,      0,       40542, NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
-2025-10-04, NI     ,           4,  9.868338000000005  ,      0,       44421, NI_Doradobet_Reglo_Registro_MOBIEL_CPA
-2025-10-04, NI     ,           0,  1.2243119999999998 ,      0,        6301, NI_Doradobet_Reglo_Registro_DESK_CPA
-2025-10-04, PE     ,           0,  0.0                ,      0,       35624, PE_Doradobet_Jack_Pot_Desk_CPA
-2025-10-04, PE     ,           1,  2.0                ,      0,      100121, PE_Doradobet_Jack_Pot_Mobile_CPA
-2025-10-04, PE     ,           2,  4.0                ,      0,      117230, PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
-2025-10-04, PE     ,           1,  1.0                ,      0,       23979, PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
-2025-10-04, PE     ,           6, 12.0                ,      0,      108252, PE_Doradobet_Bono_Bienvenida_Desk_CPA
-2025-10-04, PE     ,           7, 14.0                ,      0,      245170, PE_Doradobet_Bono_Bienvenida_Mob_CPA
-2025-10-04, SV     ,          14, 70.208803           ,      0,       98179, ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
-2025-10-04, SV     ,           0,  5.786724999999997  ,      0,       12101, ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
-2025-10-04, SV     ,           1,  2.0                ,      0,       50611, ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
-2025-10-04, SV     ,           4,  8.0                ,      0,      131664, ES_Doradobet_Popunder_Deportivas_CPA
-2025-10-05, CR     ,           0,  0.0                ,      0,       12155, CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
-2025-10-05, EC     ,           2, 30.686499999999988  ,      0,       51801, EC_Ecuabet_DeportivasMixtas_Mob_CPAT
-2025-10-05, EC     ,           0,  6.077897999999999  ,      0,       15117, EC_Ecuabet_Popunder_Casino_Desk_CPAT
-2025-10-05, EC     ,           2, 30.468156999999998  ,      0,       45487, EC_Ecuabet_Popunder_Casino_Mob_CPAT
-2025-10-05, EC     ,           0,  2.2205029999999994 ,      0,        9367, EC_Ecuabet_DeportivasMixtas_Desk_CPAT
-2025-10-05, EC     ,           0,  3.5265779999999998 ,      0,       14243, DB_Ecuado_Popunder_Crash_Game_Desk_CPA
-2025-10-05, EC     ,           0,  0.0                ,      0,       37456, EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
-2025-10-05, EC     ,           0,  0.0                ,      0,       26479, EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
-2025-10-05, EC     ,           0,  0.0                ,      0,       55874, EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
-2025-10-05, NI     ,           6,  8.217718999999992  ,      0,       46267, NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
-2025-10-05, NI     ,           4,  8.596875999999988  ,      0,       50008, NI_Doradobet_Reglo_Registro_MOBIEL_CPA
-2025-10-05, NI     ,           0,  0.6124700000000001 ,      0,        4739, NI_Doradobet_Reglo_Registro_DESK_CPA
-2025-10-05, PE     ,           1,  1.0                ,      0,       60029, PE_Doradobet_Jack_Pot_Desk_CPA
-2025-10-05, PE     ,           5, 10.0                ,      0,      189555, PE_Doradobet_Jack_Pot_Mobile_CPA
-2025-10-05, PE     ,           6, 12.0                ,      0,      221155, PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
-2025-10-05, PE     ,           3,  3.0                ,      0,       54127, PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
-2025-10-05, PE     ,           4,  8.0                ,      0,      193234, PE_Doradobet_Bono_Bienvenida_Desk_CPA
-2025-10-05, PE     ,          16, 32.0                ,      0,      498510, PE_Doradobet_Bono_Bienvenida_Mob_CPA
-2025-10-05, SV     ,          29, 75.75096999999987   ,      0,      110153, ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
-2025-10-05, SV     ,           0,  4.235484999999999  ,      0,        9985, ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
-2025-10-05, SV     ,           3,  6.0                ,      0,       66409, ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
-2025-10-05, SV     ,          11, 22.0                ,      0,      180067, ES_Doradobet_Popunder_Deportivas_CPA
-2025-10-06, CR     ,           0,  0.0                ,      0,        4823, CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
-2025-10-06, CR     ,           0,  0.0                ,      0,         569, CR_Doradobet_PopUnder_Regalo_por_registro_Desk
-2025-10-06, EC     ,           1, 18.768716999999985  ,      0,       36103, EC_Ecuabet_DeportivasMixtas_Mob_CPAT
-2025-10-06, EC     ,           1,  4.503912000000001  ,      0,       13296, EC_Ecuabet_Popunder_Casino_Desk_CPAT
-2025-10-06, EC     ,           0, 20.96041399999999   ,      0,       36034, EC_Ecuabet_Popunder_Casino_Mob_CPAT
-2025-10-06, EC     ,           1,  1.8776189999999997 ,      0,        9074, EC_Ecuabet_DeportivasMixtas_Desk_CPAT
-2025-10-06, EC     ,           1,  2.0357839999999996 ,      0,       10014, DB_Ecuado_Popunder_Crash_Game_Desk_CPA
-2025-10-06, EC     ,           1,  2.0                ,      0,       27289, EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
-2025-10-06, EC     ,           0,  0.0                ,      0,       19645, EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
-2025-10-06, EC     ,           3,  9.0                ,      0,       39168, EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
-2025-10-06, NI     ,           0,  1.458374           ,      0,        5046, NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
-2025-10-06, NI     ,           3,  2.53184            ,      0,        6439, NI_Doradobet_Reglo_Registro_MOBIEL_CPA
-2025-10-06, NI     ,           0,  0.10606999999999998,      0,         873, NI_Doradobet_Reglo_Registro_DESK_CPA
-2025-10-06, PE     ,           0,  0.0                ,      0,       19454, PE_Doradobet_Jack_Pot_Desk_CPA
-2025-10-06, PE     ,           0,  0.0                ,      0,       52733, PE_Doradobet_Jack_Pot_Mobile_CPA
-2025-10-06, PE     ,           0,  0.0                ,      0,       60860, PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
-2025-10-06, PE     ,           1,  1.0                ,      0,       18086, PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
-2025-10-06, PE     ,           3,  6.0                ,      0,       94158, PE_Doradobet_Bono_Bienvenida_Desk_CPA
-2025-10-06, PE     ,           3,  6.0                ,      0,      173450, PE_Doradobet_Bono_Bienvenida_Mob_CPA
-2025-10-06, SV     ,           1,  7.437854000000001  ,      0,       14224, ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
-2025-10-06, SV     ,           0,  0.24402399999999996,      0,         988, ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
-2025-10-06, SV     ,           0,  0.0                ,      0,        4178, ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
-2025-10-06, SV     ,           0,  0.0                ,      0,       13431, ES_Doradobet_Popunder_Deportivas_CPA
-2025-10-07, CR     ,           0,  0.0                ,      0,        5888, CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
-2025-10-07, CR     ,           0,  0.0                ,      0,        2615, CR_Doradobet_PopUnder_Regalo_por_registro_Desk
-2025-10-07, CR     ,           2,  8.749342000000002  ,      0,       18835, CR_Doradobet_PopUnder_Regalo_por_registro_CPAT
-2025-10-07, EC     ,           2,  2.518741           ,      0,        9336, EC_Ecuabet_DeportivasMixtas_Mob_CPAT
-2025-10-07, EC     ,           0,  1.1183480000000001 ,      0,        4733, EC_Ecuabet_Popunder_Casino_Desk_CPAT
-2025-10-07, EC     ,           0,  4.146605           ,      0,       12032, EC_Ecuabet_Popunder_Casino_Mob_CPAT
-2025-10-07, EC     ,           0,  0.693167           ,      0,        3872, EC_Ecuabet_DeportivasMixtas_Desk_CPAT
-2025-10-07, EC     ,           0,  0.293267           ,      0,        2891, DB_Ecuado_Popunder_Crash_Game_Desk_CPA
-2025-10-07, EC     ,           0,  0.0                ,      0,        8527, EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
-2025-10-07, EC     ,           0,  0.0                ,      0,        6314, EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
-2025-10-07, EC     ,           0,  0.0                ,      0,       15742, EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
-2025-10-07, NI     ,           1,  0.9689530000000001 ,      0,        4414, NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
-2025-10-07, NI     ,           0,  2.598697           ,      0,        7004, NI_Doradobet_Reglo_Registro_MOBIEL_CPA
-2025-10-07, NI     ,           0,  0.09290100000000001,      0,         943, NI_Doradobet_Reglo_Registro_DESK_CPA
-2025-10-07, PE     ,           3,  6.0                ,      0,       49532, PE_Doradobet_Bono_Bienvenida_Desk_CPA
-2025-10-07, PE     ,           4,  8.0                ,      0,       67986, PE_Doradobet_Bono_Bienvenida_Mob_CPA
-2025-10-07, SV     ,           1,  5.962727000000001  ,      0,       13079, ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
-2025-10-07, SV     ,           0,  0.15320799999999998,      0,        1071, ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
-2025-10-07, SV     ,           0,  0.0                ,      0,        4005, ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
-2025-10-07, SV     ,           0,  0.0                ,      0,       11065, ES_Doradobet_Popunder_Deportivas_CPA
-2025-10-08, CR     ,           0,  0.0                ,      0,        2500, CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
-2025-10-08, CR     ,           0,  0.0                ,      0,        2508, CR_Doradobet_PopUnder_Regalo_por_registro_Desk
-2025-10-08, CR     ,           1,  8.787549           ,      0,       19905, CR_Doradobet_PopUnder_Regalo_por_registro_CPAT
-2025-10-08, EC     ,           0,  2.3214440000000005 ,      0,        9467, EC_Ecuabet_DeportivasMixtas_Mob_CPAT
-2025-10-08, EC     ,           1,  1.163086           ,      0,        5723, EC_Ecuabet_Popunder_Casino_Desk_CPAT
-2025-10-08, EC     ,           0,  3.6512810000000004 ,      0,       11951, EC_Ecuabet_Popunder_Casino_Mob_CPAT
-2025-10-08, EC     ,           0,  1.845359           ,      0,        8061, EC_Ecuabet_DeportivasMixtas_Desk_CPAT
-2025-10-08, EC     ,           0,  0.45360100000000003,      0,        3474, DB_Ecuado_Popunder_Crash_Game_Desk_CPA
-2025-10-08, EC     ,           0,  0.0                ,      0,        8973, EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
-2025-10-08, EC     ,           0,  0.0                ,      0,        5651, EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
-2025-10-08, EC     ,           0,  0.0                ,      0,       17126, EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
-2025-10-08, NI     ,           0,  0.9784919999999999 ,      0,        4366, NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
-2025-10-08, NI     ,           0,  2.078877           ,      0,        5810, NI_Doradobet_Reglo_Registro_MOBIEL_CPA
-2025-10-08, NI     ,           0,  0.09927600000000002,      0,         915, NI_Doradobet_Reglo_Registro_DESK_CPA
-2025-10-08, PE     ,           4,  8.0                ,      0,       57918, PE_Doradobet_Bono_Bienvenida_Desk_CPA
-2025-10-08, PE     ,           0,  0.0                ,      0,       82698, PE_Doradobet_Bono_Bienvenida_Mob_CPA
-2025-10-08, SV     ,           1,  5.854173000000001  ,      0,       12478, ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
-2025-10-08, SV     ,           0,  0.17962099999999998,      0,        1138, ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
-2025-10-08, SV     ,           0,  0.0                ,      0,        4237, ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
-2025-10-08, SV     ,           0,  0.0                ,      0,       10536, ES_Doradobet_Popunder_Deportivas_CPA
-2025-10-09, CR     ,           0,  0.0                ,      0,        2229, CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
-2025-10-09, CR     ,           0,  0.0                ,      0,        2578, CR_Doradobet_PopUnder_Regalo_por_registro_Desk
-2025-10-09, CR     ,           1,  8.581091           ,      0,       19156, CR_Doradobet_PopUnder_Regalo_por_registro_CPAT
-2025-10-09, EC     ,           0,  2.4906260000000002 ,      0,       11508, EC_Ecuabet_DeportivasMixtas_Mob_CPAT
-2025-10-09, EC     ,           1,  1.517607           ,      0,        6804, EC_Ecuabet_Popunder_Casino_Desk_CPAT
-2025-10-09, EC     ,           1,  5.503959           ,      0,       16837, EC_Ecuabet_Popunder_Casino_Mob_CPAT
-2025-10-09, EC     ,           0,  2.4454179999999996 ,      0,       10494, EC_Ecuabet_DeportivasMixtas_Desk_CPAT
-2025-10-09, EC     ,           0,  0.572853           ,      0,        4665, DB_Ecuado_Popunder_Crash_Game_Desk_CPA
-2025-10-09, EC     ,           0,  0.0                ,      0,       11759, EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
-2025-10-09, EC     ,           0,  0.0                ,      0,        8068, EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
-2025-10-09, EC     ,           0,  0.0                ,      0,       18196, EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
-2025-10-09, NI     ,           1,  1.1320459999999999 ,      0,        4838, NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
-2025-10-09, NI     ,           0,  1.787447           ,      0,        4990, NI_Doradobet_Reglo_Registro_MOBIEL_CPA
-2025-10-09, NI     ,           0,  0.080679           ,      0,         776, NI_Doradobet_Reglo_Registro_DESK_CPA
-2025-10-09, PE     ,           2,  4.0                ,      0,       56394, PE_Doradobet_Bono_Bienvenida_Desk_CPA
-2025-10-09, PE     ,           4,  8.0                ,      0,       70875, PE_Doradobet_Bono_Bienvenida_Mob_CPA
-2025-10-09, SV     ,           1,  5.707362999999999  ,      0,       12508, ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
-2025-10-09, SV     ,           0,  0.196022           ,      0,        1099, ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
-2025-10-09, SV     ,           0,  0.0                ,      0,        3364, ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
-2025-10-09, SV     ,           0,  0.0                ,      0,        9633, ES_Doradobet_Popunder_Deportivas_CPA
-2025-10-10, CR     ,           0,  0.0                ,      0,        2862, CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
-2025-10-10, CR     ,           1,  1.0                ,      0,        4300, CR_Doradobet_PopUnder_Regalo_por_registro_Desk
-2025-10-10, CR     ,           3, 11.944382000000003  ,      0,       21791, CR_Doradobet_PopUnder_Regalo_por_registro_CPAT
-2025-10-10, EC     ,           0,  4.794014           ,      0,       15376, EC_Ecuabet_DeportivasMixtas_Mob_CPAT
-2025-10-10, EC     ,           0,  2.504238           ,      0,        8268, EC_Ecuabet_Popunder_Casino_Desk_CPAT
-2025-10-10, EC     ,           0, 14.301018           ,      0,       29608, EC_Ecuabet_Popunder_Casino_Mob_CPAT
-2025-10-10, EC     ,           0,  2.738382           ,      0,       11369, EC_Ecuabet_DeportivasMixtas_Desk_CPAT
-2025-10-10, EC     ,           0,  0.9220770000000001 ,      0,        5476, DB_Ecuado_Popunder_Crash_Game_Desk_CPA
-2025-10-10, EC     ,           0,  0.0                ,      0,       13049, EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
-2025-10-10, EC     ,           0,  0.0                ,      0,        9387, EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
-2025-10-10, EC     ,           0,  0.0                ,      0,       17502, EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
-2025-10-10, NI     ,           0,  1.97303            ,      0,        9593, NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
-2025-10-10, NI     ,           0,  2.397463           ,      0,        8398, NI_Doradobet_Reglo_Registro_MOBIEL_CPA
-2025-10-10, NI     ,           0,  0.100624           ,      0,         996, NI_Doradobet_Reglo_Registro_DESK_CPA
-2025-10-10, PE     ,           2,  4.0                ,      0,       41970, PE_Doradobet_Bono_Bienvenida_Desk_CPA
-2025-10-10, PE     ,           3,  6.0                ,      0,       58656, PE_Doradobet_Bono_Bienvenida_Mob_CPA
-2025-10-10, SV     ,           1, 10.423198           ,      0,       18245, ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
-2025-10-10, SV     ,           1,  0.833267           ,      0,        2259, ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
-2025-10-10, SV     ,           0,  0.0                ,      0,        4742, ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
-2025-10-10, SV     ,           0,  0.0                ,      0,       14139, ES_Doradobet_Popunder_Deportivas_CPA
-2025-10-11, CR     ,           1,  1.0                ,      0,        4228, CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
-2025-10-11, CR     ,           0,  0.0                ,      0,        5058, CR_Doradobet_PopUnder_Regalo_por_registro_Desk
-2025-10-11, CR     ,           0,  9.989847000000001  ,      0,       21256, CR_Doradobet_PopUnder_Regalo_por_registro_CPAT
-2025-10-11, EC     ,           0, 18.09860800000003   ,      0,       43367, EC_Ecuabet_DeportivasMixtas_Mob_CPAT
-2025-10-11, EC     ,           3, 15.528180999999996  ,      0,       35109, EC_Ecuabet_Popunder_Casino_Desk_CPAT
-2025-10-11, EC     ,           1, 61.094509999999964  ,      0,       89563, EC_Ecuabet_Popunder_Casino_Mob_CPAT
-2025-10-11, EC     ,           0, 11.521928999999998  ,      0,       29739, EC_Ecuabet_DeportivasMixtas_Desk_CPAT
-2025-10-11, EC     ,           0, 10.663457999999995  ,      0,       30156, DB_Ecuado_Popunder_Crash_Game_Desk_CPA
-2025-10-11, EC     ,           4,  8.0                ,      0,       59709, EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
-2025-10-11, EC     ,           1,  2.0                ,      0,       35035, EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
-2025-10-11, EC     ,           3,  9.0                ,      0,       79002, EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
-2025-10-11, NI     ,           0,  2.4196229999999996 ,      0,       12713, NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
-2025-10-11, NI     ,           1,  3.150353999999999  ,      0,       12303, NI_Doradobet_Reglo_Registro_MOBIEL_CPA
-2025-10-11, NI     ,           0,  0.188891           ,      0,        1399, NI_Doradobet_Reglo_Registro_DESK_CPA
-2025-10-11, PE     ,           7, 14.0                ,      0,      123827, PE_Doradobet_Bono_Bienvenida_Desk_CPA
-2025-10-11, PE     ,           5, 10.0                ,      0,      267438, PE_Doradobet_Bono_Bienvenida_Mob_CPA
-2025-10-11, SV     ,          22, 55.83344299999986   ,      0,       83964, ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
-2025-10-11, SV     ,           1,  5.148168000000001  ,      0,       12888, ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
-2025-10-11, SV     ,           3,  6.0                ,      0,       33710, ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
-2025-10-11, SV     ,           3,  6.0                ,      0,       89319, ES_Doradobet_Popunder_Deportivas_CPA
-2025-10-12, CR     ,           0,  0.0                ,      0,        5908, CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
-2025-10-12, CR     ,           0,  0.0                ,      0,        5332, CR_Doradobet_PopUnder_Regalo_por_registro_Desk
-2025-10-12, CR     ,           1,  9.867784           ,      0,       19886, CR_Doradobet_PopUnder_Regalo_por_registro_CPAT
-2025-10-12, EC     ,           3, 11.983016000000001  ,      0,       22229, EC_Ecuabet_DeportivasMixtas_Mob_CPAT
-2025-10-12, EC     ,           0,  1.730368           ,      0,        7451, EC_Ecuabet_Popunder_Casino_Desk_CPAT
-2025-10-12, EC     ,           0, 14.764834000000004  ,      0,       27987, EC_Ecuabet_Popunder_Casino_Mob_CPAT
-2025-10-12, EC     ,           0,  2.38336            ,      0,        6188, EC_Ecuabet_DeportivasMixtas_Desk_CPAT
-2025-10-12, EC     ,           0,  2.2427439999999996 ,      0,        5788, DB_Ecuado_Popunder_Crash_Game_Desk_CPA
-2025-10-12, EC     ,           0,  0.0                ,      0,       18320, EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
-2025-10-12, EC     ,           0,  0.0                ,      0,       12318, EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
-2025-10-12, EC     ,           0,  0.0                ,      0,       16919, EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
-2025-10-12, NI     ,           1,  2.5762319999999996 ,      0,       10937, NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
-2025-10-12, NI     ,           2,  2.946874           ,      0,        9951, NI_Doradobet_Reglo_Registro_MOBIEL_CPA
-2025-10-12, NI     ,           0,  0.151194           ,      0,        1192, NI_Doradobet_Reglo_Registro_DESK_CPA
-2025-10-12, PE     ,           0,  0.0                ,      0,       69646, PE_Doradobet_Bono_Bienvenida_Desk_CPA
-2025-10-12, PE     ,           1,  2.0                ,      0,      101297, PE_Doradobet_Bono_Bienvenida_Mob_CPA
-2025-10-12, SV     ,           0, 14.607122000000002  ,      0,       23305, ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
-2025-10-12, SV     ,           0,  1.1942500000000003 ,      0,        3670, ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
-2025-10-12, SV     ,           0,  0.0                ,      0,        9108, ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
-2025-10-12, SV     ,           0,  0.0                ,      0,       21437, ES_Doradobet_Popunder_Deportivas_CPA
-2025-10-13, CR     ,           0,  0.0                ,      0,        4031, CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
-2025-10-13, CR     ,           0,  0.0                ,      0,        3252, CR_Doradobet_PopUnder_Regalo_por_registro_Desk
-2025-10-13, CR     ,           1,  8.440056           ,      0,       15868, CR_Doradobet_PopUnder_Regalo_por_registro_CPAT
-2025-10-13, EC     ,           0,  9.862724           ,      0,       18853, EC_Ecuabet_DeportivasMixtas_Mob_CPAT
-2025-10-13, EC     ,           0,  1.2608080000000002 ,      0,        5460, EC_Ecuabet_Popunder_Casino_Desk_CPAT
-2025-10-13, EC     ,           0,  9.605247           ,      0,       19292, EC_Ecuabet_Popunder_Casino_Mob_CPAT
-2025-10-13, EC     ,           0,  1.724965           ,      0,        4363, EC_Ecuabet_DeportivasMixtas_Desk_CPAT
-2025-10-13, EC     ,           0,  1.883794           ,      0,        4679, DB_Ecuado_Popunder_Crash_Game_Desk_CPA
-2025-10-13, EC     ,           0,  0.0                ,      0,       11382, EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
-2025-10-13, EC     ,           0,  0.0                ,      0,        8151, EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
-2025-10-13, EC     ,           0,  0.0                ,      0,        9551, EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
-2025-10-13, NI     ,           0,  2.27096            ,      0,        7615, NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
-2025-10-13, NI     ,           0,  2.9538020000000005 ,      0,        9243, NI_Doradobet_Reglo_Registro_MOBIEL_CPA
-2025-10-13, NI     ,           0,  0.145834           ,      0,         931, NI_Doradobet_Reglo_Registro_DESK_CPA
-2025-10-13, PE     ,           4,  8.0                ,      0,       52173, PE_Doradobet_Bono_Bienvenida_Desk_CPA
-2025-10-13, PE     ,           0,  0.0                ,      0,       27018, PE_Doradobet_Bono_Bienvenida_Mob_CPA
-2025-10-13, SV     ,           0,  8.363975           ,      0,       14750, ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
-2025-10-13, SV     ,           0,  0.8830690000000001 ,      0,        2655, ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
-2025-10-13, SV     ,           0,  0.0                ,      0,        4732, ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
-2025-10-13, SV     ,           0,  0.0                ,      0,        8973, ES_Doradobet_Popunder_Deportivas_CPA
+﻿date,country,conversions,spending,clicks,impressions,campaignname
+2025-09-10,EC,2,43.334293000000045,0,99025,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-10,EC,3,18.34805099999993,0,64834,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-10,EC,7,58.522900999999536,0,136156,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-10,EC,1,26.07655399999994,0,56890,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-10,EC,4,28.882500999999912,0,59645,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-10,EC,6,12.0,0,112111,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-10,EC,7,14.0,0,102763,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-10,EC,13,39.0,0,147407,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-10,NI,3,6.105734,0,27775,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-10,NI,9,10.481359000000007,0,37633,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-10,NI,0,0.32566799999999996,0,2881,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-10,PE,2,2.0,0,40597,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-09-10,PE,2,4.0,0,87876,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-09-10,PE,0,0.0,0,37359,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-09-10,PE,3,6.0,0,60729,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-10,PE,4,8.0,0,305802,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-10,SV,5,20.708254999999998,0,31138,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-10,SV,0,1.382975,0,4687,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-10,SV,1,2.0,0,12385,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-10,SV,6,12.0,0,41300,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-11,EC,1,8.246407999999999,0,14861,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-11,EC,0,0.94776,0,3515,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-11,EC,0,9.393865,0,17594,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-11,EC,0,1.112309,0,3220,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-11,EC,0,0.788728,0,3063,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-11,EC,0,0.0,0,11521,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-11,EC,2,4.0,0,7213,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-11,EC,4,12.0,0,12488,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-11,NI,0,3.5052220000000003,0,5954,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-11,NI,1,6.8212209999999995,0,10229,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-11,NI,0,0.156482,0,814,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-11,PE,0,0.0,0,6785,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-09-11,PE,2,4.0,0,9936,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-09-11,PE,0,0.0,0,5058,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-09-11,PE,1,2.0,0,14473,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-11,PE,9,18.0,0,29535,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-11,SV,1,12.276228,0,18570,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-11,SV,0,0.467445,0,1947,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-11,SV,2,4.0,0,5312,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-11,SV,2,4.0,0,10919,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-12,EC,0,9.514085999999999,0,16651,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-12,EC,0,0.843882,0,3155,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-12,EC,0,9.307303999999998,0,18536,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-12,EC,0,1.331412,0,3464,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-12,EC,0,0.38486200000000004,0,2429,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-12,EC,2,4.0,0,14500,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-12,EC,0,0.0,0,7700,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-12,EC,3,9.0,0,14849,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-12,NI,0,2.7330959999999997,0,5600,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-12,NI,0,4.756017999999999,0,8518,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-12,NI,0,0.149744,0,927,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-12,PE,2,2.0,0,8766,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-09-12,PE,0,0.0,0,17038,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-09-12,PE,0,0.0,0,4556,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-09-12,PE,1,2.0,0,15624,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-12,PE,3,6.0,0,36777,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-12,SV,0,10.694499999999998,0,17930,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-12,SV,0,0.5295289999999999,0,1920,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-12,SV,1,2.0,0,5787,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-12,SV,3,6.0,0,15874,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-13,EC,1,28.403046999999987,0,39623,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-13,EC,0,1.932133,0,7595,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-13,EC,0,13.178254000000003,0,34017,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-13,EC,0,4.40182,0,8858,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-13,EC,0,1.108892,0,7291,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-13,EC,1,2.0,0,26861,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-13,EC,2,4.0,0,21896,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-13,EC,3,9.0,0,43521,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-13,NI,2,3.522702,0,28079,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-13,NI,4,10.146861999999993,0,39306,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-13,NI,0,0.42410000000000003,0,3419,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-13,PE,1,0.0,0,0,PE_Doradobet_Casino_Mob_CPAT
+2025-09-13,PE,1,1.0,0,16219,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-09-13,PE,0,0.0,0,44431,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-09-13,PE,0,0.0,0,8959,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-09-13,PE,1,2.0,0,32792,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-13,PE,2,4.0,0,70142,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-13,SV,7,29.554924999999987,0,84182,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-13,SV,0,4.4244010000000005,0,9583,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-13,SV,0,0.0,0,33346,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-13,SV,7,14.0,0,123212,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-14,EC,1,46.82893299999997,0,59060,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-14,EC,0,6.727212000000001,0,17641,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-14,EC,0,13.781629999999996,0,48646,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-14,EC,1,4.060895,0,14166,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-14,EC,1,4.246341,0,15931,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-14,EC,3,6.0,0,47333,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-14,EC,3,6.0,0,43055,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-14,EC,1,3.0,0,68198,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-14,NI,1,9.566946000000005,0,52208,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-14,NI,11,14.266173000000013,0,68076,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-14,NI,0,0.5558289999999999,0,6331,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-14,PE,2,2.0,0,49003,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-09-14,PE,3,6.0,0,172596,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-09-14,PE,1,2.0,0,36245,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-09-14,PE,2,4.0,0,102735,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-14,PE,3,6.0,0,268505,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-14,SV,20,86.08218500000015,0,127218,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-14,SV,1,5.506798,0,16311,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-14,SV,0,0.0,0,68549,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-14,SV,29,58.0,0,265962,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-15,EC,4,43.240015000000014,0,65888,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-15,EC,0,10.10519500000001,0,21233,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-15,EC,3,19.767808999999996,0,60217,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-15,EC,2,4.189170000000001,0,18199,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-15,EC,0,5.695508000000003,0,19721,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-15,EC,3,6.0,0,71610,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-15,EC,6,12.0,0,59835,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-15,EC,9,27.0,0,87517,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-15,NI,1,3.911891999999999,0,6854,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-15,NI,1,4.843658,0,8155,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-15,NI,0,0.11396500000000001,0,702,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-15,PE,0,0.0,0,6064,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-09-15,PE,0,0.0,0,16157,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-09-15,PE,0,0.0,0,4348,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-09-15,PE,1,2.0,0,12222,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-15,PE,4,8.0,0,33855,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-15,SV,0,10.415233,0,17487,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-15,SV,0,0.547524,0,2165,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-15,SV,2,4.0,0,2965,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-15,SV,2,4.0,0,18567,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-16,EC,2,27.90065299999999,0,35551,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-16,EC,1,3.283544,0,11612,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-16,EC,2,9.254290000000001,0,28124,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-16,EC,0,5.26912,0,12600,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-16,EC,1,5.8743940000000014,0,11976,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-16,EC,3,6.0,0,27626,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-16,EC,6,12.0,0,26687,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-16,EC,3,9.0,0,35937,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-16,NI,2,8.061547999999995,0,37975,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-16,NI,7,8.098222000000002,0,48830,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-16,NI,1,0.34139200000000003,0,3611,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-16,PE,3,3.0,0,14680,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-09-16,PE,0,0.0,0,42628,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-09-16,PE,0,0.0,0,41233,	 PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
+2025-09-16,PE,0,0.0,0,11119,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-09-16,PE,1,2.0,0,40792,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-16,PE,4,8.0,0,92689,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-16,SV,15,69.52095100000014,0,95044,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-16,SV,0,4.803577000000001,0,12885,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-16,SV,3,6.0,0,38789,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-16,SV,15,30.0,0,162728,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-17,EC,1,29.631406999999967,0,38635,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-17,EC,0,3.801898000000001,0,11717,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-17,EC,0,13.365657999999998,0,34487,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-17,EC,0,7.119727000000001,0,15850,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-17,EC,0,5.961035000000001,0,12493,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-17,EC,1,2.0,0,29434,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-17,EC,0,0.0,0,33585,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-17,EC,0,0.0,0,37347,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-17,NI,2,4.105675999999999,0,18892,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-17,NI,4,6.728106999999995,0,25525,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-17,NI,0,0.3466,0,3192,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-17,PE,0,0.0,0,36709,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-09-17,PE,0,0.0,0,64838,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-09-17,PE,0,0.0,0,55078,	 PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
+2025-09-17,PE,0,0.0,0,25911,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-09-17,PE,2,4.0,0,70681,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-17,PE,2,4.0,0,132858,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-17,SV,3,36.15435699999989,0,51641,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-17,SV,0,2.981850000000001,0,8208,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-17,SV,3,6.0,0,24977,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-17,SV,9,18.0,0,88359,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-18,EC,1,34.62361699999995,0,43884,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-18,EC,0,4.557907,0,14792,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-18,EC,2,32.511268999999956,0,46660,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-18,EC,1,6.101517000000001,0,19429,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-18,EC,1,5.294739000000001,0,15839,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-18,EC,0,0.0,0,33218,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-18,EC,1,2.0,0,39440,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-18,EC,1,3.0,0,42140,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-18,NI,3,8.954291000000001,0,43143,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-18,NI,4,12.18957700000001,0,54860,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-18,NI,1,0.670138,0,5575,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-18,PE,1,1.0,0,44910,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-09-18,PE,1,2.0,0,80851,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-09-18,PE,3,6.0,0,131988,	 PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
+2025-09-18,PE,1,2.0,0,38001,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-09-18,PE,2,4.0,0,96376,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-18,PE,3,6.0,0,211483,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-18,SV,22,77.82268000000013,0,108868,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-18,SV,0,5.098122999999996,0,14159,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-18,SV,4,8.0,0,58858,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-18,SV,13,26.0,0,185888,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-19,EC,0,12.364405999999997,0,19858,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-19,EC,1,1.7915670000000001,0,7029,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-19,EC,0,13.986322,0,23716,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-19,EC,0,2.026435,0,7724,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-19,EC,1,1.9310980000000004,0,7455,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-19,EC,0,0.0,0,14282,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-19,EC,0,0.0,0,14916,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-19,EC,1,3.0,0,19736,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-19,NI,0,1.767828,0,4773,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-19,NI,1,2.5351390000000005,0,6494,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-19,NI,0,0.131419,0,1057,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-19,PE,1,1.0,0,54138,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-09-19,PE,0,0.0,0,104749,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-09-19,PE,2,4.0,0,204285,	 PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
+2025-09-19,PE,0,0.0,0,47771,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-09-19,PE,4,8.0,0,113997,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-19,PE,5,10.0,0,269928,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-19,SV,1,10.333771999999998,0,17026,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-19,SV,0,0.498187,0,1856,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-19,SV,0,0.0,0,5394,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-19,SV,2,4.0,0,17447,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-20,EC,1,21.840014000000004,0,29312,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-20,EC,1,3.8782810000000003,0,10088,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-20,EC,1,23.511265,0,33508,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-20,EC,0,3.444098,0,9213,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-20,EC,0,2.460675,0,8494,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-20,EC,0,0.0,0,18112,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-20,EC,0,0.0,0,24330,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-20,EC,0,0.0,0,25377,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-20,NI,2,6.695148999999998,0,28267,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-20,NI,5,7.393648999999991,0,34669,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-20,NI,0,0.35395799999999994,0,4294,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-20,PE,2,2.0,0,15624,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-09-20,PE,1,2.0,0,25206,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-09-20,PE,0,0.0,0,46714,	 PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
+2025-09-20,PE,1,2.0,0,13808,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-09-20,PE,4,8.0,0,41350,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-20,PE,1,2.0,0,72727,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-20,SV,16,59.72232399999983,0,82962,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-20,SV,0,4.082532999999998,0,10993,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-20,SV,3,6.0,0,36973,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-20,SV,16,32.0,0,135661,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-21,EC,2,28.756102000000002,0,41479,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-21,EC,0,5.149678,0,13995,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-21,EC,1,31.166931,0,48899,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-21,EC,1,4.560656,0,13002,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-21,EC,0,4.493369999999999,0,12412,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-21,EC,1,2.0,0,25540,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-21,EC,0,0.0,0,31812,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-21,EC,0,0.0,0,36550,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-21,NI,7,9.046888999999997,0,40963,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-21,NI,3,9.225946000000004,0,47134,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-21,NI,0,0.38453699999999996,0,5541,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-21,PE,1,1.0,0,23725,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-09-21,PE,0,0.0,0,51229,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-09-21,PE,0,0.0,0,92521,	 PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
+2025-09-21,PE,3,6.0,0,24911,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-09-21,PE,1,2.0,0,64256,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-21,PE,2,4.0,0,184350,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-21,SV,16,78.33272400000001,0,105423,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-21,SV,0,5.765174999999997,0,14378,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-21,SV,5,10.0,0,58348,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-21,SV,17,34.0,0,188611,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-22,EC,0,12.147499999999999,0,22140,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-22,EC,0,1.929249,0,7655,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-22,EC,1,14.587112000000001,0,27675,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-22,EC,0,1.7712849999999998,0,5990,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-22,EC,0,2.327037,0,7345,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-22,EC,0,0.0,0,15424,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-22,EC,1,2.0,0,16771,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-22,EC,2,6.0,0,18222,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-22,NI,0,4.166026000000001,0,14914,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-22,NI,1,3.7897990000000004,0,15625,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-22,NI,0,0.274193,0,2160,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-22,PE,0,0.0,0,12815,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-09-22,PE,0,0.0,0,30423,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-09-22,PE,0,0.0,0,42282,	 PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
+2025-09-22,PE,0,0.0,0,20877,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-09-22,PE,2,4.0,0,40318,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-22,PE,6,12.0,0,118725,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-22,SV,1,24.093195000000023,0,38406,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-22,SV,0,1.495928,0,4330,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-22,SV,3,6.0,0,16616,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-22,SV,4,8.0,0,49230,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-23,EC,0,13.374106999999995,0,19313,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-23,EC,0,3.028466,0,8146,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-23,EC,2,19.200347999999995,0,24873,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-23,EC,0,2.640758,0,6731,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-23,EC,0,1.9803660000000003,0,6658,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-23,EC,1,2.0,0,11759,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-23,EC,0,0.0,0,13042,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-23,EC,4,12.0,0,13247,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-23,NI,5,8.243722999999989,0,30506,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-23,NI,4,6.947352999999988,0,29238,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-23,NI,1,0.527167,0,4252,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-23,PE,0,0.0,0,3490,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-09-23,PE,0,0.0,0,6777,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-09-23,PE,0,0.0,0,9775,	 PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
+2025-09-23,PE,0,0.0,0,5519,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-09-23,PE,0,0.0,0,28968,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-23,PE,9,18.0,0,70744,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-23,SV,15,58.98838900000004,0,78129,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-23,SV,1,4.579113999999998,0,10314,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-23,SV,3,6.0,0,38492,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-23,SV,4,8.0,0,113648,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-24,EC,0,8.296646999999998,0,14115,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-24,EC,0,1.5449840000000001,0,5339,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-24,EC,1,11.496771999999998,0,17250,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-24,EC,0,1.324324,0,4759,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-24,EC,0,1.869091,0,5266,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-24,EC,1,2.0,0,8879,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-24,EC,0,0.0,0,7530,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-24,EC,0,0.0,0,12392,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-24,NI,4,3.2825800000000007,0,8057,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-24,NI,2,2.008306,0,6493,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-24,NI,0,0.16451100000000002,0,1284,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-24,PE,0,0.0,0,21736,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-24,PE,1,2.0,0,37561,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-24,SV,1,17.11204599999999,0,26262,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-24,SV,0,1.242227,0,3320,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-24,SV,0,0.0,0,8181,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-24,SV,0,0.0,0,27772,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-25,EC,0,33.99593499999998,0,45558,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-25,EC,0,5.653020000000001,0,18188,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-25,EC,0,18.898242000000007,0,44801,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-25,EC,2,5.288653,0,17979,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-25,EC,1,7.965129999999998,0,17993,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-25,EC,1,2.0,0,34367,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-25,EC,0,0.0,0,31641,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-25,EC,1,3.0,0,38811,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-25,NI,1,9.248844999999992,0,41905,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-25,NI,7,7.253773999999991,0,37679,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-25,NI,0,0.544594,0,5022,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-25,PE,2,4.0,0,93771,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-25,PE,4,8.0,0,197445,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-25,SV,15,68.07484199999952,0,96440,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-25,SV,1,5.9660129999999985,0,14267,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-25,SV,3,6.0,0,53590,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-25,SV,9,18.0,0,148313,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-26,EC,1,17.838016000000003,0,27444,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-26,EC,0,3.736897999999999,0,11403,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-26,EC,3,17.836266,0,37848,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-26,EC,0,3.475922,0,11440,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-26,EC,0,3.9543869999999997,0,10880,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-26,EC,0,0.0,0,23602,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-26,EC,0,0.0,0,15190,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-26,EC,4,12.0,0,25261,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-26,NI,0,3.5059339999999994,0,9163,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-26,NI,2,1.9022020000000002,0,6157,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-26,NI,0,0.136817,0,935,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-26,PE,2,4.0,0,222941,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-26,PE,19,38.0,0,799792,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-26,SV,0,10.814351,0,17944,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-26,SV,0,0.616821,0,2100,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-26,SV,2,4.0,0,6169,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-26,SV,1,2.0,0,20986,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-27,EC,1,31.280093000000054,0,41899,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-27,EC,0,5.963548,0,13267,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-27,EC,3,42.82667400000007,0,60484,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-27,EC,1,6.187958,0,13990,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-27,EC,0,3.717689,0,11401,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-27,EC,2,4.0,0,34538,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-27,EC,1,2.0,0,26905,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-27,EC,2,6.0,0,38678,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-27,NI,5,12.181474999999978,0,61116,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-27,NI,13,12.794983999999987,0,64947,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-27,NI,0,0.8888619999999998,0,6774,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-27,PE,3,6.0,0,90324,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-27,PE,9,18.0,0,308413,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-27,SV,36,97.15639400000022,0,133040,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-27,SV,0,6.982905999999998,0,18605,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-27,SV,7,14.0,0,104719,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-27,SV,17,34.0,0,248888,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-28,EC,2,22.258374,0,32925,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-28,EC,0,3.092122,0,10058,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-28,EC,2,33.961900000000014,0,48874,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-28,EC,0,5.504627999999999,0,13870,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-28,EC,3,4.844619000000001,0,12163,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-28,EC,0,0.0,0,25566,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-28,EC,0,0.0,0,25549,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-28,EC,1,3.0,0,32648,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-28,NI,2,4.237945000000002,0,37866,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-28,NI,7,9.847141999999979,0,45633,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-28,NI,0,0.564527,0,4951,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-28,PE,6,12.0,0,80322,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-28,PE,8,16.0,0,290606,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-28,SV,30,78.47921500000014,0,109261,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-28,SV,0,4.492069999999998,0,13255,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-28,SV,5,10.0,0,60688,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-28,SV,13,26.0,0,143836,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-29,EC,2,8.745074999999998,0,15558,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-29,EC,0,0.946361,0,3656,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-29,EC,2,17.017888999999997,0,26325,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-29,EC,0,1.0505499999999999,0,3979,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-29,EC,0,1.6410659999999997,0,5265,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-29,EC,1,2.0,0,9318,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-29,EC,0,0.0,0,9752,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-29,EC,1,3.0,0,14798,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-29,NI,2,3.018894,0,4538,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-29,NI,1,4.018769000000001,0,5808,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-29,NI,0,0.13071999999999998,0,824,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-29,PE,3,6.0,0,31731,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-29,PE,5,10.0,0,189426,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-29,SV,1,6.880951,0,7970,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-29,SV,0,0.171308,0,769,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-29,SV,0,0.0,0,3452,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-29,SV,2,4.0,0,8042,ES_Doradobet_Popunder_Deportivas_CPA
+2025-09-30,EC,1,7.636866000000001,0,26876,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-09-30,EC,0,1.854532,0,10423,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-09-30,EC,0,28.41764599999997,0,41956,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-09-30,EC,0,3.8225789999999993,0,12211,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-09-30,EC,1,7.5603919999999984,0,15088,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-09-30,EC,1,2.0,0,16867,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-09-30,EC,1,2.0,0,20164,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-09-30,EC,2,6.0,0,33715,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-09-30,NI,1,5.395031999999999,0,25402,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-09-30,NI,1,7.442355999999993,0,34348,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-09-30,NI,0,0.6558940000000001,0,4201,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-09-30,PE,3,3.0,0,38556,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-09-30,PE,1,2.0,0,53957,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-09-30,PE,2,4.0,0,93265,	 PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
+2025-09-30,PE,1,2.0,0,36680,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-09-30,PE,6,12.0,0,76279,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-09-30,PE,6,12.0,0,204818,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-09-30,SV,8,45.78270200000012,0,61297,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-09-30,SV,0,2.907434,0,7173,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-09-30,SV,0,0.0,0,22704,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-09-30,SV,3,6.0,0,57360,ES_Doradobet_Popunder_Deportivas_CPA
+2025-10-01,EC,1,9.053435000000002,0,37906,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-10-01,EC,0,8.751546000000005,0,18209,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-10-01,EC,1,42.511816000000096,0,59368,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-10-01,EC,0,9.432099000000004,0,19396,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-10-01,EC,0,11.205260000000006,0,23088,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-10-01,EC,0,0.0,0,33215,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-10-01,EC,0,0.0,0,35293,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-10-01,EC,1,3.0,0,53109,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-10-01,NI,5,11.784085999999997,0,60658,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-10-01,NI,11,14.93843799999997,0,75923,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-10-01,NI,1,1.0331209999999997,0,7084,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-10-01,PE,3,3.0,0,78336,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-10-01,PE,6,12.0,0,242080,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-10-01,PE,4,8.0,0,219302,	 PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
+2025-10-01,PE,0,0.0,0,68280,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-10-01,PE,7,14.0,0,174964,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-10-01,PE,8,16.0,0,452846,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-10-01,SV,15,96.43823499999988,0,129429,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-10-01,SV,0,6.621053000000004,0,15665,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-10-01,SV,3,6.0,0,66681,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-10-01,SV,8,16.0,0,183525,ES_Doradobet_Popunder_Deportivas_CPA
+2025-10-02,CR,0,0.0,0,1892,CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
+2025-10-02,EC,0,9.046052,0,18604,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-10-02,EC,0,1.176075,0,3584,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-10-02,EC,0,6.3083279999999995,0,12928,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-10-02,EC,0,0.566195,0,2602,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-10-02,EC,0,1.001962,0,3964,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-10-02,EC,1,2.0,0,8200,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-10-02,EC,0,0.0,0,6277,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-10-02,EC,2,6.0,0,13041,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-10-02,NI,0,1.6067130000000003,0,4894,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-10-02,NI,0,2.477663,0,7210,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-10-02,NI,0,0.14413,0,1119,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-10-02,PE,1,1.0,0,51810,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-10-02,PE,0,0.0,0,166667,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-10-02,PE,2,4.0,0,137215,	 PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
+2025-10-02,PE,1,2.0,0,35461,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-10-02,PE,8,16.0,0,132346,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-10-02,PE,13,26.0,0,378036,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-10-02,SV,0,6.037311000000001,0,11751,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-10-02,SV,0,0.34962,0,1254,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-10-02,SV,0,0.0,0,3629,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-10-02,SV,0,0.0,0,11309,ES_Doradobet_Popunder_Deportivas_CPA
+2025-10-03,CR,0,0.0,0,4945,CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
+2025-10-03,EC,0,6.097568000000001,0,12555,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-10-03,EC,1,1.097576,0,3739,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-10-03,EC,0,7.632949999999998,0,15923,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-10-03,EC,0,0.28784299999999996,0,1981,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-10-03,EC,0,0.742324,0,3251,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-10-03,EC,0,0.0,0,8246,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-10-03,EC,0,0.0,0,5922,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-10-03,EC,0,0.0,0,12928,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-10-03,NI,1,1.644706,0,4885,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-10-03,NI,0,2.4699809999999998,0,6987,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-10-03,NI,0,0.144398,0,1085,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-10-03,PE,2,2.0,0,18054,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-10-03,PE,0,0.0,0,23753,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-10-03,PE,1,2.0,0,23158,	 PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
+2025-10-03,PE,0,0.0,0,15158,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-10-03,PE,3,6.0,0,48383,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-10-03,PE,0,0.0,0,56943,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-10-03,SV,2,6.353893000000001,0,12826,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-10-03,SV,0,0.27375800000000006,0,1115,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-10-03,SV,0,0.0,0,3524,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-10-03,SV,0,0.0,0,9971,ES_Doradobet_Popunder_Deportivas_CPA
+2025-10-04,CR,0,0.0,0,11071,CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
+2025-10-04,EC,0,26.320333999999978,0,42664,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-10-04,EC,0,5.131966,0,13539,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-10-04,EC,0,22.092501999999996,0,36924,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-10-04,EC,0,2.4263760000000003,0,7942,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-10-04,EC,1,3.7469550000000007,0,11799,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-10-04,EC,1,2.0,0,24168,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-10-04,EC,0,0.0,0,20593,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-10-04,EC,1,3.0,0,35839,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-10-04,NI,5,9.660509000000003,0,40542,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-10-04,NI,4,9.868338000000005,0,44421,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-10-04,NI,0,1.2243119999999998,0,6301,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-10-04,PE,0,0.0,0,35624,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-10-04,PE,1,2.0,0,100121,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-10-04,PE,2,4.0,0,117230,	 PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
+2025-10-04,PE,1,1.0,0,23979,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-10-04,PE,6,12.0,0,108252,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-10-04,PE,7,14.0,0,245170,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-10-04,SV,14,70.208803,0,98179,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-10-04,SV,0,5.786724999999996,0,12101,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-10-04,SV,1,2.0,0,50611,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-10-04,SV,4,8.0,0,131664,ES_Doradobet_Popunder_Deportivas_CPA
+2025-10-05,CR,0,0.0,0,12155,CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
+2025-10-05,EC,2,30.686499999999988,0,51801,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-10-05,EC,0,6.077898,0,15117,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-10-05,EC,2,30.468156999999994,0,45487,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-10-05,EC,0,2.220503,0,9367,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-10-05,EC,0,3.5265780000000007,0,14243,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-10-05,EC,0,0.0,0,37456,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-10-05,EC,0,0.0,0,26479,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-10-05,EC,0,0.0,0,55874,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-10-05,NI,6,8.21771899999999,0,46267,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-10-05,NI,4,8.596875999999986,0,50008,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-10-05,NI,0,0.6124700000000001,0,4739,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-10-05,PE,1,1.0,0,60029,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-10-05,PE,5,10.0,0,189555,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-10-05,PE,6,12.0,0,221155,	 PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
+2025-10-05,PE,3,3.0,0,54127,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-10-05,PE,4,8.0,0,193234,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-10-05,PE,16,32.0,0,498510,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-10-05,SV,29,75.75096999999988,0,110153,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-10-05,SV,0,4.235485,0,9985,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-10-05,SV,3,6.0,0,66409,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-10-05,SV,11,22.0,0,180067,ES_Doradobet_Popunder_Deportivas_CPA
+2025-10-06,CR,0,0.0,0,4823,CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
+2025-10-06,CR,0,0.0,0,569,CR_Doradobet_PopUnder_Regalo_por_registro_Desk
+2025-10-06,EC,1,18.768716999999985,0,36103,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-10-06,EC,1,4.503912,0,13296,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-10-06,EC,0,20.960413999999993,0,36034,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-10-06,EC,1,1.877619,0,9074,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-10-06,EC,1,2.0357839999999996,0,10014,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-10-06,EC,1,2.0,0,27289,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-10-06,EC,0,0.0,0,19645,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-10-06,EC,3,9.0,0,39168,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-10-06,NI,0,1.458374,0,5046,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-10-06,NI,3,2.53184,0,6439,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-10-06,NI,0,0.10607,0,873,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-10-06,PE,0,0.0,0,19454,PE_Doradobet_Jack_Pot_Desk_CPA
+2025-10-06,PE,0,0.0,0,52733,PE_Doradobet_Jack_Pot_Mobile_CPA
+2025-10-06,PE,0,0.0,0,60860,	 PE_Doradobet_GENERICO_LIGA_1_Mob_CPA
+2025-10-06,PE,1,1.0,0,18086,PE_Doradobet_GENERICO_LIGA_1_Desk_CPA
+2025-10-06,PE,3,6.0,0,94158,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-10-06,PE,3,6.0,0,173450,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-10-06,SV,1,7.437854000000001,0,14224,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-10-06,SV,0,0.244024,0,988,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-10-06,SV,0,0.0,0,4178,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-10-06,SV,0,0.0,0,13431,ES_Doradobet_Popunder_Deportivas_CPA
+2025-10-07,CR,0,0.0,0,5888,CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
+2025-10-07,CR,0,0.0,0,2615,CR_Doradobet_PopUnder_Regalo_por_registro_Desk
+2025-10-07,CR,2,8.749342000000002,0,18835,CR_Doradobet_PopUnder_Regalo_por_registro_CPAT
+2025-10-07,EC,2,2.5187410000000003,0,9336,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-10-07,EC,0,1.1183480000000001,0,4733,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-10-07,EC,0,4.146605000000001,0,12032,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-10-07,EC,0,0.6931670000000001,0,3872,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-10-07,EC,0,0.293267,0,2891,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-10-07,EC,0,0.0,0,8527,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-10-07,EC,0,0.0,0,6314,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-10-07,EC,0,0.0,0,15742,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-10-07,NI,1,0.968953,0,4414,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-10-07,NI,0,2.598697,0,7004,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-10-07,NI,0,0.092901,0,943,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-10-07,PE,3,6.0,0,49532,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-10-07,PE,4,8.0,0,67986,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-10-07,SV,1,5.962727000000001,0,13079,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-10-07,SV,0,0.153208,0,1071,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-10-07,SV,0,0.0,0,4005,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-10-07,SV,0,0.0,0,11065,ES_Doradobet_Popunder_Deportivas_CPA
+2025-10-08,CR,0,0.0,0,2500,CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
+2025-10-08,CR,0,0.0,0,2508,CR_Doradobet_PopUnder_Regalo_por_registro_Desk
+2025-10-08,CR,1,8.787549,0,19905,CR_Doradobet_PopUnder_Regalo_por_registro_CPAT
+2025-10-08,EC,0,2.321444,0,9467,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-10-08,EC,1,1.1630859999999998,0,5723,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-10-08,EC,0,3.6512810000000004,0,11951,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-10-08,EC,0,1.845359,0,8061,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-10-08,EC,0,0.45360100000000003,0,3474,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-10-08,EC,0,0.0,0,8973,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-10-08,EC,0,0.0,0,5651,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-10-08,EC,0,0.0,0,17126,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-10-08,NI,0,0.978492,0,4366,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-10-08,NI,0,2.0788770000000003,0,5810,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-10-08,NI,0,0.099276,0,915,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-10-08,PE,4,8.0,0,57918,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-10-08,PE,0,0.0,0,82698,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-10-08,SV,1,5.854173000000001,0,12478,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-10-08,SV,0,0.17962100000000003,0,1138,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-10-08,SV,0,0.0,0,4237,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-10-08,SV,0,0.0,0,10536,ES_Doradobet_Popunder_Deportivas_CPA
+2025-10-09,CR,0,0.0,0,2229,CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
+2025-10-09,CR,0,0.0,0,2578,CR_Doradobet_PopUnder_Regalo_por_registro_Desk
+2025-10-09,CR,1,8.581091,0,19156,CR_Doradobet_PopUnder_Regalo_por_registro_CPAT
+2025-10-09,EC,0,2.490626,0,11508,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-10-09,EC,1,1.5176069999999997,0,6804,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-10-09,EC,1,5.503959,0,16837,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-10-09,EC,0,2.4454179999999996,0,10494,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-10-09,EC,0,0.5728530000000001,0,4665,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-10-09,EC,0,0.0,0,11759,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-10-09,EC,0,0.0,0,8068,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-10-09,EC,0,0.0,0,18196,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-10-09,NI,1,1.132046,0,4838,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-10-09,NI,0,1.787447,0,4990,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-10-09,NI,0,0.080679,0,776,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-10-09,PE,2,4.0,0,56394,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-10-09,PE,4,8.0,0,70875,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-10-09,SV,1,5.707362999999999,0,12508,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-10-09,SV,0,0.19602199999999997,0,1099,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-10-09,SV,0,0.0,0,3364,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-10-09,SV,0,0.0,0,9633,ES_Doradobet_Popunder_Deportivas_CPA
+2025-10-10,CR,0,0.0,0,2862,CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
+2025-10-10,CR,1,1.0,0,4300,CR_Doradobet_PopUnder_Regalo_por_registro_Desk
+2025-10-10,CR,3,11.944382000000001,0,21791,CR_Doradobet_PopUnder_Regalo_por_registro_CPAT
+2025-10-10,EC,0,4.794014,0,15376,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-10-10,EC,0,2.5042379999999995,0,8268,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-10-10,EC,0,14.301018,0,29608,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-10-10,EC,0,2.738382,0,11369,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-10-10,EC,0,0.9220769999999999,0,5476,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-10-10,EC,0,0.0,0,13049,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-10-10,EC,0,0.0,0,9387,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-10-10,EC,0,0.0,0,17502,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-10-10,NI,0,1.97303,0,9593,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-10-10,NI,0,2.397463,0,8398,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-10-10,NI,0,0.10062399999999999,0,996,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-10-10,PE,2,4.0,0,41970,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-10-10,PE,3,6.0,0,58656,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-10-10,SV,1,10.423198000000001,0,18245,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-10-10,SV,1,0.833267,0,2259,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-10-10,SV,0,0.0,0,4742,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-10-10,SV,0,0.0,0,14139,ES_Doradobet_Popunder_Deportivas_CPA
+2025-10-11,CR,1,1.0,0,4228,CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
+2025-10-11,CR,0,0.0,0,5058,CR_Doradobet_PopUnder_Regalo_por_registro_Desk
+2025-10-11,CR,0,9.989847000000003,0,21256,CR_Doradobet_PopUnder_Regalo_por_registro_CPAT
+2025-10-11,EC,0,18.098608000000034,0,43367,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-10-11,EC,3,15.528181,0,35109,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-10-11,EC,1,61.094509999999964,0,89563,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-10-11,EC,0,11.521928999999997,0,29739,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-10-11,EC,0,10.663457999999995,0,30156,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-10-11,EC,4,8.0,0,59709,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-10-11,EC,1,2.0,0,35035,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-10-11,EC,3,9.0,0,79002,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-10-11,NI,0,2.4196229999999996,0,12713,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-10-11,NI,1,3.150353999999999,0,12303,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-10-11,NI,0,0.188891,0,1399,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-10-11,PE,7,14.0,0,123827,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-10-11,PE,5,10.0,0,267438,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-10-11,SV,22,55.83344299999987,0,83964,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-10-11,SV,1,5.148168,0,12888,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-10-11,SV,3,6.0,0,33710,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-10-11,SV,3,6.0,0,89319,ES_Doradobet_Popunder_Deportivas_CPA
+2025-10-12,CR,0,0.0,0,5908,CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
+2025-10-12,CR,0,0.0,0,5332,CR_Doradobet_PopUnder_Regalo_por_registro_Desk
+2025-10-12,CR,1,9.867784000000002,0,19886,CR_Doradobet_PopUnder_Regalo_por_registro_CPAT
+2025-10-12,EC,3,11.983016000000003,0,22229,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-10-12,EC,0,1.730368,0,7451,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-10-12,EC,0,14.764834000000006,0,27987,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-10-12,EC,0,2.38336,0,6188,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-10-12,EC,0,2.242744,0,5788,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-10-12,EC,0,0.0,0,18320,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-10-12,EC,0,0.0,0,12318,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-10-12,EC,0,0.0,0,16919,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-10-12,NI,1,2.5762319999999996,0,10937,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-10-12,NI,2,2.9468739999999998,0,9951,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-10-12,NI,0,0.151194,0,1192,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-10-12,PE,0,0.0,0,69646,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-10-12,PE,1,2.0,0,101297,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-10-12,SV,0,14.607122000000002,0,23305,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-10-12,SV,0,1.1942500000000003,0,3670,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-10-12,SV,0,0.0,0,9108,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-10-12,SV,0,0.0,0,21437,ES_Doradobet_Popunder_Deportivas_CPA
+2025-10-13,CR,0,0.0,0,4031,CR_Doradobet_PopUnder_Regalo_por_registro_Mobil
+2025-10-13,CR,0,0.0,0,3252,CR_Doradobet_PopUnder_Regalo_por_registro_Desk
+2025-10-13,CR,1,8.440056,0,15868,CR_Doradobet_PopUnder_Regalo_por_registro_CPAT
+2025-10-13,EC,0,9.862724,0,18853,EC_Ecuabet_DeportivasMixtas_Mob_CPAT
+2025-10-13,EC,0,1.260808,0,5460,EC_Ecuabet_Popunder_Casino_Desk_CPAT
+2025-10-13,EC,0,9.605247000000002,0,19292,EC_Ecuabet_Popunder_Casino_Mob_CPAT
+2025-10-13,EC,0,1.7249650000000003,0,4363,EC_Ecuabet_DeportivasMixtas_Desk_CPAT
+2025-10-13,EC,0,1.883794,0,4679,DB_Ecuado_Popunder_Crash_Game_Desk_CPA
+2025-10-13,EC,0,0.0,0,11382,EC_Doradobet_Popunder_lLiga_Pro_Mobile_CPA
+2025-10-13,EC,0,0.0,0,8151,EC_Doradobet_Popunder_Crash_Game_Mobile_CPA
+2025-10-13,EC,0,0.0,0,9551,EC_Doradobet_Popunder_Sorteo_Carro_Mobile_CPA
+2025-10-13,NI,0,2.27096,0,7615,NI_Doradobet_Poker_Ruleta_MOBIEL_CPAT
+2025-10-13,NI,0,2.9538019999999996,0,9243,NI_Doradobet_Reglo_Registro_MOBIEL_CPA
+2025-10-13,NI,0,0.14583399999999996,0,931,NI_Doradobet_Reglo_Registro_DESK_CPA
+2025-10-13,PE,4,8.0,0,52173,PE_Doradobet_Bono_Bienvenida_Desk_CPA
+2025-10-13,PE,0,0.0,0,27018,PE_Doradobet_Bono_Bienvenida_Mob_CPA
+2025-10-13,SV,0,8.363975,0,14750,ES_Doradobet_Popunder_Regalo_Bono_Mob_CPAT
+2025-10-13,SV,0,0.883069,0,2655,ES_Doradobet_Popunder_Regalo_Bono_Desk_CPAT
+2025-10-13,SV,0,0.0,0,4732,ES_Doradobet_Popunder_Regalo_Registro_Mobile_CPAT
+2025-10-13,SV,0,0.0,0,8973,ES_Doradobet_Popunder_Deportivas_CPA
