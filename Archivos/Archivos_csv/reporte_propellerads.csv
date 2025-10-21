@@ -1,0 +1,861 @@
+﻿date_time,country,campaign_id,money,campaign_name,win_rate,daily_amount,total_amount,impressions,clicks,conversions,conversions2,conversions3,payout,viewability_real_impressions,spent,cpm,cpc,survey_cpc,cpa,profit,roi,ctr,cr,rvr,is_premium_supply
+2025-10-01,Chile (CL),9652709,1.354,CH_Doradobet_Popunder_Generica_Deportivas,0.0087,100,500,621,0,0,0,0,0.0,0,1.354,2.181,0.0,0.002,0.0,-1.354,-100.0,0.0,0.0,0.0,False
+2025-10-01,Chile (CL),9622781,0.062,CH_Doradobet_Popunder_Generico_Casino,0.0014,100,500,58,0,0,0,0,0.0,0,0.062,1.073,0.0,0.001,0.0,-0.062,-100.0,0.0,0.0,0.0,False
+2025-10-01,Costa Rica (CR),9808215,0.242,CR_Doradobet_Generico_Casino_Popunder,0.0059,20,100,198,0,0,0,0,0.0,0,0.242,1.221,0.0,0.001,0.0,-0.242,-100.0,0.0,0.0,0.0,False
+2025-10-01,Costa Rica (CR),9808237,0.135,CR_Doradobet_Generico_Casino_Popunder_2,0.0056,20,200,178,0,0,0,0,0.0,0,0.135,0.76,0.0,0.001,0.0,-0.135,-100.0,0.0,0.0,0.0,False
+2025-10-01,Costa Rica (CR),9824098,4.015,CR_Doradobet_Generico_Deportivas_Popunder,0.0328,20,400,4656,0,0,0,0,0.0,0,4.015,0.862,0.0,0.001,0.0,-4.015,-100.0,0.0,0.0,0.0,False
+2025-10-01,Costa Rica (CR),9867419,0.247,CR_Doradobet_Generico_Deportivas_Popunder,0.0230,20,400,328,0,0,0,0,0.0,0,0.247,0.753,0.0,0.001,0.0,-0.247,-100.0,0.0,0.0,0.0,False
+2025-10-01,Costa Rica (CR),9784377,0.743,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,1585,222,0,0,0,0.0,0,0.743,0.469,0.003,0.0,0.0,-0.743,-100.0,14.0,0.0,0.0,False
+2025-10-01,Costa Rica (CR),9909805,2.68,Copy of CR_Doradobet_Generico_Deportivas_Popunder,0.0078,20,400,5227,0,0,0,0,0.0,0,2.68,0.513,0.0,0.001,0.0,-2.68,-100.0,0.0,0.0,0.0,False
+2025-10-01,Ecuador (EC),9937070,22.051,Copy of EC_Doradobet_Popunder_Generico_Liga_Pro,0.0036,60,500,30739,0,0,0,0,0.0,0,22.051,0.717,0.0,0.001,0.0,-22.051,-100.0,0.0,0.0,0.0,False
+2025-10-01,Guatemala (GT),9867414,0.46,Copy of GT_Doradobet_Popunder_Generico_MLB,0.0033,10,100,3092,0,0,0,0,0.0,0,0.46,0.149,0.0,0.0,0.0,-0.46,-100.0,0.0,0.0,0.0,False
+2025-10-01,Ecuador (EC),9427802,0.0,Duplicado_1_PE_Aciertala_Interstitial_Generica_Deportivas,0.1080,50,250,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-01,Peru (PE),9427802,0.407,Duplicado_1_PE_Aciertala_Interstitial_Generica_Deportivas,0.1080,50,250,8126,1023,0,0,0,0.0,0,0.407,0.05,0.0,0.0,0.0,-0.407,-100.0,12.58,0.0,0.0,False
+2025-10-01,Ecuador (EC),9652793,0.256,EC_Doradobet_CPA_Popunder_Sorteo_Carros,0.0007,60,500,817,0,0,0,0,0.0,0,0.256,0.314,0.0,0.0,0.0,-0.256,-100.0,0.0,0.0,0.0,False
+2025-10-01,Ecuador (EC),9559315,29.519,EC_Doradobet_Popunder_Generico_Liga_Pro,0.0019,60,600,13055,0,0,0,0,0.0,0,29.519,2.261,0.0,0.002,0.0,-29.519,-100.0,0.0,0.0,0.0,False
+2025-10-01,Ecuador (EC),9674329,0.517,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,0.0007,30,200,939,0,0,0,0,0.0,0,0.517,0.551,0.0,0.001,0.0,-0.517,-100.0,0.0,0.0,0.0,False
+2025-10-01,Ecuador (EC),9630431,3.696,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,-,30,350,5660,0,0,0,0,0.0,0,3.696,0.653,0.0,0.001,0.0,-3.696,-100.0,0.0,0.0,0.0,False
+2025-10-01,Ecuador (EC),9776252,0.091,EC_Ecuabet_Popunder_ Sorteo_gana_tu_casa_V1,0.0036,30,250,113,0,0,0,0,0.0,0,0.091,0.802,0.0,0.001,0.0,-0.091,-100.0,0.0,0.0,0.0,False
+2025-10-01,Ecuador (EC),9674331,2.53,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0025,30,300,3396,0,0,0,0,0.0,0,2.53,0.745,0.0,0.001,0.0,-2.53,-100.0,0.0,0.0,0.0,False
+2025-10-01,Ecuador (EC),9723758,0.222,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0005,30,100,343,0,0,0,0,0.0,0,0.222,0.648,0.0,0.001,0.0,-0.222,-100.0,0.0,0.0,0.0,False
+2025-10-01,Ecuador (EC),9610605,4.4,EC_Ecuabet_Popunder_Casino_Dinamico,0.0017,30,1200,7941,0,0,0,0,0.0,0,4.4,0.554,0.0,0.001,0.0,-4.4,-100.0,0.0,0.0,0.0,False
+2025-10-01,Ecuador (EC),9610590,4.352,EC_Ecuabet_Popunder_Regalo_Registro_Triple,0.0021,30,1000,12509,0,0,0,0,0.0,0,4.352,0.348,0.0,0.0,0.0,-4.352,-100.0,0.0,0.0,0.0,False
+2025-10-01,El Salvador (SV),9918572,9.101,ES_Doradobet_Popunder_Generico_Casino_Oct,0.0117,50,300,20071,0,0,0,0,0.0,0,9.101,0.453,0.0,0.0,0.0,-9.101,-100.0,0.0,0.0,0.0,False
+2025-10-01,El Salvador (SV),9878794,3.183,ES_Doradobet_Popunder_Generico_Deportivas2,0.0104,90,300,7590,0,0,0,0,0.0,0,3.183,0.419,0.0,0.0,0.0,-3.183,-100.0,0.0,0.0,0.0,False
+2025-10-01,El Salvador (SV),9918573,7.873,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida_Oct,0.0131,60,300,21090,0,0,0,0,0.0,0,7.873,0.373,0.0,0.0,0.0,-7.873,-100.0,0.0,0.0,0.0,False
+2025-10-01,Guatemala (GT),9867415,7.893,GT_Doradobet_Popunder_Generico_Casino,0.0083,10,500,38984,0,0,0,0,0.0,0,7.893,0.202,0.0,0.0,0.0,-7.893,-100.0,0.0,0.0,0.0,False
+2025-10-01,Guatemala (GT),9753800,4.313,GT_Doradobet_Popunder_Generico_MLB,0.0025,10,100,6626,0,0,0,0,0.0,0,4.313,0.651,0.0,0.001,0.0,-4.313,-100.0,0.0,0.0,0.0,False
+2025-10-01,Guatemala (GT),9753829,0.227,GT_Doradobet_Popunder_Regalo_Registro,0.0027,10,100,1869,0,0,0,0,0.0,0,0.227,0.121,0.0,0.0,0.0,-0.227,-100.0,0.0,0.0,0.0,False
+2025-10-01,Honduras (HN),9937087,20.005,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0106,50,500,2508,0,0,0,0,0.0,0,20.005,7.977,0.0,0.008,0.0,-20.005,-100.0,0.0,0.0,0.0,False
+2025-10-01,Honduras (HN),9937088,30.002,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0040,50,500,8498,0,0,0,0,0.0,0,30.002,3.53,0.0,0.004,0.0,-30.002,-100.0,0.0,0.0,0.0,False
+2025-10-01,Honduras (HN),9937086,20.012,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0117,50,500,2365,0,0,0,0,0.0,0,20.012,8.462,0.0,0.008,0.0,-20.012,-100.0,0.0,0.0,0.0,False
+2025-10-01,Honduras (HN),9937085,30.005,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0092,50,500,8892,0,0,0,0,0.0,0,30.005,3.374,0.0,0.003,0.0,-30.005,-100.0,0.0,0.0,0.0,False
+2025-10-01,Honduras (HN),9812166,1.585,HN_Paniplay_Popunder_Generico_Casino_Online_Slot,0.0384,10,1000,3152,0,0,0,0,0.0,0,1.585,0.503,0.0,0.001,0.0,-1.585,-100.0,0.0,0.0,0.0,False
+2025-10-01,Honduras (HN),9426139,0.988,HN_Paniplay_Popunder_Loteria,0.0154,10,300,2629,0,0,0,0,0.0,0,0.988,0.376,0.0,0.0,0.0,-0.988,-100.0,0.0,0.0,0.0,False
+2025-10-01,Honduras (HN),9559371,1.513,HN_Paniplay_Popunder_Loteria,0.0166,10,300,2858,0,0,0,0,0.0,0,1.513,0.53,0.0,0.001,0.0,-1.513,-100.0,0.0,0.0,0.0,False
+2025-10-01,Honduras (HN),9652747,2.16,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0059,10,1000,4166,0,0,0,0,0.0,0,2.16,0.519,0.0,0.001,0.0,-2.16,-100.0,0.0,0.0,0.0,False
+2025-10-01,Honduras (HN),9416057,1.626,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0050,10,1000,3915,0,0,0,0,0.0,0,1.626,0.415,0.0,0.0,0.0,-1.626,-100.0,0.0,0.0,0.0,False
+2025-10-01,Nicaragua (NI),9652718,0.481,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0041,90,500,2584,0,0,0,0,0.0,0,0.481,0.186,0.0,0.0,0.0,-0.481,-100.0,0.0,0.0,0.0,False
+2025-10-01,Nicaragua (NI),9660643,2.062,NC_Doradobet_Popunder_Generico_Casino,0.0138,100,700,5815,0,0,0,0,0.0,0,2.062,0.355,0.0,0.0,0.0,-2.062,-100.0,0.0,0.0,0.0,False
+2025-10-01,Nicaragua (NI),9535742,1.842,NC_Doradobet_Popunder_Generico_Casino,0.0126,100,600,4622,0,0,0,0,0.0,0,1.842,0.398,0.0,0.0,0.0,-1.842,-100.0,0.0,0.0,0.0,False
+2025-10-01,Peru (PE),9643931,0.434,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,10130,1296,0,0,0,0.0,0,0.434,0.043,0.0,0.0,0.0,-0.434,-100.0,12.79,0.0,0.0,False
+2025-10-01,Peru (PE),9846194,0.728,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,19722,2133,0,0,0,0.0,0,0.728,0.037,0.0,0.0,0.0,-0.728,-100.0,10.81,0.0,0.0,False
+2025-10-01,–,9846194,0.0,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-01,United States (US),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-01,Singapore (SG),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,4152,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-01,Peru (PE),9874628,1.097,PE_Aciertala_Push_Champions_09,0.0405,50,200,121263,1255,0,0,0,0.0,0,1.097,0.009,0.001,0.0,0.0,-1.097,-100.0,1.03,0.0,0.0,False
+2025-10-01,Brazil (BR),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-01,Germany (DE),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,3,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-01,Peru (PE),9874772,0.448,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,51688,646,0,0,0,0.0,0,0.448,0.009,0.001,0.0,0.0,-0.448,-100.0,1.24,0.0,0.0,False
+2025-10-01,Singapore (SG),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,454,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-01,Netherlands (NL),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,5,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-01,United States (US),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-01,Germany (DE),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-01,Venezuela (VE),9736189,15.121,VZ_Camanbet_Popunder_Bono_de_Bienvenida_VEZ,-,15,1000,15121,0,0,0,0,0.0,0,15.121,1.0,0.0,0.001,0.0,-15.121,-100.0,0.0,0.0,0.0,False
+2025-10-01,Venezuela (VE),9761636,0.941,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0019,15,200,3409,0,0,0,0,0.0,0,0.941,0.276,0.0,0.0,0.0,-0.941,-100.0,0.0,0.0,0.0,False
+2025-10-01,Venezuela (VE),9867453,1.272,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0022,10,200,4841,0,0,0,0,0.0,0,1.272,0.263,0.0,0.0,0.0,-1.272,-100.0,0.0,0.0,0.0,False
+2025-10-01,Venezuela (VE),9622684,1.49,VZ_Camanbet_Popunder_Regalo_por_Registro,-,10,200,6178,0,0,0,0,0.0,0,1.49,0.241,0.0,0.0,0.0,-1.49,-100.0,0.0,0.0,0.0,False
+2025-10-02,Chile (CL),9634629,2.057,CH_Doradobet_Popunder_Generica_Deportivas,0.0076,100,500,438,0,0,0,0,0.0,0,2.057,4.697,0.0,0.005,0.0,-2.057,-100.0,0.0,0.0,0.0,False
+2025-10-02,Chile (CL),9652709,0.881,CH_Doradobet_Popunder_Generica_Deportivas,0.0087,100,500,265,0,0,0,0,0.0,0,0.881,3.326,0.0,0.003,0.0,-0.881,-100.0,0.0,0.0,0.0,False
+2025-10-02,Chile (CL),9622781,0.513,CH_Doradobet_Popunder_Generico_Casino,0.0014,100,500,326,0,0,0,0,0.0,0,0.513,1.574,0.0,0.002,0.0,-0.513,-100.0,0.0,0.0,0.0,False
+2025-10-02,Costa Rica (CR),9808215,0.479,CR_Doradobet_Generico_Casino_Popunder,0.0059,20,100,776,0,0,0,0,0.0,0,0.479,0.617,0.0,0.001,0.0,-0.479,-100.0,0.0,0.0,0.0,False
+2025-10-02,Costa Rica (CR),9808237,0.32,CR_Doradobet_Generico_Casino_Popunder_2,0.0056,20,200,548,0,0,0,0,0.0,0,0.32,0.584,0.0,0.001,0.0,-0.32,-100.0,0.0,0.0,0.0,False
+2025-10-02,Costa Rica (CR),9867419,1.479,CR_Doradobet_Generico_Deportivas_Popunder,0.0230,20,400,2203,0,0,0,0,0.0,0,1.479,0.671,0.0,0.001,0.0,-1.479,-100.0,0.0,0.0,0.0,False
+2025-10-02,Costa Rica (CR),9824098,0.802,CR_Doradobet_Generico_Deportivas_Popunder,0.0328,20,400,1261,0,0,0,0,0.0,0,0.802,0.636,0.0,0.001,0.0,-0.802,-100.0,0.0,0.0,0.0,False
+2025-10-02,Costa Rica (CR),9784377,1.11,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,3161,294,0,0,0,0.0,0,1.11,0.351,0.004,0.0,0.0,-1.11,-100.0,9.3,0.0,0.0,False
+2025-10-02,Democratic Republic Of The Congo (CD),9784377,0.005,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,1,1,0,0,0,0.0,0,0.005,5.465,0.005,0.005,0.0,-0.005,-100.0,100.0,0.0,0.0,False
+2025-10-02,Costa Rica (CR),9909805,1.452,Copy of CR_Doradobet_Generico_Deportivas_Popunder,0.0078,20,400,2659,0,0,0,0,0.0,0,1.452,0.546,0.0,0.001,0.0,-1.452,-100.0,0.0,0.0,0.0,False
+2025-10-02,Ecuador (EC),9937070,36.727,Copy of EC_Doradobet_Popunder_Generico_Liga_Pro,0.0036,60,500,61568,0,0,0,0,0.0,0,36.727,0.597,0.0,0.001,0.0,-36.727,-100.0,0.0,0.0,0.0,False
+2025-10-02,Guatemala (GT),9867414,0.216,Copy of GT_Doradobet_Popunder_Generico_MLB,0.0033,10,100,2141,0,0,0,0,0.0,0,0.216,0.101,0.0,0.0,0.0,-0.216,-100.0,0.0,0.0,0.0,False
+2025-10-02,Peru (PE),9427802,0.544,Duplicado_1_PE_Aciertala_Interstitial_Generica_Deportivas,0.1080,50,250,8438,1027,0,0,0,0.0,0,0.544,0.064,0.001,0.0,0.0,-0.544,-100.0,12.17,0.0,0.0,False
+2025-10-02,Ecuador (EC),9652793,0.375,EC_Doradobet_CPA_Popunder_Sorteo_Carros,0.0007,60,500,1018,0,0,0,0,0.0,0,0.375,0.369,0.0,0.0,0.0,-0.375,-100.0,0.0,0.0,0.0,False
+2025-10-02,Ecuador (EC),9559315,1.507,EC_Doradobet_Popunder_Generico_Liga_Pro,0.0019,60,600,2778,0,0,0,0,0.0,0,1.507,0.543,0.0,0.001,0.0,-1.507,-100.0,0.0,0.0,0.0,False
+2025-10-02,Ecuador (EC),9674329,0.413,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,0.0007,30,200,1063,0,0,0,0,0.0,0,0.413,0.389,0.0,0.0,0.0,-0.413,-100.0,0.0,0.0,0.0,False
+2025-10-02,Ecuador (EC),9630431,1.842,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,-,30,350,3094,0,0,0,0,0.0,0,1.842,0.595,0.0,0.001,0.0,-1.842,-100.0,0.0,0.0,0.0,False
+2025-10-02,Ecuador (EC),9776252,1.562,EC_Ecuabet_Popunder_ Sorteo_gana_tu_casa_V1,0.0036,30,250,3265,0,0,0,0,0.0,0,1.562,0.478,0.0,0.0,0.0,-1.562,-100.0,0.0,0.0,0.0,False
+2025-10-02,Ecuador (EC),9723758,0.235,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0005,30,100,364,0,0,0,0,0.0,0,0.235,0.645,0.0,0.001,0.0,-0.235,-100.0,0.0,0.0,0.0,False
+2025-10-02,Ecuador (EC),9674331,1.028,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0025,30,300,1805,0,0,0,0,0.0,0,1.028,0.57,0.0,0.001,0.0,-1.028,-100.0,0.0,0.0,0.0,False
+2025-10-02,Ecuador (EC),9610605,1.39,EC_Ecuabet_Popunder_Casino_Dinamico,0.0017,30,1200,2417,0,0,0,0,0.0,0,1.39,0.575,0.0,0.001,0.0,-1.39,-100.0,0.0,0.0,0.0,False
+2025-10-02,Ecuador (EC),9610590,2.514,EC_Ecuabet_Popunder_Regalo_Registro_Triple,0.0021,30,1000,8173,0,0,0,0,0.0,0,2.514,0.308,0.0,0.0,0.0,-2.514,-100.0,0.0,0.0,0.0,False
+2025-10-02,El Salvador (SV),9918572,2.96,ES_Doradobet_Popunder_Generico_Casino_Oct,0.0117,50,300,5065,0,0,0,0,0.0,0,2.96,0.584,0.0,0.001,0.0,-2.96,-100.0,0.0,0.0,0.0,False
+2025-10-02,El Salvador (SV),9878794,1.532,ES_Doradobet_Popunder_Generico_Deportivas2,0.0104,90,300,2870,0,0,0,0,0.0,0,1.532,0.534,0.0,0.001,0.0,-1.532,-100.0,0.0,0.0,0.0,False
+2025-10-02,El Salvador (SV),9918573,4.22,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida_Oct,0.0131,60,300,7179,0,0,0,0,0.0,0,4.22,0.588,0.0,0.001,0.0,-4.22,-100.0,0.0,0.0,0.0,False
+2025-10-02,Guatemala (GT),9867415,0.428,GT_Doradobet_Popunder_Generico_Casino,0.0083,10,500,1340,0,0,0,0,0.0,0,0.428,0.32,0.0,0.0,0.0,-0.428,-100.0,0.0,0.0,0.0,False
+2025-10-02,Guatemala (GT),9753800,0.31,GT_Doradobet_Popunder_Generico_MLB,0.0025,10,100,2426,0,0,0,0,0.0,0,0.31,0.128,0.0,0.0,0.0,-0.31,-100.0,0.0,0.0,0.0,False
+2025-10-02,Guatemala (GT),9753829,0.154,GT_Doradobet_Popunder_Regalo_Registro,0.0027,10,100,1544,0,0,0,0,0.0,0,0.154,0.1,0.0,0.0,0.0,-0.154,-100.0,0.0,0.0,0.0,False
+2025-10-02,Honduras (HN),9937087,13.618,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0106,50,500,12054,0,0,0,0,0.0,0,13.618,1.13,0.0,0.001,0.0,-13.618,-100.0,0.0,0.0,0.0,False
+2025-10-02,Honduras (HN),9937085,4.034,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0092,50,500,5822,0,0,0,0,0.0,0,4.034,0.693,0.0,0.001,0.0,-4.034,-100.0,0.0,0.0,0.0,False
+2025-10-02,Honduras (HN),9937088,4.429,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0040,50,500,6204,0,0,0,0,0.0,0,4.429,0.714,0.0,0.001,0.0,-4.429,-100.0,0.0,0.0,0.0,False
+2025-10-02,Honduras (HN),9937086,14.226,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0117,50,500,12337,0,0,0,0,0.0,0,14.226,1.153,0.0,0.001,0.0,-14.226,-100.0,0.0,0.0,0.0,False
+2025-10-02,Honduras (HN),9812166,0.539,HN_Paniplay_Popunder_Generico_Casino_Online_Slot,0.0384,10,1000,1156,0,0,0,0,0.0,0,0.539,0.466,0.0,0.0,0.0,-0.539,-100.0,0.0,0.0,0.0,False
+2025-10-02,Honduras (HN),9426139,0.773,HN_Paniplay_Popunder_Loteria,0.0154,10,300,1206,0,0,0,0,0.0,0,0.773,0.641,0.0,0.001,0.0,-0.773,-100.0,0.0,0.0,0.0,False
+2025-10-02,Honduras (HN),9559371,0.425,HN_Paniplay_Popunder_Loteria,0.0166,10,300,697,0,0,0,0,0.0,0,0.425,0.61,0.0,0.001,0.0,-0.425,-100.0,0.0,0.0,0.0,False
+2025-10-02,Honduras (HN),9416057,0.407,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0050,10,1000,644,0,0,0,0,0.0,0,0.407,0.632,0.0,0.001,0.0,-0.407,-100.0,0.0,0.0,0.0,False
+2025-10-02,Honduras (HN),9652747,0.231,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0059,10,1000,557,0,0,0,0,0.0,0,0.231,0.414,0.0,0.0,0.0,-0.231,-100.0,0.0,0.0,0.0,False
+2025-10-02,Nicaragua (NI),9652718,0.088,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0041,90,500,230,0,0,0,0,0.0,0,0.088,0.383,0.0,0.0,0.0,-0.088,-100.0,0.0,0.0,0.0,False
+2025-10-02,Nicaragua (NI),9762180,4.725,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0065,60,500,4169,0,0,0,0,0.0,0,4.725,1.133,0.0,0.001,0.0,-4.725,-100.0,0.0,0.0,0.0,False
+2025-10-02,Nicaragua (NI),9660643,0.184,NC_Doradobet_Popunder_Generico_Casino,0.0138,100,700,433,0,0,0,0,0.0,0,0.184,0.424,0.0,0.0,0.0,-0.184,-100.0,0.0,0.0,0.0,False
+2025-10-02,Nicaragua (NI),9535742,0.165,NC_Doradobet_Popunder_Generico_Casino,0.0126,100,600,349,0,0,0,0,0.0,0,0.165,0.472,0.0,0.0,0.0,-0.165,-100.0,0.0,0.0,0.0,False
+2025-10-02,Peru (PE),9643931,0.714,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,10260,1261,0,0,0,0.0,0,0.714,0.07,0.001,0.0,0.0,-0.714,-100.0,12.29,0.0,0.0,False
+2025-10-02,Peru (PE),9846194,0.882,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,21102,2340,0,0,0,0.0,0,0.882,0.042,0.0,0.0,0.0,-0.882,-100.0,11.08,0.0,0.0,False
+2025-10-02,Bolivia (BO),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,3,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-02,–,9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-02,Peru (PE),9874628,0.596,PE_Aciertala_Push_Champions_09,0.0405,50,200,56229,548,0,0,0,0.0,0,0.596,0.011,0.001,0.0,0.0,-0.596,-100.0,0.97,0.0,0.0,False
+2025-10-02,Germany (DE),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-02,United States (US),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,3,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-02,Singapore (SG),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1626,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-02,United States (US),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-02,Germany (DE),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-02,Guatemala (GT),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-02,Peru (PE),9874772,0.311,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,56701,655,0,0,0,0.0,0,0.311,0.005,0.0,0.0,0.0,-0.311,-100.0,1.15,0.0,0.0,False
+2025-10-02,Netherlands (NL),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,4,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-02,Singapore (SG),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,295,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-02,Venezuela (VE),9736189,15.183,VZ_Camanbet_Popunder_Bono_de_Bienvenida_VEZ,-,15,1000,15183,0,0,0,0,0.0,0,15.183,1.0,0.0,0.001,0.0,-15.183,-100.0,0.0,0.0,0.0,False
+2025-10-02,Venezuela (VE),9622684,0.452,VZ_Camanbet_Popunder_Regalo_por_Registro,-,10,200,3103,0,0,0,0,0.0,0,0.452,0.146,0.0,0.0,0.0,-0.452,-100.0,0.0,0.0,0.0,False
+2025-10-02,Venezuela (VE),9867453,0.341,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0022,10,200,2490,0,0,0,0,0.0,0,0.341,0.137,0.0,0.0,0.0,-0.341,-100.0,0.0,0.0,0.0,False
+2025-10-02,Venezuela (VE),9761636,0.312,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0019,15,200,2556,0,0,0,0,0.0,0,0.312,0.122,0.0,0.0,0.0,-0.312,-100.0,0.0,0.0,0.0,False
+2025-10-03,Chile (CL),9652709,2.01,CH_Doradobet_Popunder_Generica_Deportivas,0.0087,100,500,351,0,0,0,0,0.0,0,2.01,5.727,0.0,0.006,0.0,-2.01,-100.0,0.0,0.0,0.0,False
+2025-10-03,Chile (CL),9634629,1.67,CH_Doradobet_Popunder_Generica_Deportivas,0.0076,100,500,405,0,0,0,0,0.0,0,1.67,4.124,0.0,0.004,0.0,-1.67,-100.0,0.0,0.0,0.0,False
+2025-10-03,Chile (CL),9622781,0.402,CH_Doradobet_Popunder_Generico_Casino,0.0014,100,500,335,0,0,0,0,0.0,0,0.402,1.2,0.0,0.001,0.0,-0.402,-100.0,0.0,0.0,0.0,False
+2025-10-03,Costa Rica (CR),9808215,0.44,CR_Doradobet_Generico_Casino_Popunder,0.0059,20,100,849,0,0,0,0,0.0,0,0.44,0.518,0.0,0.001,0.0,-0.44,-100.0,0.0,0.0,0.0,False
+2025-10-03,Costa Rica (CR),9808237,0.27,CR_Doradobet_Generico_Casino_Popunder_2,0.0056,20,200,525,0,0,0,0,0.0,0,0.27,0.513,0.0,0.001,0.0,-0.27,-100.0,0.0,0.0,0.0,False
+2025-10-03,Costa Rica (CR),9824098,0.554,CR_Doradobet_Generico_Deportivas_Popunder,0.0328,20,400,1045,0,0,0,0,0.0,0,0.554,0.53,0.0,0.001,0.0,-0.554,-100.0,0.0,0.0,0.0,False
+2025-10-03,Costa Rica (CR),9867419,1.805,CR_Doradobet_Generico_Deportivas_Popunder,0.0230,20,400,2787,0,0,0,0,0.0,0,1.805,0.648,0.0,0.001,0.0,-1.805,-100.0,0.0,0.0,0.0,False
+2025-10-03,Costa Rica (CR),9784377,0.465,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,2418,269,0,0,0,0.0,0,0.465,0.192,0.002,0.0,0.0,-0.465,-100.0,11.12,0.0,0.0,False
+2025-10-03,Costa Rica (CR),9909805,0.364,Copy of CR_Doradobet_Generico_Deportivas_Popunder,0.0078,20,400,386,0,0,0,0,0.0,0,0.364,0.943,0.0,0.001,0.0,-0.364,-100.0,0.0,0.0,0.0,False
+2025-10-03,Ecuador (EC),9937070,10.352,Copy of EC_Doradobet_Popunder_Generico_Liga_Pro,0.0036,60,500,22011,0,0,0,0,0.0,0,10.352,0.47,0.0,0.0,0.0,-10.352,-100.0,0.0,0.0,0.0,False
+2025-10-03,Guatemala (GT),9942710,10.007,Copy of GT_Doradobet_Popunder_Generico_Casino,0.0286,10,500,12330,0,0,0,0,0.0,0,10.007,0.812,0.0,0.001,0.0,-10.007,-100.0,0.0,0.0,0.0,False
+2025-10-03,Guatemala (GT),9867414,0.128,Copy of GT_Doradobet_Popunder_Generico_MLB,0.0033,10,100,949,0,0,0,0,0.0,0,0.128,0.135,0.0,0.0,0.0,-0.128,-100.0,0.0,0.0,0.0,False
+2025-10-03,Venezuela (VE),9942739,10.0,Copy of VZ_Camanbet_Popunder_Regalo_por_Registro,0.0016,10,200,21838,0,0,0,0,0.0,0,10.0,0.458,0.0,0.0,0.0,-10.0,-100.0,0.0,0.0,0.0,False
+2025-10-03,Peru (PE),9427802,0.248,Duplicado_1_PE_Aciertala_Interstitial_Generica_Deportivas,0.1080,50,250,3911,434,0,0,0,0.0,0,0.248,0.063,0.001,0.0,0.0,-0.248,-100.0,11.09,0.0,0.0,False
+2025-10-03,Ecuador (EC),9652793,0.316,EC_Doradobet_CPA_Popunder_Sorteo_Carros,0.0007,60,500,722,0,0,0,0,0.0,0,0.316,0.437,0.0,0.0,0.0,-0.316,-100.0,0.0,0.0,0.0,False
+2025-10-03,Ecuador (EC),9559315,0.521,EC_Doradobet_Popunder_Generico_Liga_Pro,0.0019,60,600,1218,0,0,0,0,0.0,0,0.521,0.428,0.0,0.0,0.0,-0.521,-100.0,0.0,0.0,0.0,False
+2025-10-03,Ecuador (EC),9630431,1.705,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,-,30,350,2475,0,0,0,0,0.0,0,1.705,0.689,0.0,0.001,0.0,-1.705,-100.0,0.0,0.0,0.0,False
+2025-10-03,Ecuador (EC),9674329,0.149,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,0.0007,30,200,675,0,0,0,0,0.0,0,0.149,0.221,0.0,0.0,0.0,-0.149,-100.0,0.0,0.0,0.0,False
+2025-10-03,Ecuador (EC),9776252,2.516,EC_Ecuabet_Popunder_ Sorteo_gana_tu_casa_V1,0.0036,30,250,3734,0,0,0,0,0.0,0,2.516,0.674,0.0,0.001,0.0,-2.516,-100.0,0.0,0.0,0.0,False
+2025-10-03,Ecuador (EC),9723758,0.083,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0005,30,100,138,0,0,0,0,0.0,0,0.083,0.601,0.0,0.001,0.0,-0.083,-100.0,0.0,0.0,0.0,False
+2025-10-03,Ecuador (EC),9674331,1.061,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0025,30,300,1463,0,0,0,0,0.0,0,1.061,0.725,0.0,0.001,0.0,-1.061,-100.0,0.0,0.0,0.0,False
+2025-10-03,Ecuador (EC),9610605,1.138,EC_Ecuabet_Popunder_Casino_Dinamico,0.0017,30,1200,1911,0,0,0,0,0.0,0,1.138,0.595,0.0,0.001,0.0,-1.138,-100.0,0.0,0.0,0.0,False
+2025-10-03,Ecuador (EC),9610590,1.873,EC_Ecuabet_Popunder_Regalo_Registro_Triple,0.0021,30,1000,6849,0,0,0,0,0.0,0,1.873,0.273,0.0,0.0,0.0,-1.873,-100.0,0.0,0.0,0.0,False
+2025-10-03,El Salvador (SV),9918572,2.839,ES_Doradobet_Popunder_Generico_Casino_Oct,0.0117,50,300,4616,0,0,0,0,0.0,0,2.839,0.615,0.0,0.001,0.0,-2.839,-100.0,0.0,0.0,0.0,False
+2025-10-03,El Salvador (SV),9878794,1.446,ES_Doradobet_Popunder_Generico_Deportivas2,0.0104,90,300,2586,0,0,0,0,0.0,0,1.446,0.559,0.0,0.001,0.0,-1.446,-100.0,0.0,0.0,0.0,False
+2025-10-03,El Salvador (SV),9918573,2.856,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida_Oct,0.0131,60,300,5137,0,0,0,0,0.0,0,2.856,0.556,0.0,0.001,0.0,-2.856,-100.0,0.0,0.0,0.0,False
+2025-10-03,Guatemala (GT),9867415,0.208,GT_Doradobet_Popunder_Generico_Casino,0.0083,10,500,326,0,0,0,0,0.0,0,0.208,0.639,0.0,0.001,0.0,-0.208,-100.0,0.0,0.0,0.0,False
+2025-10-03,Guatemala (GT),9753800,0.128,GT_Doradobet_Popunder_Generico_MLB,0.0025,10,100,808,0,0,0,0,0.0,0,0.128,0.159,0.0,0.0,0.0,-0.128,-100.0,0.0,0.0,0.0,False
+2025-10-03,Guatemala (GT),9753829,0.099,GT_Doradobet_Popunder_Regalo_Registro,0.0027,10,100,647,0,0,0,0,0.0,0,0.099,0.152,0.0,0.0,0.0,-0.099,-100.0,0.0,0.0,0.0,False
+2025-10-03,Honduras (HN),9937086,2.031,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0117,50,500,3246,0,0,0,0,0.0,0,2.031,0.626,0.0,0.001,0.0,-2.031,-100.0,0.0,0.0,0.0,False
+2025-10-03,Honduras (HN),9937088,1.832,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0040,50,500,3124,0,0,0,0,0.0,0,1.832,0.586,0.0,0.001,0.0,-1.832,-100.0,0.0,0.0,0.0,False
+2025-10-03,Honduras (HN),9937087,1.908,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0106,50,500,3182,0,0,0,0,0.0,0,1.908,0.599,0.0,0.001,0.0,-1.908,-100.0,0.0,0.0,0.0,False
+2025-10-03,Honduras (HN),9937085,1.894,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0092,50,500,3142,0,0,0,0,0.0,0,1.894,0.603,0.0,0.001,0.0,-1.894,-100.0,0.0,0.0,0.0,False
+2025-10-03,Honduras (HN),9812166,1.77,HN_Paniplay_Popunder_Generico_Casino_Online_Slot,0.0384,10,1000,3037,0,0,0,0,0.0,0,1.77,0.583,0.0,0.001,0.0,-1.77,-100.0,0.0,0.0,0.0,False
+2025-10-03,Honduras (HN),9559371,0.026,HN_Paniplay_Popunder_Loteria,0.0166,10,300,30,0,0,0,0,0.0,0,0.026,0.87,0.0,0.001,0.0,-0.026,-100.0,0.0,0.0,0.0,False
+2025-10-03,Honduras (HN),9426139,0.069,HN_Paniplay_Popunder_Loteria,0.0154,10,300,59,0,0,0,0,0.0,0,0.069,1.166,0.0,0.001,0.0,-0.069,-100.0,0.0,0.0,0.0,False
+2025-10-03,Honduras (HN),9416057,0.03,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0050,10,1000,26,0,0,0,0,0.0,0,0.03,1.16,0.0,0.001,0.0,-0.03,-100.0,0.0,0.0,0.0,False
+2025-10-03,Honduras (HN),9652747,0.03,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0059,10,1000,27,0,0,0,0,0.0,0,0.03,1.127,0.0,0.001,0.0,-0.03,-100.0,0.0,0.0,0.0,False
+2025-10-03,Nicaragua (NI),9762180,0.281,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0065,60,500,859,0,0,0,0,0.0,0,0.281,0.328,0.0,0.0,0.0,-0.281,-100.0,0.0,0.0,0.0,False
+2025-10-03,Nicaragua (NI),9652718,0.065,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0041,90,500,325,0,0,0,0,0.0,0,0.065,0.198,0.0,0.0,0.0,-0.065,-100.0,0.0,0.0,0.0,False
+2025-10-03,Nicaragua (NI),9660643,0.476,NC_Doradobet_Popunder_Generico_Casino,0.0138,100,700,1021,0,0,0,0,0.0,0,0.476,0.466,0.0,0.0,0.0,-0.476,-100.0,0.0,0.0,0.0,False
+2025-10-03,Nicaragua (NI),9535742,1.017,NC_Doradobet_Popunder_Generico_Casino,0.0126,100,600,2280,0,0,0,0,0.0,0,1.017,0.446,0.0,0.0,0.0,-1.017,-100.0,0.0,0.0,0.0,False
+2025-10-03,Peru (PE),9643931,0.367,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,5190,633,0,0,0,0.0,0,0.367,0.071,0.001,0.0,0.0,-0.367,-100.0,12.19,0.0,0.0,False
+2025-10-03,United Kingdom (GB),9643931,0.0,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-03,Peru (PE),9846194,0.617,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,14501,1472,0,0,0,0.0,0,0.617,0.043,0.0,0.0,0.0,-0.617,-100.0,10.15,0.0,0.0,False
+2025-10-03,–,9846194,0.0,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-03,United States (US),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-03,Germany (DE),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-03,Peru (PE),9874628,1.591,PE_Aciertala_Push_Champions_09,0.0405,50,200,56868,470,0,0,0,0.0,0,1.591,0.028,0.003,0.0,0.0,-1.591,-100.0,0.82,0.0,0.0,False
+2025-10-03,Singapore (SG),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1392,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-03,Singapore (SG),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,443,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-03,Germany (DE),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,3,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-03,Bolivia (BO),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-03,Peru (PE),9874772,0.12,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,66793,546,0,0,0,0.0,0,0.12,0.002,0.0,0.0,0.0,-0.12,-100.0,0.81,0.0,0.0,False
+2025-10-03,Venezuela (VE),9736189,15.123,VZ_Camanbet_Popunder_Bono_de_Bienvenida_VEZ,-,15,1000,15123,0,0,0,0,0.0,0,15.123,1.0,0.0,0.001,0.0,-15.123,-100.0,0.0,0.0,0.0,False
+2025-10-03,Venezuela (VE),9622684,0.19,VZ_Camanbet_Popunder_Regalo_por_Registro,-,10,200,1313,0,0,0,0,0.0,0,0.19,0.145,0.0,0.0,0.0,-0.19,-100.0,0.0,0.0,0.0,False
+2025-10-03,Venezuela (VE),9761636,0.467,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0019,15,200,2134,0,0,0,0,0.0,0,0.467,0.219,0.0,0.0,0.0,-0.467,-100.0,0.0,0.0,0.0,False
+2025-10-03,Venezuela (VE),9867453,0.286,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0022,10,200,1611,0,0,0,0,0.0,0,0.286,0.178,0.0,0.0,0.0,-0.286,-100.0,0.0,0.0,0.0,False
+2025-10-04,Chile (CL),9634629,2.674,CH_Doradobet_Popunder_Generica_Deportivas,0.0076,100,500,500,0,0,0,0,0.0,0,2.674,5.348,0.0,0.005,0.0,-2.674,-100.0,0.0,0.0,0.0,False
+2025-10-04,Chile (CL),9652709,1.703,CH_Doradobet_Popunder_Generica_Deportivas,0.0087,100,500,405,0,0,0,0,0.0,0,1.703,4.205,0.0,0.004,0.0,-1.703,-100.0,0.0,0.0,0.0,False
+2025-10-04,Chile (CL),9622781,0.382,CH_Doradobet_Popunder_Generico_Casino,0.0014,100,500,321,0,0,0,0,0.0,0,0.382,1.19,0.0,0.001,0.0,-0.382,-100.0,0.0,0.0,0.0,False
+2025-10-04,Costa Rica (CR),9808215,0.49,CR_Doradobet_Generico_Casino_Popunder,0.0059,20,100,989,0,0,0,0,0.0,0,0.49,0.496,0.0,0.0,0.0,-0.49,-100.0,0.0,0.0,0.0,False
+2025-10-04,Costa Rica (CR),9808237,0.507,CR_Doradobet_Generico_Casino_Popunder_2,0.0056,20,200,981,0,0,0,0,0.0,0,0.507,0.517,0.0,0.001,0.0,-0.507,-100.0,0.0,0.0,0.0,False
+2025-10-04,Costa Rica (CR),9824098,0.762,CR_Doradobet_Generico_Deportivas_Popunder,0.0328,20,400,1553,0,0,0,0,0.0,0,0.762,0.491,0.0,0.0,0.0,-0.762,-100.0,0.0,0.0,0.0,False
+2025-10-04,Costa Rica (CR),9867419,2.337,CR_Doradobet_Generico_Deportivas_Popunder,0.0230,20,400,3360,0,0,0,0,0.0,0,2.337,0.695,0.0,0.001,0.0,-2.337,-100.0,0.0,0.0,0.0,False
+2025-10-04,Costa Rica (CR),9784377,1.318,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,1594,209,0,0,0,0.0,0,1.318,0.827,0.006,0.001,0.0,-1.318,-100.0,13.11,0.0,0.0,False
+2025-10-04,Ecuador (EC),9937070,5.476,Copy of EC_Doradobet_Popunder_Generico_Liga_Pro,0.0036,60,500,16989,0,0,0,0,0.0,0,5.476,0.322,0.0,0.0,0.0,-5.476,-100.0,0.0,0.0,0.0,False
+2025-10-04,Guatemala (GT),9942710,10.007,Copy of GT_Doradobet_Popunder_Generico_Casino,0.0286,10,500,16372,0,0,0,0,0.0,0,10.007,0.611,0.0,0.001,0.0,-10.007,-100.0,0.0,0.0,0.0,False
+2025-10-04,Guatemala (GT),9867414,0.166,Copy of GT_Doradobet_Popunder_Generico_MLB,0.0033,10,100,1282,0,0,0,0,0.0,0,0.166,0.13,0.0,0.0,0.0,-0.166,-100.0,0.0,0.0,0.0,False
+2025-10-04,Venezuela (VE),9942739,5.374,Copy of VZ_Camanbet_Popunder_Regalo_por_Registro,0.0016,10,200,18318,0,0,0,0,0.0,0,5.374,0.293,0.0,0.0,0.0,-5.374,-100.0,0.0,0.0,0.0,False
+2025-10-04,–,9427802,0.002,Duplicado_1_PE_Aciertala_Interstitial_Generica_Deportivas,0.1080,50,250,0,1,0,0,0,0.0,0,0.002,0.0,0.002,0.0,0.0,-0.002,-100.0,0.0,0.0,0.0,False
+2025-10-04,Peru (PE),9427802,0.873,Duplicado_1_PE_Aciertala_Interstitial_Generica_Deportivas,0.1080,50,250,10496,1385,0,0,0,0.0,0,0.873,0.083,0.001,0.0,0.0,-0.873,-100.0,13.19,0.0,0.0,False
+2025-10-04,Ecuador (EC),9652793,0.418,EC_Doradobet_CPA_Popunder_Sorteo_Carros,0.0007,60,500,1461,0,0,0,0,0.0,0,0.418,0.286,0.0,0.0,0.0,-0.418,-100.0,0.0,0.0,0.0,False
+2025-10-04,Ecuador (EC),9559315,0.718,EC_Doradobet_Popunder_Generico_Liga_Pro,0.0019,60,600,1621,0,0,0,0,0.0,0,0.718,0.443,0.0,0.0,0.0,-0.718,-100.0,0.0,0.0,0.0,False
+2025-10-04,Ecuador (EC),9674329,0.191,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,0.0007,30,200,1100,0,0,0,0,0.0,0,0.191,0.174,0.0,0.0,0.0,-0.191,-100.0,0.0,0.0,0.0,False
+2025-10-04,Ecuador (EC),9630431,1.315,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,-,30,350,3190,0,0,0,0,0.0,0,1.315,0.412,0.0,0.0,0.0,-1.315,-100.0,0.0,0.0,0.0,False
+2025-10-04,Ecuador (EC),9776252,2.614,EC_Ecuabet_Popunder_ Sorteo_gana_tu_casa_V1,0.0036,30,250,5141,0,0,0,0,0.0,0,2.614,0.508,0.0,0.001,0.0,-2.614,-100.0,0.0,0.0,0.0,False
+2025-10-04,Ecuador (EC),9674331,0.538,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0025,30,300,1171,0,0,0,0,0.0,0,0.538,0.459,0.0,0.0,0.0,-0.538,-100.0,0.0,0.0,0.0,False
+2025-10-04,Ecuador (EC),9723758,0.055,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0005,30,100,140,0,0,0,0,0.0,0,0.055,0.393,0.0,0.0,0.0,-0.055,-100.0,0.0,0.0,0.0,False
+2025-10-04,Ecuador (EC),9610605,1.305,EC_Ecuabet_Popunder_Casino_Dinamico,0.0017,30,1200,2681,0,0,0,0,0.0,0,1.305,0.487,0.0,0.0,0.0,-1.305,-100.0,0.0,0.0,0.0,False
+2025-10-04,Ecuador (EC),9610590,1.701,EC_Ecuabet_Popunder_Regalo_Registro_Triple,0.0021,30,1000,9890,0,0,0,0,0.0,0,1.701,0.172,0.0,0.0,0.0,-1.701,-100.0,0.0,0.0,0.0,False
+2025-10-04,El Salvador (SV),9918572,2.736,ES_Doradobet_Popunder_Generico_Casino_Oct,0.0117,50,300,5016,0,0,0,0,0.0,0,2.736,0.546,0.0,0.001,0.0,-2.736,-100.0,0.0,0.0,0.0,False
+2025-10-04,El Salvador (SV),9878794,1.985,ES_Doradobet_Popunder_Generico_Deportivas2,0.0104,90,300,3789,0,0,0,0,0.0,0,1.985,0.524,0.0,0.001,0.0,-1.985,-100.0,0.0,0.0,0.0,False
+2025-10-04,El Salvador (SV),9918573,2.818,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida_Oct,0.0131,60,300,5567,0,0,0,0,0.0,0,2.818,0.506,0.0,0.001,0.0,-2.818,-100.0,0.0,0.0,0.0,False
+2025-10-04,Guatemala (GT),9867415,0.208,GT_Doradobet_Popunder_Generico_Casino,0.0083,10,500,424,0,0,0,0,0.0,0,0.208,0.491,0.0,0.0,0.0,-0.208,-100.0,0.0,0.0,0.0,False
+2025-10-04,Guatemala (GT),9753800,0.118,GT_Doradobet_Popunder_Generico_MLB,0.0025,10,100,852,0,0,0,0,0.0,0,0.118,0.138,0.0,0.0,0.0,-0.118,-100.0,0.0,0.0,0.0,False
+2025-10-04,Guatemala (GT),9753829,0.123,GT_Doradobet_Popunder_Regalo_Registro,0.0027,10,100,1029,0,0,0,0,0.0,0,0.123,0.12,0.0,0.0,0.0,-0.123,-100.0,0.0,0.0,0.0,False
+2025-10-04,Honduras (HN),9937088,1.368,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0040,50,500,3784,0,0,0,0,0.0,0,1.368,0.361,0.0,0.0,0.0,-1.368,-100.0,0.0,0.0,0.0,False
+2025-10-04,Honduras (HN),9937086,1.47,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0117,50,500,3877,0,0,0,0,0.0,0,1.47,0.379,0.0,0.0,0.0,-1.47,-100.0,0.0,0.0,0.0,False
+2025-10-04,Honduras (HN),9937085,1.392,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0092,50,500,3729,0,0,0,0,0.0,0,1.392,0.373,0.0,0.0,0.0,-1.392,-100.0,0.0,0.0,0.0,False
+2025-10-04,Honduras (HN),9937087,1.444,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0106,50,500,3816,0,0,0,0,0.0,0,1.444,0.379,0.0,0.0,0.0,-1.444,-100.0,0.0,0.0,0.0,False
+2025-10-04,Honduras (HN),9812166,2.475,HN_Paniplay_Popunder_Generico_Casino_Online_Slot,0.0384,10,1000,4221,0,0,0,0,0.0,0,2.475,0.586,0.0,0.001,0.0,-2.475,-100.0,0.0,0.0,0.0,False
+2025-10-04,Nicaragua (NI),9762180,0.212,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0065,60,500,1008,0,0,0,0,0.0,0,0.212,0.21,0.0,0.0,0.0,-0.212,-100.0,0.0,0.0,0.0,False
+2025-10-04,Nicaragua (NI),9652718,0.21,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0041,90,500,706,0,0,0,0,0.0,0,0.21,0.297,0.0,0.0,0.0,-0.21,-100.0,0.0,0.0,0.0,False
+2025-10-04,Nicaragua (NI),9535742,1.437,NC_Doradobet_Popunder_Generico_Casino,0.0126,100,600,3351,0,0,0,0,0.0,0,1.437,0.429,0.0,0.0,0.0,-1.437,-100.0,0.0,0.0,0.0,False
+2025-10-04,Nicaragua (NI),9660643,1.225,NC_Doradobet_Popunder_Generico_Casino,0.0138,100,700,2721,0,0,0,0,0.0,0,1.225,0.45,0.0,0.0,0.0,-1.225,-100.0,0.0,0.0,0.0,False
+2025-10-04,Brazil (BR),9643931,0.0,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-04,Peru (PE),9643931,0.91,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,9741,1271,0,0,0,0.0,0,0.91,0.093,0.001,0.0,0.0,-0.91,-100.0,13.04,0.0,0.0,False
+2025-10-04,United States (US),9846194,0.001,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,1,1,0,0,0,0.0,0,0.001,1.185,0.001,0.001,0.0,-0.001,-100.0,100.0,0.0,0.0,False
+2025-10-04,Peru (PE),9846194,1.135,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,20017,2308,0,0,0,0.0,0,1.135,0.057,0.0,0.0,0.0,-1.135,-100.0,11.53,0.0,0.0,False
+2025-10-04,Mexico (MX),9846194,0.0,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-04,Singapore (SG),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1503,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-04,United Arab Emirates (AE),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-04,United States (US),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-04,Peru (PE),9874628,0.634,PE_Aciertala_Push_Champions_09,0.0405,50,200,68845,564,0,0,0,0.0,0,0.634,0.009,0.001,0.0,0.0,-0.634,-100.0,0.81,0.0,0.0,False
+2025-10-04,Germany (DE),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,4,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-04,Peru (PE),9874772,0.211,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,61137,569,0,0,0,0.0,0,0.211,0.003,0.0,0.0,0.0,-0.211,-100.0,0.93,0.0,0.0,False
+2025-10-04,Germany (DE),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,3,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-04,Singapore (SG),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,445,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-04,United States (US),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-04,Netherlands (NL),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-04,Bolivia (BO),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-04,Venezuela (VE),9736189,15.161,VZ_Camanbet_Popunder_Bono_de_Bienvenida_VEZ,-,15,1000,15161,0,0,0,0,0.0,0,15.161,1.0,0.0,0.001,0.0,-15.161,-100.0,0.0,0.0,0.0,False
+2025-10-04,Venezuela (VE),9761636,0.451,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0019,15,200,1987,0,0,0,0,0.0,0,0.451,0.227,0.0,0.0,0.0,-0.451,-100.0,0.0,0.0,0.0,False
+2025-10-04,Venezuela (VE),9622684,0.171,VZ_Camanbet_Popunder_Regalo_por_Registro,-,10,200,1240,0,0,0,0,0.0,0,0.171,0.138,0.0,0.0,0.0,-0.171,-100.0,0.0,0.0,0.0,False
+2025-10-04,Venezuela (VE),9867453,0.618,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0022,10,200,2790,0,0,0,0,0.0,0,0.618,0.222,0.0,0.0,0.0,-0.618,-100.0,0.0,0.0,0.0,False
+2025-10-05,Chile (CL),9634629,2.939,CH_Doradobet_Popunder_Generica_Deportivas,0.0076,100,500,1070,0,0,0,0,0.0,0,2.939,2.747,0.0,0.003,0.0,-2.939,-100.0,0.0,0.0,0.0,False
+2025-10-05,Chile (CL),9652709,2.241,CH_Doradobet_Popunder_Generica_Deportivas,0.0087,100,500,1122,0,0,0,0,0.0,0,2.241,1.998,0.0,0.002,0.0,-2.241,-100.0,0.0,0.0,0.0,False
+2025-10-05,Chile (CL),9622781,0.543,CH_Doradobet_Popunder_Generico_Casino,0.0014,100,500,660,0,0,0,0,0.0,0,0.543,0.823,0.0,0.001,0.0,-0.543,-100.0,0.0,0.0,0.0,False
+2025-10-05,Costa Rica (CR),9808215,0.469,CR_Doradobet_Generico_Casino_Popunder,0.0059,20,100,1088,0,0,0,0,0.0,0,0.469,0.431,0.0,0.0,0.0,-0.469,-100.0,0.0,0.0,0.0,False
+2025-10-05,Costa Rica (CR),9808237,0.571,CR_Doradobet_Generico_Casino_Popunder_2,0.0056,20,200,1070,0,0,0,0,0.0,0,0.571,0.534,0.0,0.001,0.0,-0.571,-100.0,0.0,0.0,0.0,False
+2025-10-05,Costa Rica (CR),9867419,2.969,CR_Doradobet_Generico_Deportivas_Popunder,0.0230,20,400,3805,0,0,0,0,0.0,0,2.969,0.78,0.0,0.001,0.0,-2.969,-100.0,0.0,0.0,0.0,False
+2025-10-05,Costa Rica (CR),9824098,1.002,CR_Doradobet_Generico_Deportivas_Popunder,0.0328,20,400,1867,0,0,0,0,0.0,0,1.002,0.537,0.0,0.001,0.0,-1.002,-100.0,0.0,0.0,0.0,False
+2025-10-05,Costa Rica (CR),9784377,2.771,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,2771,306,0,0,0,0.0,0,2.771,1.0,0.009,0.001,0.0,-2.771,-100.0,11.04,0.0,0.0,False
+2025-10-05,Ecuador (EC),9937070,5.524,Copy of EC_Doradobet_Popunder_Generico_Liga_Pro,0.0036,60,500,22366,0,0,0,0,0.0,0,5.524,0.247,0.0,0.0,0.0,-5.524,-100.0,0.0,0.0,0.0,False
+2025-10-05,Guatemala (GT),9942710,10.023,Copy of GT_Doradobet_Popunder_Generico_Casino,0.0286,10,500,20528,0,0,0,0,0.0,0,10.023,0.488,0.0,0.0,0.0,-10.023,-100.0,0.0,0.0,0.0,False
+2025-10-05,Guatemala (GT),9867414,0.152,Copy of GT_Doradobet_Popunder_Generico_MLB,0.0033,10,100,1525,0,0,0,0,0.0,0,0.152,0.1,0.0,0.0,0.0,-0.152,-100.0,0.0,0.0,0.0,False
+2025-10-05,Venezuela (VE),9942739,1.953,Copy of VZ_Camanbet_Popunder_Regalo_por_Registro,0.0016,10,200,10436,0,0,0,0,0.0,0,1.953,0.187,0.0,0.0,0.0,-1.953,-100.0,0.0,0.0,0.0,False
+2025-10-05,Peru (PE),9427802,1.06,Duplicado_1_PE_Aciertala_Interstitial_Generica_Deportivas,0.1080,50,250,13170,1712,0,0,0,0.0,0,1.06,0.08,0.001,0.0,0.0,-1.06,-100.0,12.99,0.0,0.0,False
+2025-10-05,Ecuador (EC),9652793,0.407,EC_Doradobet_CPA_Popunder_Sorteo_Carros,0.0007,60,500,4014,0,0,0,0,0.0,0,0.407,0.101,0.0,0.0,0.0,-0.407,-100.0,0.0,0.0,0.0,False
+2025-10-05,Ecuador (EC),9559315,0.795,EC_Doradobet_Popunder_Generico_Liga_Pro,0.0019,60,600,3154,0,0,0,0,0.0,0,0.795,0.252,0.0,0.0,0.0,-0.795,-100.0,0.0,0.0,0.0,False
+2025-10-05,Ecuador (EC),9630431,1.868,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,-,30,350,6126,0,0,0,0,0.0,0,1.868,0.305,0.0,0.0,0.0,-1.868,-100.0,0.0,0.0,0.0,False
+2025-10-05,Ecuador (EC),9674329,0.15,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,0.0007,30,200,3569,0,0,0,0,0.0,0,0.15,0.042,0.0,0.0,0.0,-0.15,-100.0,0.0,0.0,0.0,False
+2025-10-05,Ecuador (EC),9776252,2.997,EC_Ecuabet_Popunder_ Sorteo_gana_tu_casa_V1,0.0036,30,250,9445,0,0,0,0,0.0,0,2.997,0.317,0.0,0.0,0.0,-2.997,-100.0,0.0,0.0,0.0,False
+2025-10-05,Ecuador (EC),9723758,0.054,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0005,30,100,170,0,0,0,0,0.0,0,0.054,0.315,0.0,0.0,0.0,-0.054,-100.0,0.0,0.0,0.0,False
+2025-10-05,Ecuador (EC),9674331,0.757,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0025,30,300,1836,0,0,0,0,0.0,0,0.757,0.412,0.0,0.0,0.0,-0.757,-100.0,0.0,0.0,0.0,False
+2025-10-05,Ecuador (EC),9610605,1.442,EC_Ecuabet_Popunder_Casino_Dinamico,0.0017,30,1200,5058,0,0,0,0,0.0,0,1.442,0.285,0.0,0.0,0.0,-1.442,-100.0,0.0,0.0,0.0,False
+2025-10-05,Ecuador (EC),9610590,2.103,EC_Ecuabet_Popunder_Regalo_Registro_Triple,0.0021,30,1000,18875,0,0,0,0,0.0,0,2.103,0.111,0.0,0.0,0.0,-2.103,-100.0,0.0,0.0,0.0,False
+2025-10-05,El Salvador (SV),9918572,3.75,ES_Doradobet_Popunder_Generico_Casino_Oct,0.0117,50,300,10933,0,0,0,0,0.0,0,3.75,0.343,0.0,0.0,0.0,-3.75,-100.0,0.0,0.0,0.0,False
+2025-10-05,El Salvador (SV),9878794,2.295,ES_Doradobet_Popunder_Generico_Deportivas2,0.0104,90,300,5687,0,0,0,0,0.0,0,2.295,0.404,0.0,0.0,0.0,-2.295,-100.0,0.0,0.0,0.0,False
+2025-10-05,El Salvador (SV),9918573,3.366,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida_Oct,0.0131,60,300,8933,0,0,0,0,0.0,0,3.366,0.377,0.0,0.0,0.0,-3.366,-100.0,0.0,0.0,0.0,False
+2025-10-05,Guatemala (GT),9867415,0.2,GT_Doradobet_Popunder_Generico_Casino,0.0083,10,500,731,0,0,0,0,0.0,0,0.2,0.274,0.0,0.0,0.0,-0.2,-100.0,0.0,0.0,0.0,False
+2025-10-05,Guatemala (GT),9753800,0.111,GT_Doradobet_Popunder_Generico_MLB,0.0025,10,100,1126,0,0,0,0,0.0,0,0.111,0.099,0.0,0.0,0.0,-0.111,-100.0,0.0,0.0,0.0,False
+2025-10-05,Guatemala (GT),9753829,0.119,GT_Doradobet_Popunder_Regalo_Registro,0.0027,10,100,976,0,0,0,0,0.0,0,0.119,0.122,0.0,0.0,0.0,-0.119,-100.0,0.0,0.0,0.0,False
+2025-10-05,Honduras (HN),9937085,0.833,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0092,50,500,2551,0,0,0,0,0.0,0,0.833,0.327,0.0,0.0,0.0,-0.833,-100.0,0.0,0.0,0.0,False
+2025-10-05,Honduras (HN),9937088,0.835,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0040,50,500,2604,0,0,0,0,0.0,0,0.835,0.321,0.0,0.0,0.0,-0.835,-100.0,0.0,0.0,0.0,False
+2025-10-05,Honduras (HN),9937087,0.923,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0106,50,500,2808,0,0,0,0,0.0,0,0.923,0.329,0.0,0.0,0.0,-0.923,-100.0,0.0,0.0,0.0,False
+2025-10-05,Honduras (HN),9937086,0.899,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0117,50,500,2684,0,0,0,0,0.0,0,0.899,0.335,0.0,0.0,0.0,-0.899,-100.0,0.0,0.0,0.0,False
+2025-10-05,Honduras (HN),9812166,1.912,HN_Paniplay_Popunder_Generico_Casino_Online_Slot,0.0384,10,1000,4322,0,0,0,0,0.0,0,1.912,0.442,0.0,0.0,0.0,-1.912,-100.0,0.0,0.0,0.0,False
+2025-10-05,Nicaragua (NI),9652718,0.402,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0041,90,500,1139,0,0,0,0,0.0,0,0.402,0.353,0.0,0.0,0.0,-0.402,-100.0,0.0,0.0,0.0,False
+2025-10-05,Nicaragua (NI),9762180,0.214,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0065,60,500,903,0,0,0,0,0.0,0,0.214,0.237,0.0,0.0,0.0,-0.214,-100.0,0.0,0.0,0.0,False
+2025-10-05,Nicaragua (NI),9535742,1.555,NC_Doradobet_Popunder_Generico_Casino,0.0126,100,600,3870,0,0,0,0,0.0,0,1.555,0.402,0.0,0.0,0.0,-1.555,-100.0,0.0,0.0,0.0,False
+2025-10-05,Nicaragua (NI),9660643,1.435,NC_Doradobet_Popunder_Generico_Casino,0.0138,100,700,3999,0,0,0,0,0.0,0,1.435,0.359,0.0,0.0,0.0,-1.435,-100.0,0.0,0.0,0.0,False
+2025-10-05,Peru (PE),9643931,1.017,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,11398,1457,0,0,0,0.0,0,1.017,0.089,0.001,0.0,0.0,-1.017,-100.0,12.78,0.0,0.0,False
+2025-10-05,United States (US),9846194,0.0,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-05,Peru (PE),9846194,1.219,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,21248,2569,0,0,0,0.0,0,1.219,0.057,0.0,0.0,0.0,-1.219,-100.0,12.09,0.0,0.0,False
+2025-10-05,Germany (DE),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,3,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-05,Singapore (SG),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1439,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-05,United States (US),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-05,Bolivia (BO),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-05,Peru (PE),9874628,0.884,PE_Aciertala_Push_Champions_09,0.0405,50,200,70234,739,0,0,0,0.0,0,0.884,0.013,0.001,0.0,0.0,-0.884,-100.0,1.05,0.0,0.0,False
+2025-10-05,Singapore (SG),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,399,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-05,–,9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-05,Netherlands (NL),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,6,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-05,Germany (DE),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-05,Colombia (CO),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-05,Peru (PE),9874772,0.192,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,90067,908,0,0,0,0.0,0,0.192,0.002,0.0,0.0,0.0,-0.192,-100.0,1.0,0.0,0.0,False
+2025-10-05,Venezuela (VE),9736189,15.173,VZ_Camanbet_Popunder_Bono_de_Bienvenida_VEZ,-,15,1000,15173,0,0,0,0,0.0,0,15.173,1.0,0.0,0.001,0.0,-15.173,-100.0,0.0,0.0,0.0,False
+2025-10-05,Venezuela (VE),9867453,0.629,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0022,10,200,3859,0,0,0,0,0.0,0,0.629,0.163,0.0,0.0,0.0,-0.629,-100.0,0.0,0.0,0.0,False
+2025-10-05,Venezuela (VE),9622684,0.122,VZ_Camanbet_Popunder_Regalo_por_Registro,-,10,200,1535,0,0,0,0,0.0,0,0.122,0.08,0.0,0.0,0.0,-0.122,-100.0,0.0,0.0,0.0,False
+2025-10-05,Venezuela (VE),9761636,0.38,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0019,15,200,2459,0,0,0,0,0.0,0,0.38,0.155,0.0,0.0,0.0,-0.38,-100.0,0.0,0.0,0.0,False
+2025-10-06,Chile (CL),9652709,1.292,CH_Doradobet_Popunder_Generica_Deportivas,0.0087,100,500,1395,0,0,0,0,0.0,0,1.292,0.926,0.0,0.001,0.0,-1.292,-100.0,0.0,0.0,0.0,False
+2025-10-06,Chile (CL),9634629,1.841,CH_Doradobet_Popunder_Generica_Deportivas,0.0076,100,500,1209,0,0,0,0,0.0,0,1.841,1.523,0.0,0.002,0.0,-1.841,-100.0,0.0,0.0,0.0,False
+2025-10-06,Chile (CL),9622781,0.304,CH_Doradobet_Popunder_Generico_Casino,0.0014,100,500,257,0,0,0,0,0.0,0,0.304,1.184,0.0,0.001,0.0,-0.304,-100.0,0.0,0.0,0.0,False
+2025-10-06,Costa Rica (CR),9808215,0.235,CR_Doradobet_Generico_Casino_Popunder,0.0059,20,100,622,0,0,0,0,0.0,0,0.235,0.378,0.0,0.0,0.0,-0.235,-100.0,0.0,0.0,0.0,False
+2025-10-06,Costa Rica (CR),9752655,3.151,CR_Doradobet_Generico_Casino_Popunder,0.0029,20,100,2509,0,0,0,0,0.0,0,3.151,1.256,0.0,0.001,0.0,-3.151,-100.0,0.0,0.0,0.0,False
+2025-10-06,Costa Rica (CR),9808237,0.21,CR_Doradobet_Generico_Casino_Popunder_2,0.0056,20,200,569,0,0,0,0,0.0,0,0.21,0.369,0.0,0.0,0.0,-0.21,-100.0,0.0,0.0,0.0,False
+2025-10-06,Costa Rica (CR),9867419,0.975,CR_Doradobet_Generico_Deportivas_Popunder,0.0230,20,400,1785,0,0,0,0,0.0,0,0.975,0.546,0.0,0.001,0.0,-0.975,-100.0,0.0,0.0,0.0,False
+2025-10-06,Costa Rica (CR),9824098,0.048,CR_Doradobet_Generico_Deportivas_Popunder,0.0328,20,400,82,0,0,0,0,0.0,0,0.048,0.58,0.0,0.001,0.0,-0.048,-100.0,0.0,0.0,0.0,False
+2025-10-06,Costa Rica (CR),9784377,5.307,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,4907,495,0,0,0,0.0,0,5.307,1.082,0.011,0.001,0.0,-5.307,-100.0,10.08,0.0,0.0,False
+2025-10-06,Costa Rica (CR),9909805,6.166,Copy of CR_Doradobet_Generico_Deportivas_Popunder,0.0078,20,400,7563,0,0,0,0,0.0,0,6.166,0.815,0.0,0.001,0.0,-6.166,-100.0,0.0,0.0,0.0,False
+2025-10-06,Ecuador (EC),9937070,3.115,Copy of EC_Doradobet_Popunder_Generico_Liga_Pro,0.0036,60,500,7326,0,0,0,0,0.0,0,3.115,0.425,0.0,0.0,0.0,-3.115,-100.0,0.0,0.0,0.0,False
+2025-10-06,Guatemala (GT),9942710,10.003,Copy of GT_Doradobet_Popunder_Generico_Casino,0.0286,10,500,21496,0,0,0,0,0.0,0,10.003,0.465,0.0,0.0,0.0,-10.003,-100.0,0.0,0.0,0.0,False
+2025-10-06,Guatemala (GT),9867414,0.209,Copy of GT_Doradobet_Popunder_Generico_MLB,0.0033,10,100,1129,0,0,0,0,0.0,0,0.209,0.185,0.0,0.0,0.0,-0.209,-100.0,0.0,0.0,0.0,False
+2025-10-06,Venezuela (VE),9942739,0.97,Copy of VZ_Camanbet_Popunder_Regalo_por_Registro,0.0016,10,200,5073,0,0,0,0,0.0,0,0.97,0.191,0.0,0.0,0.0,-0.97,-100.0,0.0,0.0,0.0,False
+2025-10-06,Peru (PE),9427802,0.963,Duplicado_1_PE_Aciertala_Interstitial_Generica_Deportivas,0.1080,50,250,12120,1536,0,0,0,0.0,0,0.963,0.079,0.001,0.0,0.0,-0.963,-100.0,12.67,0.0,0.0,False
+2025-10-06,Ecuador (EC),9652793,0.678,EC_Doradobet_CPA_Popunder_Sorteo_Carros,0.0007,60,500,1246,0,0,0,0,0.0,0,0.678,0.544,0.0,0.001,0.0,-0.678,-100.0,0.0,0.0,0.0,False
+2025-10-06,Ecuador (EC),9559315,1.612,EC_Doradobet_Popunder_Generico_Liga_Pro,0.0019,60,600,3173,0,0,0,0,0.0,0,1.612,0.508,0.0,0.001,0.0,-1.612,-100.0,0.0,0.0,0.0,False
+2025-10-06,Ecuador (EC),9674329,0.005,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,0.0007,30,200,22,0,0,0,0,0.0,0,0.005,0.25,0.0,0.0,0.0,-0.005,-100.0,0.0,0.0,0.0,False
+2025-10-06,Ecuador (EC),9630431,0.161,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,-,30,350,215,0,0,0,0,0.0,0,0.161,0.749,0.0,0.001,0.0,-0.161,-100.0,0.0,0.0,0.0,False
+2025-10-06,Ecuador (EC),9776252,2.62,EC_Ecuabet_Popunder_ Sorteo_gana_tu_casa_V1,0.0036,30,250,3617,0,0,0,0,0.0,0,2.62,0.724,0.0,0.001,0.0,-2.62,-100.0,0.0,0.0,0.0,False
+2025-10-06,Ecuador (EC),9674331,0.057,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0025,30,300,117,0,0,0,0,0.0,0,0.057,0.489,0.0,0.0,0.0,-0.057,-100.0,0.0,0.0,0.0,False
+2025-10-06,Ecuador (EC),9723758,0.002,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0005,30,100,10,0,0,0,0,0.0,0,0.002,0.241,0.0,0.0,0.0,-0.002,-100.0,0.0,0.0,0.0,False
+2025-10-06,Ecuador (EC),9610605,0.066,EC_Ecuabet_Popunder_Casino_Dinamico,0.0017,30,1200,136,0,0,0,0,0.0,0,0.066,0.483,0.0,0.0,0.0,-0.066,-100.0,0.0,0.0,0.0,False
+2025-10-06,Ecuador (EC),9610590,0.294,EC_Ecuabet_Popunder_Regalo_Registro_Triple,0.0021,30,1000,660,0,0,0,0,0.0,0,0.294,0.446,0.0,0.0,0.0,-0.294,-100.0,0.0,0.0,0.0,False
+2025-10-06,El Salvador (SV),9918572,3.051,ES_Doradobet_Popunder_Generico_Casino_Oct,0.0117,50,300,7565,0,0,0,0,0.0,0,3.051,0.403,0.0,0.0,0.0,-3.051,-100.0,0.0,0.0,0.0,False
+2025-10-06,El Salvador (SV),9878794,0.972,ES_Doradobet_Popunder_Generico_Deportivas2,0.0104,90,300,2765,0,0,0,0,0.0,0,0.972,0.352,0.0,0.0,0.0,-0.972,-100.0,0.0,0.0,0.0,False
+2025-10-06,El Salvador (SV),9918573,3.677,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida_Oct,0.0131,60,300,8324,0,0,0,0,0.0,0,3.677,0.442,0.0,0.0,0.0,-3.677,-100.0,0.0,0.0,0.0,False
+2025-10-06,Guatemala (GT),9867415,0.179,GT_Doradobet_Popunder_Generico_Casino,0.0083,10,500,409,0,0,0,0,0.0,0,0.179,0.437,0.0,0.0,0.0,-0.179,-100.0,0.0,0.0,0.0,False
+2025-10-06,Guatemala (GT),9753800,0.072,GT_Doradobet_Popunder_Generico_MLB,0.0025,10,100,583,0,0,0,0,0.0,0,0.072,0.124,0.0,0.0,0.0,-0.072,-100.0,0.0,0.0,0.0,False
+2025-10-06,Guatemala (GT),9753829,0.005,GT_Doradobet_Popunder_Regalo_Registro,0.0027,10,100,27,0,0,0,0,0.0,0,0.005,0.172,0.0,0.0,0.0,-0.005,-100.0,0.0,0.0,0.0,False
+2025-10-06,Honduras (HN),9937085,0.268,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0092,50,500,781,0,0,0,0,0.0,0,0.268,0.343,0.0,0.0,0.0,-0.268,-100.0,0.0,0.0,0.0,False
+2025-10-06,Honduras (HN),9937087,0.333,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0106,50,500,869,0,0,0,0,0.0,0,0.333,0.383,0.0,0.0,0.0,-0.333,-100.0,0.0,0.0,0.0,False
+2025-10-06,Honduras (HN),9937086,0.336,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0117,50,500,851,0,0,0,0,0.0,0,0.336,0.395,0.0,0.0,0.0,-0.336,-100.0,0.0,0.0,0.0,False
+2025-10-06,Honduras (HN),9937088,0.303,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0040,50,500,843,0,0,0,0,0.0,0,0.303,0.36,0.0,0.0,0.0,-0.303,-100.0,0.0,0.0,0.0,False
+2025-10-06,Honduras (HN),9812166,0.33,HN_Paniplay_Popunder_Generico_Casino_Online_Slot,0.0384,10,1000,554,0,0,0,0,0.0,0,0.33,0.596,0.0,0.001,0.0,-0.33,-100.0,0.0,0.0,0.0,False
+2025-10-06,Honduras (HN),9559371,2.67,HN_Paniplay_Popunder_Loteria,0.0166,10,300,2463,0,0,0,0,0.0,0,2.67,1.084,0.0,0.001,0.0,-2.67,-100.0,0.0,0.0,0.0,False
+2025-10-06,Honduras (HN),9426139,2.436,HN_Paniplay_Popunder_Loteria,0.0154,10,300,2674,0,0,0,0,0.0,0,2.436,0.911,0.0,0.001,0.0,-2.436,-100.0,0.0,0.0,0.0,False
+2025-10-06,Honduras (HN),9416057,3.592,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0050,10,1000,3677,0,0,0,0,0.0,0,3.592,0.977,0.0,0.001,0.0,-3.592,-100.0,0.0,0.0,0.0,False
+2025-10-06,Honduras (HN),9652747,4.161,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0059,10,1000,3964,0,0,0,0,0.0,0,4.161,1.05,0.0,0.001,0.0,-4.161,-100.0,0.0,0.0,0.0,False
+2025-10-06,Nicaragua (NI),9652718,0.364,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0041,90,500,962,0,0,0,0,0.0,0,0.364,0.379,0.0,0.0,0.0,-0.364,-100.0,0.0,0.0,0.0,False
+2025-10-06,Nicaragua (NI),9762180,0.131,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0065,60,500,571,0,0,0,0,0.0,0,0.131,0.23,0.0,0.0,0.0,-0.131,-100.0,0.0,0.0,0.0,False
+2025-10-06,Nicaragua (NI),9660643,1.866,NC_Doradobet_Popunder_Generico_Casino,0.0138,100,700,4019,0,0,0,0,0.0,0,1.866,0.464,0.0,0.0,0.0,-1.866,-100.0,0.0,0.0,0.0,False
+2025-10-06,Nicaragua (NI),9535742,1.282,NC_Doradobet_Popunder_Generico_Casino,0.0126,100,600,3060,0,0,0,0,0.0,0,1.282,0.419,0.0,0.0,0.0,-1.282,-100.0,0.0,0.0,0.0,False
+2025-10-06,Peru (PE),9643931,0.811,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,10465,1274,0,0,0,0.0,0,0.811,0.078,0.001,0.0,0.0,-0.811,-100.0,12.17,0.0,0.0,False
+2025-10-06,Peru (PE),9846194,0.961,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,19212,1995,0,0,0,0.0,0,0.961,0.05,0.0,0.0,0.0,-0.961,-100.0,10.38,0.0,0.0,False
+2025-10-06,United States (US),9846194,0.0,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-06,Canada (CA),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-06,Peru (PE),9874628,0.549,PE_Aciertala_Push_Champions_09,0.0405,50,200,22866,456,0,0,0,0.0,0,0.549,0.024,0.001,0.0,0.0,-0.549,-100.0,1.99,0.0,0.0,False
+2025-10-06,Colombia (CO),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-06,Germany (DE),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-06,Singapore (SG),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,179,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-06,Peru (PE),9874772,0.117,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,45114,450,0,0,0,0.0,0,0.117,0.003,0.0,0.0,0.0,-0.117,-100.0,0.99,0.0,0.0,False
+2025-10-06,Bolivia (BO),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-06,Netherlands (NL),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,6,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-06,Singapore (SG),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,86,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-06,Brazil (BR),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-06,Venezuela (VE),9736189,15.13,VZ_Camanbet_Popunder_Bono_de_Bienvenida_VEZ,-,15,1000,15130,0,0,0,0,0.0,0,15.13,1.0,0.0,0.001,0.0,-15.13,-100.0,0.0,0.0,0.0,False
+2025-10-06,Venezuela (VE),9622684,0.008,VZ_Camanbet_Popunder_Regalo_por_Registro,-,10,200,35,0,0,0,0,0.0,0,0.008,0.235,0.0,0.0,0.0,-0.008,-100.0,0.0,0.0,0.0,False
+2025-10-06,Venezuela (VE),9867453,0.656,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0022,10,200,2295,0,0,0,0,0.0,0,0.656,0.286,0.0,0.0,0.0,-0.656,-100.0,0.0,0.0,0.0,False
+2025-10-06,Venezuela (VE),9761636,0.569,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0019,15,200,1611,0,0,0,0,0.0,0,0.569,0.353,0.0,0.0,0.0,-0.569,-100.0,0.0,0.0,0.0,False
+2025-10-07,Chile (CL),9652709,1.368,CH_Doradobet_Popunder_Generica_Deportivas,0.0087,100,500,1240,0,0,0,0,0.0,0,1.368,1.103,0.0,0.001,0.0,-1.368,-100.0,0.0,0.0,0.0,False
+2025-10-07,Chile (CL),9634629,1.492,CH_Doradobet_Popunder_Generica_Deportivas,0.0076,100,500,1258,0,0,0,0,0.0,0,1.492,1.186,0.0,0.001,0.0,-1.492,-100.0,0.0,0.0,0.0,False
+2025-10-07,Chile (CL),9622781,0.293,CH_Doradobet_Popunder_Generico_Casino,0.0014,100,500,261,0,0,0,0,0.0,0,0.293,1.121,0.0,0.001,0.0,-0.293,-100.0,0.0,0.0,0.0,False
+2025-10-07,Costa Rica (CR),9752655,0.414,CR_Doradobet_Generico_Casino_Popunder,0.0029,20,100,1008,0,0,0,0,0.0,0,0.414,0.411,0.0,0.0,0.0,-0.414,-100.0,0.0,0.0,0.0,False
+2025-10-07,Costa Rica (CR),9808215,0.221,CR_Doradobet_Generico_Casino_Popunder,0.0059,20,100,639,0,0,0,0,0.0,0,0.221,0.347,0.0,0.0,0.0,-0.221,-100.0,0.0,0.0,0.0,False
+2025-10-07,Costa Rica (CR),9808237,0.295,CR_Doradobet_Generico_Casino_Popunder_2,0.0056,20,200,762,0,0,0,0,0.0,0,0.295,0.387,0.0,0.0,0.0,-0.295,-100.0,0.0,0.0,0.0,False
+2025-10-07,Costa Rica (CR),9867419,1.261,CR_Doradobet_Generico_Deportivas_Popunder,0.0230,20,400,2758,0,0,0,0,0.0,0,1.261,0.457,0.0,0.0,0.0,-1.261,-100.0,0.0,0.0,0.0,False
+2025-10-07,Costa Rica (CR),9784377,5.401,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,6056,524,0,0,0,0.0,0,5.401,0.892,0.01,0.001,0.0,-5.401,-100.0,8.65,0.0,0.0,False
+2025-10-07,Costa Rica (CR),9909805,3.234,Copy of CR_Doradobet_Generico_Deportivas_Popunder,0.0078,20,400,5969,0,0,0,0,0.0,0,3.234,0.542,0.0,0.001,0.0,-3.234,-100.0,0.0,0.0,0.0,False
+2025-10-07,Ecuador (EC),9937070,1.563,Copy of EC_Doradobet_Popunder_Generico_Liga_Pro,0.0036,60,500,4456,0,0,0,0,0.0,0,1.563,0.351,0.0,0.0,0.0,-1.563,-100.0,0.0,0.0,0.0,False
+2025-10-07,Guatemala (GT),9942710,10.028,Copy of GT_Doradobet_Popunder_Generico_Casino,0.0286,10,500,24054,0,0,0,0,0.0,0,10.028,0.417,0.0,0.0,0.0,-10.028,-100.0,0.0,0.0,0.0,False
+2025-10-07,Guatemala (GT),9867414,0.299,Copy of GT_Doradobet_Popunder_Generico_MLB,0.0033,10,100,1206,0,0,0,0,0.0,0,0.299,0.248,0.0,0.0,0.0,-0.299,-100.0,0.0,0.0,0.0,False
+2025-10-07,Venezuela (VE),9942739,0.664,Copy of VZ_Camanbet_Popunder_Regalo_por_Registro,0.0016,10,200,4273,0,0,0,0,0.0,0,0.664,0.155,0.0,0.0,0.0,-0.664,-100.0,0.0,0.0,0.0,False
+2025-10-07,Peru (PE),9427802,0.905,Duplicado_1_PE_Aciertala_Interstitial_Generica_Deportivas,0.1080,50,250,11957,1478,0,0,0,0.0,0,0.905,0.076,0.001,0.0,0.0,-0.905,-100.0,12.36,0.0,0.0,False
+2025-10-07,Ecuador (EC),9652793,0.107,EC_Doradobet_CPA_Popunder_Sorteo_Carros,0.0007,60,500,638,0,0,0,0,0.0,0,0.107,0.168,0.0,0.0,0.0,-0.107,-100.0,0.0,0.0,0.0,False
+2025-10-07,Ecuador (EC),9559315,0.382,EC_Doradobet_Popunder_Generico_Liga_Pro,0.0019,60,600,1049,0,0,0,0,0.0,0,0.382,0.364,0.0,0.0,0.0,-0.382,-100.0,0.0,0.0,0.0,False
+2025-10-07,Ecuador (EC),9630431,3.654,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,-,30,350,4988,0,0,0,0,0.0,0,3.654,0.733,0.0,0.001,0.0,-3.654,-100.0,0.0,0.0,0.0,False
+2025-10-07,Ecuador (EC),9674329,0.512,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,0.0007,30,200,886,0,0,0,0,0.0,0,0.512,0.578,0.0,0.001,0.0,-0.512,-100.0,0.0,0.0,0.0,False
+2025-10-07,Ecuador (EC),9776252,1.189,EC_Ecuabet_Popunder_ Sorteo_gana_tu_casa_V1,0.0036,30,250,1556,0,0,0,0,0.0,0,1.189,0.764,0.0,0.001,0.0,-1.189,-100.0,0.0,0.0,0.0,False
+2025-10-07,Ecuador (EC),9674331,1.786,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0025,30,300,2770,0,0,0,0,0.0,0,1.786,0.645,0.0,0.001,0.0,-1.786,-100.0,0.0,0.0,0.0,False
+2025-10-07,Ecuador (EC),9723758,0.328,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0005,30,100,256,0,0,0,0,0.0,0,0.328,1.282,0.0,0.001,0.0,-0.328,-100.0,0.0,0.0,0.0,False
+2025-10-07,Ecuador (EC),9610605,3.805,EC_Ecuabet_Popunder_Casino_Dinamico,0.0017,30,1200,5495,0,0,0,0,0.0,0,3.805,0.692,0.0,0.001,0.0,-3.805,-100.0,0.0,0.0,0.0,False
+2025-10-07,Ecuador (EC),9610590,4.418,EC_Ecuabet_Popunder_Regalo_Registro_Triple,0.0021,30,1000,8642,0,0,0,0,0.0,0,4.418,0.511,0.0,0.001,0.0,-4.418,-100.0,0.0,0.0,0.0,False
+2025-10-07,El Salvador (SV),9918572,0.548,ES_Doradobet_Popunder_Generico_Casino_Oct,0.0117,50,300,1270,0,0,0,0,0.0,0,0.548,0.432,0.0,0.0,0.0,-0.548,-100.0,0.0,0.0,0.0,False
+2025-10-07,El Salvador (SV),9878794,0.121,ES_Doradobet_Popunder_Generico_Deportivas2,0.0104,90,300,311,0,0,0,0,0.0,0,0.121,0.388,0.0,0.0,0.0,-0.121,-100.0,0.0,0.0,0.0,False
+2025-10-07,El Salvador (SV),9918573,0.372,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida_Oct,0.0131,60,300,1038,0,0,0,0,0.0,0,0.372,0.358,0.0,0.0,0.0,-0.372,-100.0,0.0,0.0,0.0,False
+2025-10-07,Guatemala (GT),9867415,0.328,GT_Doradobet_Popunder_Generico_Casino,0.0083,10,500,397,0,0,0,0,0.0,0,0.328,0.826,0.0,0.001,0.0,-0.328,-100.0,0.0,0.0,0.0,False
+2025-10-07,Guatemala (GT),9753800,0.033,GT_Doradobet_Popunder_Generico_MLB,0.0025,10,100,538,0,0,0,0,0.0,0,0.033,0.062,0.0,0.0,0.0,-0.033,-100.0,0.0,0.0,0.0,False
+2025-10-07,Guatemala (GT),9753829,0.356,GT_Doradobet_Popunder_Regalo_Registro,0.0027,10,100,1498,0,0,0,0,0.0,0,0.356,0.237,0.0,0.0,0.0,-0.356,-100.0,0.0,0.0,0.0,False
+2025-10-07,Honduras (HN),9937085,0.309,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0092,50,500,861,0,0,0,0,0.0,0,0.309,0.359,0.0,0.0,0.0,-0.309,-100.0,0.0,0.0,0.0,False
+2025-10-07,Honduras (HN),9937088,0.286,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0040,50,500,740,0,0,0,0,0.0,0,0.286,0.387,0.0,0.0,0.0,-0.286,-100.0,0.0,0.0,0.0,False
+2025-10-07,Honduras (HN),9937086,0.331,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0117,50,500,769,0,0,0,0,0.0,0,0.331,0.43,0.0,0.0,0.0,-0.331,-100.0,0.0,0.0,0.0,False
+2025-10-07,Honduras (HN),9937087,0.319,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0106,50,500,821,0,0,0,0,0.0,0,0.319,0.388,0.0,0.0,0.0,-0.319,-100.0,0.0,0.0,0.0,False
+2025-10-07,Honduras (HN),9812166,0.39,HN_Paniplay_Popunder_Generico_Casino_Online_Slot,0.0384,10,1000,742,0,0,0,0,0.0,0,0.39,0.525,0.0,0.001,0.0,-0.39,-100.0,0.0,0.0,0.0,False
+2025-10-07,Honduras (HN),9559371,1.918,HN_Paniplay_Popunder_Loteria,0.0166,10,300,2645,0,0,0,0,0.0,0,1.918,0.725,0.0,0.001,0.0,-1.918,-100.0,0.0,0.0,0.0,False
+2025-10-07,Honduras (HN),9426139,2.076,HN_Paniplay_Popunder_Loteria,0.0154,10,300,2538,0,0,0,0,0.0,0,2.076,0.818,0.0,0.001,0.0,-2.076,-100.0,0.0,0.0,0.0,False
+2025-10-07,Honduras (HN),9416057,2.292,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0050,10,1000,3360,0,0,0,0,0.0,0,2.292,0.682,0.0,0.001,0.0,-2.292,-100.0,0.0,0.0,0.0,False
+2025-10-07,Honduras (HN),9652747,2.839,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0059,10,1000,4272,0,0,0,0,0.0,0,2.839,0.665,0.0,0.001,0.0,-2.839,-100.0,0.0,0.0,0.0,False
+2025-10-07,Nicaragua (NI),9652718,0.443,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0041,90,500,1000,0,0,0,0,0.0,0,0.443,0.443,0.0,0.0,0.0,-0.443,-100.0,0.0,0.0,0.0,False
+2025-10-07,Nicaragua (NI),9762180,0.215,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0065,60,500,704,0,0,0,0,0.0,0,0.215,0.305,0.0,0.0,0.0,-0.215,-100.0,0.0,0.0,0.0,False
+2025-10-07,Nicaragua (NI),9535742,1.317,NC_Doradobet_Popunder_Generico_Casino,0.0126,100,600,2860,0,0,0,0,0.0,0,1.317,0.461,0.0,0.0,0.0,-1.317,-100.0,0.0,0.0,0.0,False
+2025-10-07,Nicaragua (NI),9660643,1.48,NC_Doradobet_Popunder_Generico_Casino,0.0138,100,700,3187,0,0,0,0,0.0,0,1.48,0.464,0.0,0.0,0.0,-1.48,-100.0,0.0,0.0,0.0,False
+2025-10-07,Peru (PE),9643931,0.771,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,10815,1369,0,0,0,0.0,0,0.771,0.071,0.001,0.0,0.0,-0.771,-100.0,12.65,0.0,0.0,False
+2025-10-07,Peru (PE),9846194,0.886,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,20086,2127,0,0,0,0.0,0,0.886,0.044,0.0,0.0,0.0,-0.886,-100.0,10.58,0.0,0.0,False
+2025-10-07,Bolivia (BO),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-07,Germany (DE),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,3,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-07,Peru (PE),9874628,0.733,PE_Aciertala_Push_Champions_09,0.0405,50,200,28210,419,0,0,0,0.0,0,0.733,0.026,0.002,0.0,0.0,-0.733,-100.0,1.48,0.0,0.0,False
+2025-10-07,Singapore (SG),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,206,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-07,Brazil (BR),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-07,Peru (PE),9874772,0.185,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,52317,413,0,0,0,0.0,0,0.185,0.004,0.0,0.0,0.0,-0.185,-100.0,0.78,0.0,0.0,False
+2025-10-07,Bolivia (BO),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-07,Brazil (BR),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,9,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-07,Netherlands (NL),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,5,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-07,Singapore (SG),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,72,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-07,Germany (DE),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-07,Venezuela (VE),9736189,15.15,VZ_Camanbet_Popunder_Bono_de_Bienvenida_VEZ,-,15,1000,15150,0,0,0,0,0.0,0,15.15,1.0,0.0,0.001,0.0,-15.15,-100.0,0.0,0.0,0.0,False
+2025-10-07,Venezuela (VE),9761636,0.431,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0019,15,200,1440,0,0,0,0,0.0,0,0.431,0.299,0.0,0.0,0.0,-0.431,-100.0,0.0,0.0,0.0,False
+2025-10-07,Venezuela (VE),9867453,0.474,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0022,10,200,2176,0,0,0,0,0.0,0,0.474,0.218,0.0,0.0,0.0,-0.474,-100.0,0.0,0.0,0.0,False
+2025-10-08,Chile (CL),9634629,1.052,CH_Doradobet_Popunder_Generica_Deportivas,0.0076,100,500,758,0,0,0,0,0.0,0,1.052,1.388,0.0,0.001,0.0,-1.052,-100.0,0.0,0.0,0.0,False
+2025-10-08,Chile (CL),9652709,1.501,CH_Doradobet_Popunder_Generica_Deportivas,0.0087,100,500,1126,0,0,0,0,0.0,0,1.501,1.333,0.0,0.001,0.0,-1.501,-100.0,0.0,0.0,0.0,False
+2025-10-08,Chile (CL),9622781,0.448,CH_Doradobet_Popunder_Generico_Casino,0.0014,100,500,496,0,0,0,0,0.0,0,0.448,0.903,0.0,0.001,0.0,-0.448,-100.0,0.0,0.0,0.0,False
+2025-10-08,Costa Rica (CR),9808215,0.245,CR_Doradobet_Generico_Casino_Popunder,0.0059,20,100,838,0,0,0,0,0.0,0,0.245,0.293,0.0,0.0,0.0,-0.245,-100.0,0.0,0.0,0.0,False
+2025-10-08,Costa Rica (CR),9752655,0.256,CR_Doradobet_Generico_Casino_Popunder,0.0029,20,100,651,0,0,0,0,0.0,0,0.256,0.393,0.0,0.0,0.0,-0.256,-100.0,0.0,0.0,0.0,False
+2025-10-08,Costa Rica (CR),9808237,0.267,CR_Doradobet_Generico_Casino_Popunder_2,0.0056,20,200,898,0,0,0,0,0.0,0,0.267,0.297,0.0,0.0,0.0,-0.267,-100.0,0.0,0.0,0.0,False
+2025-10-08,Costa Rica (CR),9867419,1.465,CR_Doradobet_Generico_Deportivas_Popunder,0.0230,20,400,3197,0,0,0,0,0.0,0,1.465,0.458,0.0,0.0,0.0,-1.465,-100.0,0.0,0.0,0.0,False
+2025-10-08,Japan (JP),9784377,0.009,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,1,1,0,0,0,0.0,0,0.009,8.774,0.009,0.009,0.0,-0.009,-100.0,100.0,0.0,0.0,False
+2025-10-08,Costa Rica (CR),9784377,6.162,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,6764,619,0,0,0,0.0,0,6.162,0.911,0.01,0.001,0.0,-6.162,-100.0,9.15,0.0,0.0,False
+2025-10-08,Costa Rica (CR),9909805,2.638,Copy of CR_Doradobet_Generico_Deportivas_Popunder,0.0078,20,400,5582,0,0,0,0,0.0,0,2.638,0.473,0.0,0.0,0.0,-2.638,-100.0,0.0,0.0,0.0,False
+2025-10-08,Ecuador (EC),9937070,1.205,Copy of EC_Doradobet_Popunder_Generico_Liga_Pro,0.0036,60,500,4283,0,0,0,0,0.0,0,1.205,0.281,0.0,0.0,0.0,-1.205,-100.0,0.0,0.0,0.0,False
+2025-10-08,Guatemala (GT),9942710,10.018,Copy of GT_Doradobet_Popunder_Generico_Casino,0.0286,10,500,29489,0,0,0,0,0.0,0,10.018,0.34,0.0,0.0,0.0,-10.018,-100.0,0.0,0.0,0.0,False
+2025-10-08,Guatemala (GT),9867414,0.278,Copy of GT_Doradobet_Popunder_Generico_MLB,0.0033,10,100,1228,0,0,0,0,0.0,0,0.278,0.226,0.0,0.0,0.0,-0.278,-100.0,0.0,0.0,0.0,False
+2025-10-08,Venezuela (VE),9942739,0.748,Copy of VZ_Camanbet_Popunder_Regalo_por_Registro,0.0016,10,200,3962,0,0,0,0,0.0,0,0.748,0.189,0.0,0.0,0.0,-0.748,-100.0,0.0,0.0,0.0,False
+2025-10-08,Peru (PE),9427802,0.926,Duplicado_1_PE_Aciertala_Interstitial_Generica_Deportivas,0.1080,50,250,10741,1285,0,0,0,0.0,0,0.926,0.086,0.001,0.0,0.0,-0.926,-100.0,11.96,0.0,0.0,False
+2025-10-08,Ecuador (EC),9652793,0.076,EC_Doradobet_CPA_Popunder_Sorteo_Carros,0.0007,60,500,970,0,0,0,0,0.0,0,0.076,0.078,0.0,0.0,0.0,-0.076,-100.0,0.0,0.0,0.0,False
+2025-10-08,Ecuador (EC),9559315,2.401,EC_Doradobet_Popunder_Generico_Liga_Pro,0.0019,60,600,3799,0,0,0,0,0.0,0,2.401,0.632,0.0,0.001,0.0,-2.401,-100.0,0.0,0.0,0.0,False
+2025-10-08,Ecuador (EC),9674329,0.521,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,0.0007,30,200,1269,0,0,0,0,0.0,0,0.521,0.411,0.0,0.0,0.0,-0.521,-100.0,0.0,0.0,0.0,False
+2025-10-08,Ecuador (EC),9630431,3.036,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,-,30,350,4539,0,0,0,0,0.0,0,3.036,0.669,0.0,0.001,0.0,-3.036,-100.0,0.0,0.0,0.0,False
+2025-10-08,Ecuador (EC),9776252,0.856,EC_Ecuabet_Popunder_ Sorteo_gana_tu_casa_V1,0.0036,30,250,1871,0,0,0,0,0.0,0,0.856,0.457,0.0,0.0,0.0,-0.856,-100.0,0.0,0.0,0.0,False
+2025-10-08,Ecuador (EC),9674331,1.297,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0025,30,300,1949,0,0,0,0,0.0,0,1.297,0.666,0.0,0.001,0.0,-1.297,-100.0,0.0,0.0,0.0,False
+2025-10-08,Ecuador (EC),9723758,0.133,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0005,30,100,230,0,0,0,0,0.0,0,0.133,0.577,0.0,0.001,0.0,-0.133,-100.0,0.0,0.0,0.0,False
+2025-10-08,Ecuador (EC),9610605,2.925,EC_Ecuabet_Popunder_Casino_Dinamico,0.0017,30,1200,5127,0,0,0,0,0.0,0,2.925,0.57,0.0,0.001,0.0,-2.925,-100.0,0.0,0.0,0.0,False
+2025-10-08,Ecuador (EC),9610590,2.521,EC_Ecuabet_Popunder_Regalo_Registro_Triple,0.0021,30,1000,9329,0,0,0,0,0.0,0,2.521,0.27,0.0,0.0,0.0,-2.521,-100.0,0.0,0.0,0.0,False
+2025-10-08,El Salvador (SV),9652752,10.56,ES_Doradobet_Popunder_Generico_Casino,0.0038,70,400,10868,0,0,0,0,0.0,0,10.56,0.972,0.0,0.001,0.0,-10.56,-100.0,0.0,0.0,0.0,False
+2025-10-08,El Salvador (SV),9918572,1.846,ES_Doradobet_Popunder_Generico_Casino_Oct,0.0117,50,300,5835,0,0,0,0,0.0,0,1.846,0.316,0.0,0.0,0.0,-1.846,-100.0,0.0,0.0,0.0,False
+2025-10-08,El Salvador (SV),9658266,13.322,ES_Doradobet_Popunder_Generico_Deportivas,0.0039,100,400,9473,0,0,0,0,0.0,0,13.322,1.406,0.0,0.001,0.0,-13.322,-100.0,0.0,0.0,0.0,False
+2025-10-08,El Salvador (SV),9878794,0.472,ES_Doradobet_Popunder_Generico_Deportivas2,0.0104,90,300,1465,0,0,0,0,0.0,0,0.472,0.322,0.0,0.0,0.0,-0.472,-100.0,0.0,0.0,0.0,False
+2025-10-08,El Salvador (SV),9559395,39.99,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida,0.0140,80,500,51992,0,0,0,0,0.0,0,39.99,0.769,0.0,0.001,0.0,-39.99,-100.0,0.0,0.0,0.0,False
+2025-10-08,El Salvador (SV),9918573,1.372,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida_Oct,0.0131,60,300,4399,0,0,0,0,0.0,0,1.372,0.312,0.0,0.0,0.0,-1.372,-100.0,0.0,0.0,0.0,False
+2025-10-08,Guatemala (GT),9867415,0.02,GT_Doradobet_Popunder_Generico_Casino,0.0083,10,500,68,0,0,0,0,0.0,0,0.02,0.296,0.0,0.0,0.0,-0.02,-100.0,0.0,0.0,0.0,False
+2025-10-08,Guatemala (GT),9753800,0.001,GT_Doradobet_Popunder_Generico_MLB,0.0025,10,100,8,0,0,0,0,0.0,0,0.001,0.134,0.0,0.0,0.0,-0.001,-100.0,0.0,0.0,0.0,False
+2025-10-08,Guatemala (GT),9753829,0.189,GT_Doradobet_Popunder_Regalo_Registro,0.0027,10,100,1023,0,0,0,0,0.0,0,0.189,0.185,0.0,0.0,0.0,-0.189,-100.0,0.0,0.0,0.0,False
+2025-10-08,Honduras (HN),9937088,0.294,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0040,50,500,984,0,0,0,0,0.0,0,0.294,0.298,0.0,0.0,0.0,-0.294,-100.0,0.0,0.0,0.0,False
+2025-10-08,Honduras (HN),9937087,0.168,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0106,50,500,595,0,0,0,0,0.0,0,0.168,0.282,0.0,0.0,0.0,-0.168,-100.0,0.0,0.0,0.0,False
+2025-10-08,Honduras (HN),9937085,0.246,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0092,50,500,842,0,0,0,0,0.0,0,0.246,0.292,0.0,0.0,0.0,-0.246,-100.0,0.0,0.0,0.0,False
+2025-10-08,Honduras (HN),9937086,0.154,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0117,50,500,560,0,0,0,0,0.0,0,0.154,0.275,0.0,0.0,0.0,-0.154,-100.0,0.0,0.0,0.0,False
+2025-10-08,Honduras (HN),9812166,0.732,HN_Paniplay_Popunder_Generico_Casino_Online_Slot,0.0384,10,1000,1203,0,0,0,0,0.0,0,0.732,0.608,0.0,0.001,0.0,-0.732,-100.0,0.0,0.0,0.0,False
+2025-10-08,Honduras (HN),9559371,1.674,HN_Paniplay_Popunder_Loteria,0.0166,10,300,2470,0,0,0,0,0.0,0,1.674,0.678,0.0,0.001,0.0,-1.674,-100.0,0.0,0.0,0.0,False
+2025-10-08,Honduras (HN),9426139,1.364,HN_Paniplay_Popunder_Loteria,0.0154,10,300,2056,0,0,0,0,0.0,0,1.364,0.664,0.0,0.001,0.0,-1.364,-100.0,0.0,0.0,0.0,False
+2025-10-08,Honduras (HN),9416057,2.145,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0050,10,1000,3267,0,0,0,0,0.0,0,2.145,0.657,0.0,0.001,0.0,-2.145,-100.0,0.0,0.0,0.0,False
+2025-10-08,Honduras (HN),9652747,2.085,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0059,10,1000,3353,0,0,0,0,0.0,0,2.085,0.622,0.0,0.001,0.0,-2.085,-100.0,0.0,0.0,0.0,False
+2025-10-08,Nicaragua (NI),9652718,0.218,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0041,90,500,737,0,0,0,0,0.0,0,0.218,0.296,0.0,0.0,0.0,-0.218,-100.0,0.0,0.0,0.0,False
+2025-10-08,Nicaragua (NI),9762180,0.087,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0065,60,500,473,0,0,0,0,0.0,0,0.087,0.184,0.0,0.0,0.0,-0.087,-100.0,0.0,0.0,0.0,False
+2025-10-08,Nicaragua (NI),9660643,1.339,NC_Doradobet_Popunder_Generico_Casino,0.0138,100,700,2971,0,0,0,0,0.0,0,1.339,0.451,0.0,0.0,0.0,-1.339,-100.0,0.0,0.0,0.0,False
+2025-10-08,Nicaragua (NI),9535742,1.021,NC_Doradobet_Popunder_Generico_Casino,0.0126,100,600,2299,0,0,0,0,0.0,0,1.021,0.444,0.0,0.0,0.0,-1.021,-100.0,0.0,0.0,0.0,False
+2025-10-08,Peru (PE),9643931,0.948,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,11750,1466,0,0,0,0.0,0,0.948,0.081,0.001,0.0,0.0,-0.948,-100.0,12.47,0.0,0.0,False
+2025-10-08,Spain (ES),9643931,0.0,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-08,Bolivia (BO),9643931,0.001,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,1,1,0,0,0,0.0,0,0.001,0.537,0.001,0.001,0.0,-0.001,-100.0,100.0,0.0,0.0,False
+2025-10-08,–,9846194,0.0,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-08,Peru (PE),9846194,1.051,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,21122,2316,0,0,0,0.0,0,1.051,0.05,0.0,0.0,0.0,-1.051,-100.0,10.96,0.0,0.0,False
+2025-10-08,Netherlands (NL),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-08,Germany (DE),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,4,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-08,Peru (PE),9874628,1.218,PE_Aciertala_Push_Champions_09,0.0405,50,200,37905,541,0,0,0,0.0,0,1.218,0.032,0.002,0.0,0.0,-1.218,-100.0,1.42,0.0,0.0,False
+2025-10-08,Singapore (SG),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,434,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-08,Brazil (BR),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-08,Indonesia (ID),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-08,Bolivia (BO),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-08,Peru (PE),9874772,0.211,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,68961,594,0,0,0,0.0,0,0.211,0.003,0.0,0.0,0.0,-0.211,-100.0,0.86,0.0,0.0,False
+2025-10-08,Brazil (BR),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,6,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-08,Germany (DE),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-08,Singapore (SG),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,191,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-08,Netherlands (NL),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,3,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-08,Venezuela (VE),9736189,15.113,VZ_Camanbet_Popunder_Bono_de_Bienvenida_VEZ,-,15,1000,15113,0,0,0,0,0.0,0,15.113,1.0,0.0,0.001,0.0,-15.113,-100.0,0.0,0.0,0.0,False
+2025-10-08,Venezuela (VE),9761636,0.408,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0019,15,200,1617,0,0,0,0,0.0,0,0.408,0.252,0.0,0.0,0.0,-0.408,-100.0,0.0,0.0,0.0,False
+2025-10-08,Venezuela (VE),9867453,0.593,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0022,10,200,2497,0,0,0,0,0.0,0,0.593,0.238,0.0,0.0,0.0,-0.593,-100.0,0.0,0.0,0.0,False
+2025-10-09,Chile (CL),9634629,0.23,CH_Doradobet_Popunder_Generica_Deportivas,0.0076,100,500,200,0,0,0,0,0.0,0,0.23,1.15,0.0,0.001,0.0,-0.23,-100.0,0.0,0.0,0.0,False
+2025-10-09,Chile (CL),9652709,0.235,CH_Doradobet_Popunder_Generica_Deportivas,0.0087,100,500,242,0,0,0,0,0.0,0,0.235,0.972,0.0,0.001,0.0,-0.235,-100.0,0.0,0.0,0.0,False
+2025-10-09,Chile (CL),9622781,0.043,CH_Doradobet_Popunder_Generico_Casino,0.0014,100,500,50,0,0,0,0,0.0,0,0.043,0.861,0.0,0.001,0.0,-0.043,-100.0,0.0,0.0,0.0,False
+2025-10-09,Costa Rica (CR),9808215,0.059,CR_Doradobet_Generico_Casino_Popunder,0.0059,20,100,157,0,0,0,0,0.0,0,0.059,0.376,0.0,0.0,0.0,-0.059,-100.0,0.0,0.0,0.0,False
+2025-10-09,Costa Rica (CR),9752655,0.348,CR_Doradobet_Generico_Casino_Popunder,0.0029,20,100,1600,0,0,0,0,0.0,0,0.348,0.218,0.0,0.0,0.0,-0.348,-100.0,0.0,0.0,0.0,False
+2025-10-09,Costa Rica (CR),9808237,0.049,CR_Doradobet_Generico_Casino_Popunder_2,0.0056,20,200,115,0,0,0,0,0.0,0,0.049,0.422,0.0,0.0,0.0,-0.049,-100.0,0.0,0.0,0.0,False
+2025-10-09,Costa Rica (CR),9867419,0.208,CR_Doradobet_Generico_Deportivas_Popunder,0.0230,20,400,359,0,0,0,0,0.0,0,0.208,0.578,0.0,0.001,0.0,-0.208,-100.0,0.0,0.0,0.0,False
+2025-10-09,Costa Rica (CR),9784377,7.981,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,7826,811,0,0,0,0.0,0,7.981,1.02,0.01,0.001,0.0,-7.981,-100.0,10.36,0.0,0.0,False
+2025-10-09,–,9784377,0.0,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-09,Democratic Republic Of The Congo (CD),9784377,0.018,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,2,2,0,0,0,0.0,0,0.018,9.23,0.009,0.009,0.0,-0.018,-100.0,100.0,0.0,0.0,False
+2025-10-09,Costa Rica (CR),9909805,2.91,Copy of CR_Doradobet_Generico_Deportivas_Popunder,0.0078,20,400,6316,0,0,0,0,0.0,0,2.91,0.461,0.0,0.0,0.0,-2.91,-100.0,0.0,0.0,0.0,False
+2025-10-09,Ecuador (EC),9937070,0.268,Copy of EC_Doradobet_Popunder_Generico_Liga_Pro,0.0036,60,500,811,0,0,0,0,0.0,0,0.268,0.331,0.0,0.0,0.0,-0.268,-100.0,0.0,0.0,0.0,False
+2025-10-09,Guatemala (GT),9942710,10.009,Copy of GT_Doradobet_Popunder_Generico_Casino,0.0286,10,500,33919,0,0,0,0,0.0,0,10.009,0.295,0.0,0.0,0.0,-10.009,-100.0,0.0,0.0,0.0,False
+2025-10-09,Guatemala (GT),9867414,0.165,Copy of GT_Doradobet_Popunder_Generico_MLB,0.0033,10,100,1083,0,0,0,0,0.0,0,0.165,0.152,0.0,0.0,0.0,-0.165,-100.0,0.0,0.0,0.0,False
+2025-10-09,Venezuela (VE),9942739,0.37,Copy of VZ_Camanbet_Popunder_Regalo_por_Registro,0.0016,10,200,3387,0,0,0,0,0.0,0,0.37,0.109,0.0,0.0,0.0,-0.37,-100.0,0.0,0.0,0.0,False
+2025-10-09,Peru (PE),9427802,0.525,Duplicado_1_PE_Aciertala_Interstitial_Generica_Deportivas,0.1080,50,250,9265,957,0,0,0,0.0,0,0.525,0.057,0.001,0.0,0.0,-0.525,-100.0,10.32,0.0,0.0,False
+2025-10-09,Chile (CL),9427802,0.0,Duplicado_1_PE_Aciertala_Interstitial_Generica_Deportivas,0.1080,50,250,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-09,Ecuador (EC),9652793,0.01,EC_Doradobet_CPA_Popunder_Sorteo_Carros,0.0007,60,500,45,0,0,0,0,0.0,0,0.01,0.232,0.0,0.0,0.0,-0.01,-100.0,0.0,0.0,0.0,False
+2025-10-09,Ecuador (EC),9559315,0.158,EC_Doradobet_Popunder_Generico_Liga_Pro,0.0019,60,600,352,0,0,0,0,0.0,0,0.158,0.448,0.0,0.0,0.0,-0.158,-100.0,0.0,0.0,0.0,False
+2025-10-09,Ecuador (EC),9630431,3.093,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,-,30,350,5209,0,0,0,0,0.0,0,3.093,0.594,0.0,0.001,0.0,-3.093,-100.0,0.0,0.0,0.0,False
+2025-10-09,Ecuador (EC),9674329,0.582,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,0.0007,30,200,1293,0,0,0,0,0.0,0,0.582,0.45,0.0,0.0,0.0,-0.582,-100.0,0.0,0.0,0.0,False
+2025-10-09,Ecuador (EC),9776252,1.038,EC_Ecuabet_Popunder_ Sorteo_gana_tu_casa_V1,0.0036,30,250,2351,0,0,0,0,0.0,0,1.038,0.441,0.0,0.0,0.0,-1.038,-100.0,0.0,0.0,0.0,False
+2025-10-09,Ecuador (EC),9723758,0.175,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0005,30,100,325,0,0,0,0,0.0,0,0.175,0.539,0.0,0.001,0.0,-0.175,-100.0,0.0,0.0,0.0,False
+2025-10-09,Ecuador (EC),9674331,1.342,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0025,30,300,2348,0,0,0,0,0.0,0,1.342,0.572,0.0,0.001,0.0,-1.342,-100.0,0.0,0.0,0.0,False
+2025-10-09,Ecuador (EC),9610605,3.134,EC_Ecuabet_Popunder_Casino_Dinamico,0.0017,30,1200,7475,0,0,0,0,0.0,0,3.134,0.419,0.0,0.0,0.0,-3.134,-100.0,0.0,0.0,0.0,False
+2025-10-09,Ecuador (EC),9610590,4.203,EC_Ecuabet_Popunder_Regalo_Registro_Triple,0.0021,30,1000,14977,0,0,0,0,0.0,0,4.203,0.281,0.0,0.0,0.0,-4.203,-100.0,0.0,0.0,0.0,False
+2025-10-09,–,9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-09,Argentina (AR),9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,12,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-09,Ecuador (EC),9963723,18.183,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,42281,422,0,0,0,0.0,0,18.183,0.43,0.043,0.0,0.0,-18.183,-100.0,0.99,0.0,0.0,False
+2025-10-09,Ecuador (EC),9963724,8.43,EC_Ecuabet_Push_Concierto_Shakira,0.0020,30,300,21815,0,0,0,0,0.0,0,8.43,0.386,0.0,0.0,0.0,-8.43,-100.0,0.0,0.0,0.0,False
+2025-10-09,Germany (DE),9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,30,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-09,El Salvador (SV),9652752,1.631,ES_Doradobet_Popunder_Generico_Casino,0.0038,70,400,3755,0,0,0,0,0.0,0,1.631,0.434,0.0,0.0,0.0,-1.631,-100.0,0.0,0.0,0.0,False
+2025-10-09,El Salvador (SV),9918572,1.93,ES_Doradobet_Popunder_Generico_Casino_Oct,0.0117,50,300,5820,0,0,0,0,0.0,0,1.93,0.332,0.0,0.0,0.0,-1.93,-100.0,0.0,0.0,0.0,False
+2025-10-09,El Salvador (SV),9658266,1.386,ES_Doradobet_Popunder_Generico_Deportivas,0.0039,100,400,3244,0,0,0,0,0.0,0,1.386,0.427,0.0,0.0,0.0,-1.386,-100.0,0.0,0.0,0.0,False
+2025-10-09,El Salvador (SV),9878794,0.792,ES_Doradobet_Popunder_Generico_Deportivas2,0.0104,90,300,2105,0,0,0,0,0.0,0,0.792,0.376,0.0,0.0,0.0,-0.792,-100.0,0.0,0.0,0.0,False
+2025-10-09,El Salvador (SV),9559395,14.633,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida,0.0140,80,500,27818,0,0,0,0,0.0,0,14.633,0.526,0.0,0.001,0.0,-14.633,-100.0,0.0,0.0,0.0,False
+2025-10-09,El Salvador (SV),9918573,2.151,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida_Oct,0.0131,60,300,6678,0,0,0,0,0.0,0,2.151,0.322,0.0,0.0,0.0,-2.151,-100.0,0.0,0.0,0.0,False
+2025-10-09,Guatemala (GT),9867415,1.674,GT_Doradobet_Popunder_Generico_Casino,0.0083,10,500,3356,0,0,0,0,0.0,0,1.674,0.499,0.0,0.0,0.0,-1.674,-100.0,0.0,0.0,0.0,False
+2025-10-09,Guatemala (GT),9753829,0.107,GT_Doradobet_Popunder_Regalo_Registro,0.0027,10,100,749,0,0,0,0,0.0,0,0.107,0.143,0.0,0.0,0.0,-0.107,-100.0,0.0,0.0,0.0,False
+2025-10-09,Honduras (HN),9937086,0.36,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0117,50,500,1508,0,0,0,0,0.0,0,0.36,0.239,0.0,0.0,0.0,-0.36,-100.0,0.0,0.0,0.0,False
+2025-10-09,Honduras (HN),9937085,0.528,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0092,50,500,1921,0,0,0,0,0.0,0,0.528,0.275,0.0,0.0,0.0,-0.528,-100.0,0.0,0.0,0.0,False
+2025-10-09,Honduras (HN),9937088,0.527,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0040,50,500,1892,0,0,0,0,0.0,0,0.527,0.279,0.0,0.0,0.0,-0.527,-100.0,0.0,0.0,0.0,False
+2025-10-09,Honduras (HN),9937087,0.384,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0106,50,500,1523,0,0,0,0,0.0,0,0.384,0.252,0.0,0.0,0.0,-0.384,-100.0,0.0,0.0,0.0,False
+2025-10-09,Honduras (HN),9812166,0.792,HN_Paniplay_Popunder_Generico_Casino_Online_Slot,0.0384,10,1000,2251,0,0,0,0,0.0,0,0.792,0.352,0.0,0.0,0.0,-0.792,-100.0,0.0,0.0,0.0,False
+2025-10-09,Honduras (HN),9426139,1.859,HN_Paniplay_Popunder_Loteria,0.0154,10,300,2926,0,0,0,0,0.0,0,1.859,0.635,0.0,0.001,0.0,-1.859,-100.0,0.0,0.0,0.0,False
+2025-10-09,Honduras (HN),9559371,1.401,HN_Paniplay_Popunder_Loteria,0.0166,10,300,2661,0,0,0,0,0.0,0,1.401,0.526,0.0,0.001,0.0,-1.401,-100.0,0.0,0.0,0.0,False
+2025-10-09,Honduras (HN),9652747,1.94,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0059,10,1000,4595,0,0,0,0,0.0,0,1.94,0.422,0.0,0.0,0.0,-1.94,-100.0,0.0,0.0,0.0,False
+2025-10-09,Honduras (HN),9416057,2.17,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0050,10,1000,4097,0,0,0,0,0.0,0,2.17,0.53,0.0,0.001,0.0,-2.17,-100.0,0.0,0.0,0.0,False
+2025-10-09,Nicaragua (NI),9762180,0.017,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0065,60,500,42,0,0,0,0,0.0,0,0.017,0.399,0.0,0.0,0.0,-0.017,-100.0,0.0,0.0,0.0,False
+2025-10-09,Nicaragua (NI),9652718,0.266,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0041,90,500,805,0,0,0,0,0.0,0,0.266,0.331,0.0,0.0,0.0,-0.266,-100.0,0.0,0.0,0.0,False
+2025-10-09,Nicaragua (NI),9660643,1.202,NC_Doradobet_Popunder_Generico_Casino,0.0138,100,700,3259,0,0,0,0,0.0,0,1.202,0.369,0.0,0.0,0.0,-1.202,-100.0,0.0,0.0,0.0,False
+2025-10-09,Nicaragua (NI),9535742,1.231,NC_Doradobet_Popunder_Generico_Casino,0.0126,100,600,2664,0,0,0,0,0.0,0,1.231,0.462,0.0,0.0,0.0,-1.231,-100.0,0.0,0.0,0.0,False
+2025-10-09,Peru (PE),9643931,0.517,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,9057,980,0,0,0,0.0,0,0.517,0.057,0.001,0.0,0.0,-0.517,-100.0,10.82,0.0,0.0,False
+2025-10-09,Peru (PE),9846194,0.696,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,18074,1638,0,0,0,0.0,0,0.696,0.038,0.0,0.0,0.0,-0.696,-100.0,9.06,0.0,0.0,False
+2025-10-09,Peru (PE),9874628,0.949,PE_Aciertala_Push_Champions_09,0.0405,50,200,15998,277,0,0,0,0.0,0,0.949,0.059,0.003,0.0,0.0,-0.949,-100.0,1.73,0.0,0.0,False
+2025-10-09,Singapore (SG),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,268,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-09,Germany (DE),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-09,Brazil (BR),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-09,Indonesia (ID),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-09,Peru (PE),9874772,0.151,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,22334,282,0,0,0,0.0,0,0.151,0.007,0.001,0.0,0.0,-0.151,-100.0,1.26,0.0,0.0,False
+2025-10-09,Singapore (SG),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,21,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-09,United States (US),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-09,Netherlands (NL),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-09,Bolivia (BO),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-09,Brazil (BR),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-09,Venezuela (VE),9736189,15.03,VZ_Camanbet_Popunder_Bono_de_Bienvenida_VEZ,-,15,1000,15030,0,0,0,0,0.0,0,15.03,1.0,0.0,0.001,0.0,-15.03,-100.0,0.0,0.0,0.0,False
+2025-10-09,Venezuela (VE),9761636,0.307,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0019,15,200,2054,0,0,0,0,0.0,0,0.307,0.15,0.0,0.0,0.0,-0.307,-100.0,0.0,0.0,0.0,False
+2025-10-09,Venezuela (VE),9867453,0.35,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0022,10,200,2208,0,0,0,0,0.0,0,0.35,0.158,0.0,0.0,0.0,-0.35,-100.0,0.0,0.0,0.0,False
+2025-10-09,Ecuador (EC),9963725,1.24,[Interstitial] EC_Ecuabet_Push_Concierto_Shakira,0.3541,30,300,7919,360,0,0,0,0.0,0,1.24,0.157,0.003,0.0,0.0,-1.24,-100.0,4.54,0.0,0.0,False
+2025-10-10,Chile (CL),9634629,0.55,CH_Doradobet_Popunder_Generica_Deportivas,0.0076,100,500,707,0,0,0,0,0.0,0,0.55,0.778,0.0,0.001,0.0,-0.55,-100.0,0.0,0.0,0.0,False
+2025-10-10,Chile (CL),9652709,0.845,CH_Doradobet_Popunder_Generica_Deportivas,0.0087,100,500,932,0,0,0,0,0.0,0,0.845,0.907,0.0,0.001,0.0,-0.845,-100.0,0.0,0.0,0.0,False
+2025-10-10,Chile (CL),9622781,0.273,CH_Doradobet_Popunder_Generico_Casino,0.0014,100,500,365,0,0,0,0,0.0,0,0.273,0.748,0.0,0.001,0.0,-0.273,-100.0,0.0,0.0,0.0,False
+2025-10-10,Costa Rica (CR),9808215,0.13,CR_Doradobet_Generico_Casino_Popunder,0.0059,20,100,437,0,0,0,0,0.0,0,0.13,0.297,0.0,0.0,0.0,-0.13,-100.0,0.0,0.0,0.0,False
+2025-10-10,Costa Rica (CR),9752655,0.153,CR_Doradobet_Generico_Casino_Popunder,0.0029,20,100,529,0,0,0,0,0.0,0,0.153,0.289,0.0,0.0,0.0,-0.153,-100.0,0.0,0.0,0.0,False
+2025-10-10,Costa Rica (CR),9808237,0.062,CR_Doradobet_Generico_Casino_Popunder_2,0.0056,20,200,281,0,0,0,0,0.0,0,0.062,0.219,0.0,0.0,0.0,-0.062,-100.0,0.0,0.0,0.0,False
+2025-10-10,Costa Rica (CR),9867419,0.92,CR_Doradobet_Generico_Deportivas_Popunder,0.0230,20,400,2148,0,0,0,0,0.0,0,0.92,0.428,0.0,0.0,0.0,-0.92,-100.0,0.0,0.0,0.0,False
+2025-10-10,Costa Rica (CR),9824098,7.006,CR_Doradobet_Generico_Deportivas_Popunder,0.0328,20,400,7439,0,0,0,0,0.0,0,7.006,0.942,0.0,0.001,0.0,-7.006,-100.0,0.0,0.0,0.0,False
+2025-10-10,Paraguay (PY),9784377,0.0,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-10,Costa Rica (CR),9784377,9.159,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,6285,742,0,0,0,0.0,0,9.159,1.457,0.012,0.001,0.0,-9.159,-100.0,11.8,0.0,0.0,False
+2025-10-10,Costa Rica (CR),9909805,1.455,Copy of CR_Doradobet_Generico_Deportivas_Popunder,0.0078,20,400,3218,0,0,0,0,0.0,0,1.455,0.452,0.0,0.0,0.0,-1.455,-100.0,0.0,0.0,0.0,False
+2025-10-10,Ecuador (EC),9937070,8.528,Copy of EC_Doradobet_Popunder_Generico_Liga_Pro,0.0036,60,500,23004,0,0,0,0,0.0,0,8.528,0.371,0.0,0.0,0.0,-8.528,-100.0,0.0,0.0,0.0,False
+2025-10-10,Guatemala (GT),9942710,10.001,Copy of GT_Doradobet_Popunder_Generico_Casino,0.0286,10,500,37679,0,0,0,0,0.0,0,10.001,0.265,0.0,0.0,0.0,-10.001,-100.0,0.0,0.0,0.0,False
+2025-10-10,Guatemala (GT),9867414,0.212,Copy of GT_Doradobet_Popunder_Generico_MLB,0.0033,10,100,1170,0,0,0,0,0.0,0,0.212,0.181,0.0,0.0,0.0,-0.212,-100.0,0.0,0.0,0.0,False
+2025-10-10,Venezuela (VE),9942739,0.658,Copy of VZ_Camanbet_Popunder_Regalo_por_Registro,0.0016,10,200,3557,0,0,0,0,0.0,0,0.658,0.185,0.0,0.0,0.0,-0.658,-100.0,0.0,0.0,0.0,False
+2025-10-10,Peru (PE),9427802,0.526,Duplicado_1_PE_Aciertala_Interstitial_Generica_Deportivas,0.1080,50,250,8735,992,0,0,0,0.0,0,0.526,0.06,0.001,0.0,0.0,-0.526,-100.0,11.35,0.0,0.0,False
+2025-10-10,Ecuador (EC),9652793,0.303,EC_Doradobet_CPA_Popunder_Sorteo_Carros,0.0007,60,500,1340,0,0,0,0,0.0,0,0.303,0.226,0.0,0.0,0.0,-0.303,-100.0,0.0,0.0,0.0,False
+2025-10-10,Ecuador (EC),9559315,2.234,EC_Doradobet_Popunder_Generico_Liga_Pro,0.0019,60,600,3961,0,0,0,0,0.0,0,2.234,0.564,0.0,0.001,0.0,-2.234,-100.0,0.0,0.0,0.0,False
+2025-10-10,Ecuador (EC),9674329,0.138,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,0.0007,30,200,1239,0,0,0,0,0.0,0,0.138,0.111,0.0,0.0,0.0,-0.138,-100.0,0.0,0.0,0.0,False
+2025-10-10,Ecuador (EC),9630431,1.526,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,-,30,350,3413,0,0,0,0,0.0,0,1.526,0.447,0.0,0.0,0.0,-1.526,-100.0,0.0,0.0,0.0,False
+2025-10-10,Ecuador (EC),9776252,0.961,EC_Ecuabet_Popunder_ Sorteo_gana_tu_casa_V1,0.0036,30,250,3346,0,0,0,0,0.0,0,0.961,0.287,0.0,0.0,0.0,-0.961,-100.0,0.0,0.0,0.0,False
+2025-10-10,Ecuador (EC),9723758,0.044,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0005,30,100,149,0,0,0,0,0.0,0,0.044,0.298,0.0,0.0,0.0,-0.044,-100.0,0.0,0.0,0.0,False
+2025-10-10,Ecuador (EC),9674331,0.701,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0025,30,300,1776,0,0,0,0,0.0,0,0.701,0.395,0.0,0.0,0.0,-0.701,-100.0,0.0,0.0,0.0,False
+2025-10-10,Ecuador (EC),9610605,1.032,EC_Ecuabet_Popunder_Casino_Dinamico,0.0017,30,1200,2804,0,0,0,0,0.0,0,1.032,0.368,0.0,0.0,0.0,-1.032,-100.0,0.0,0.0,0.0,False
+2025-10-10,Ecuador (EC),9610590,1.596,EC_Ecuabet_Popunder_Regalo_Registro_Triple,0.0021,30,1000,13325,0,0,0,0,0.0,0,1.596,0.12,0.0,0.0,0.0,-1.596,-100.0,0.0,0.0,0.0,False
+2025-10-10,Ecuador (EC),9963723,5.607,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,34417,377,0,0,0,0.0,0,5.607,0.163,0.015,0.0,0.0,-5.607,-100.0,1.09,0.0,0.0,False
+2025-10-10,Netherlands (NL),9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-10,Germany (DE),9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,3,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-10,Argentina (AR),9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,7,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-10,Ecuador (EC),9963724,9.815,EC_Ecuabet_Push_Concierto_Shakira,0.0020,30,300,36603,0,0,0,0,0.0,0,9.815,0.268,0.0,0.0,0.0,-9.815,-100.0,0.0,0.0,0.0,False
+2025-10-10,El Salvador (SV),9652752,1.631,ES_Doradobet_Popunder_Generico_Casino,0.0038,70,400,3450,0,0,0,0,0.0,0,1.631,0.473,0.0,0.0,0.0,-1.631,-100.0,0.0,0.0,0.0,False
+2025-10-10,El Salvador (SV),9918572,2.928,ES_Doradobet_Popunder_Generico_Casino_Oct,0.0117,50,300,7425,0,0,0,0,0.0,0,2.928,0.394,0.0,0.0,0.0,-2.928,-100.0,0.0,0.0,0.0,False
+2025-10-10,El Salvador (SV),9658266,1.574,ES_Doradobet_Popunder_Generico_Deportivas,0.0039,100,400,3020,0,0,0,0,0.0,0,1.574,0.521,0.0,0.001,0.0,-1.574,-100.0,0.0,0.0,0.0,False
+2025-10-10,El Salvador (SV),9878794,1.481,ES_Doradobet_Popunder_Generico_Deportivas2,0.0104,90,300,3338,0,0,0,0,0.0,0,1.481,0.444,0.0,0.0,0.0,-1.481,-100.0,0.0,0.0,0.0,False
+2025-10-10,El Salvador (SV),9559395,13.977,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida,0.0140,80,500,26076,0,0,0,0,0.0,0,13.977,0.536,0.0,0.001,0.0,-13.977,-100.0,0.0,0.0,0.0,False
+2025-10-10,El Salvador (SV),9918573,3.339,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida_Oct,0.0131,60,300,8448,0,0,0,0,0.0,0,3.339,0.395,0.0,0.0,0.0,-3.339,-100.0,0.0,0.0,0.0,False
+2025-10-10,Guatemala (GT),9867415,0.392,GT_Doradobet_Popunder_Generico_Casino,0.0083,10,500,857,0,0,0,0,0.0,0,0.392,0.457,0.0,0.0,0.0,-0.392,-100.0,0.0,0.0,0.0,False
+2025-10-10,Guatemala (GT),9753829,0.174,GT_Doradobet_Popunder_Regalo_Registro,0.0027,10,100,620,0,0,0,0,0.0,0,0.174,0.281,0.0,0.0,0.0,-0.174,-100.0,0.0,0.0,0.0,False
+2025-10-10,Honduras (HN),9937086,0.585,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0117,50,500,1784,0,0,0,0,0.0,0,0.585,0.328,0.0,0.0,0.0,-0.585,-100.0,0.0,0.0,0.0,False
+2025-10-10,Honduras (HN),9937088,0.498,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0040,50,500,1381,0,0,0,0,0.0,0,0.498,0.361,0.0,0.0,0.0,-0.498,-100.0,0.0,0.0,0.0,False
+2025-10-10,Honduras (HN),9937087,0.557,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0106,50,500,1666,0,0,0,0,0.0,0,0.557,0.334,0.0,0.0,0.0,-0.557,-100.0,0.0,0.0,0.0,False
+2025-10-10,Honduras (HN),9937085,0.536,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0092,50,500,1495,0,0,0,0,0.0,0,0.536,0.359,0.0,0.0,0.0,-0.536,-100.0,0.0,0.0,0.0,False
+2025-10-10,Honduras (HN),9812166,1.081,HN_Paniplay_Popunder_Generico_Casino_Online_Slot,0.0384,10,1000,2407,0,0,0,0,0.0,0,1.081,0.449,0.0,0.0,0.0,-1.081,-100.0,0.0,0.0,0.0,False
+2025-10-10,Honduras (HN),9559371,1.187,HN_Paniplay_Popunder_Loteria,0.0166,10,300,1912,0,0,0,0,0.0,0,1.187,0.621,0.0,0.001,0.0,-1.187,-100.0,0.0,0.0,0.0,False
+2025-10-10,Honduras (HN),9426139,1.303,HN_Paniplay_Popunder_Loteria,0.0154,10,300,1951,0,0,0,0,0.0,0,1.303,0.668,0.0,0.001,0.0,-1.303,-100.0,0.0,0.0,0.0,False
+2025-10-10,Honduras (HN),9652747,1.249,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0059,10,1000,2070,0,0,0,0,0.0,0,1.249,0.603,0.0,0.001,0.0,-1.249,-100.0,0.0,0.0,0.0,False
+2025-10-10,Honduras (HN),9416057,1.229,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0050,10,1000,1983,0,0,0,0,0.0,0,1.229,0.62,0.0,0.001,0.0,-1.229,-100.0,0.0,0.0,0.0,False
+2025-10-10,Nicaragua (NI),9652718,0.036,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0041,90,500,94,0,0,0,0,0.0,0,0.036,0.382,0.0,0.0,0.0,-0.036,-100.0,0.0,0.0,0.0,False
+2025-10-10,Nicaragua (NI),9762180,1.076,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0065,60,500,2188,0,0,0,0,0.0,0,1.076,0.492,0.0,0.0,0.0,-1.076,-100.0,0.0,0.0,0.0,False
+2025-10-10,Nicaragua (NI),9535742,0.078,NC_Doradobet_Popunder_Generico_Casino,0.0126,100,600,192,0,0,0,0,0.0,0,0.078,0.405,0.0,0.0,0.0,-0.078,-100.0,0.0,0.0,0.0,False
+2025-10-10,Nicaragua (NI),9660643,0.084,NC_Doradobet_Popunder_Generico_Casino,0.0138,100,700,208,0,0,0,0,0.0,0,0.084,0.405,0.0,0.0,0.0,-0.084,-100.0,0.0,0.0,0.0,False
+2025-10-10,Netherlands (NL),9643931,0.002,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,1,1,0,0,0,0.0,0,0.002,1.625,0.002,0.002,0.0,-0.002,-100.0,100.0,0.0,0.0,False
+2025-10-10,Peru (PE),9643931,0.562,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,9412,1024,0,0,0,0.0,0,0.562,0.06,0.001,0.0,0.0,-0.562,-100.0,10.87,0.0,0.0,False
+2025-10-10,Peru (PE),9846194,0.922,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,19204,1905,0,0,0,0.0,0,0.922,0.048,0.0,0.0,0.0,-0.922,-100.0,9.91,0.0,0.0,False
+2025-10-10,Peru (PE),9874628,0.8,PE_Aciertala_Push_Champions_09,0.0405,50,200,14544,275,0,0,0,0.0,0,0.8,0.055,0.003,0.0,0.0,-0.8,-100.0,1.89,0.0,0.0,False
+2025-10-10,Singapore (SG),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,212,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-10,Peru (PE),9874772,0.198,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,22643,353,0,0,0,0.0,0,0.198,0.009,0.001,0.0,0.0,-0.198,-100.0,1.55,0.0,0.0,False
+2025-10-10,Singapore (SG),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-10,Venezuela (VE),9736189,15.096,VZ_Camanbet_Popunder_Bono_de_Bienvenida_VEZ,-,15,1000,15096,0,0,0,0,0.0,0,15.096,1.0,0.0,0.001,0.0,-15.096,-100.0,0.0,0.0,0.0,False
+2025-10-10,Venezuela (VE),9867453,0.142,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0022,10,200,996,0,0,0,0,0.0,0,0.142,0.142,0.0,0.0,0.0,-0.142,-100.0,0.0,0.0,0.0,False
+2025-10-10,Venezuela (VE),9761636,0.19,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0019,15,200,878,0,0,0,0,0.0,0,0.19,0.217,0.0,0.0,0.0,-0.19,-100.0,0.0,0.0,0.0,False
+2025-10-10,Venezuela (VE),9966032,10.003,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0057,10,200,20541,0,0,0,0,0.0,0,10.003,0.487,0.0,0.0,0.0,-10.003,-100.0,0.0,0.0,0.0,False
+2025-10-10,United States (US),9963725,0.0,[Interstitial] EC_Ecuabet_Push_Concierto_Shakira,0.3541,30,300,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-10,Argentina (AR),9963725,0.0,[Interstitial] EC_Ecuabet_Push_Concierto_Shakira,0.3541,30,300,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-10,Ecuador (EC),9963725,0.759,[Interstitial] EC_Ecuabet_Push_Concierto_Shakira,0.3541,30,300,23100,1219,0,0,0,0.0,0,0.759,0.033,0.001,0.0,0.0,-0.759,-100.0,5.27,0.0,0.0,False
+2025-10-11,Chile (CL),9634629,1.431,CH_Doradobet_Popunder_Generica_Deportivas,0.0076,100,500,1153,0,0,0,0,0.0,0,1.431,1.241,0.0,0.001,0.0,-1.431,-100.0,0.0,0.0,0.0,False
+2025-10-11,Chile (CL),9652709,1.217,CH_Doradobet_Popunder_Generica_Deportivas,0.0087,100,500,821,0,0,0,0,0.0,0,1.217,1.482,0.0,0.001,0.0,-1.217,-100.0,0.0,0.0,0.0,False
+2025-10-11,Chile (CL),9622781,0.527,CH_Doradobet_Popunder_Generico_Casino,0.0014,100,500,667,0,0,0,0,0.0,0,0.527,0.79,0.0,0.001,0.0,-0.527,-100.0,0.0,0.0,0.0,False
+2025-10-11,Costa Rica (CR),9752655,0.059,CR_Doradobet_Generico_Casino_Popunder,0.0029,20,100,351,0,0,0,0,0.0,0,0.059,0.168,0.0,0.0,0.0,-0.059,-100.0,0.0,0.0,0.0,False
+2025-10-11,Costa Rica (CR),9808215,0.292,CR_Doradobet_Generico_Casino_Popunder,0.0059,20,100,908,0,0,0,0,0.0,0,0.292,0.322,0.0,0.0,0.0,-0.292,-100.0,0.0,0.0,0.0,False
+2025-10-11,Costa Rica (CR),9808237,0.223,CR_Doradobet_Generico_Casino_Popunder_2,0.0056,20,200,708,0,0,0,0,0.0,0,0.223,0.315,0.0,0.0,0.0,-0.223,-100.0,0.0,0.0,0.0,False
+2025-10-11,Costa Rica (CR),9824098,3.455,CR_Doradobet_Generico_Deportivas_Popunder,0.0328,20,400,6152,0,0,0,0,0.0,0,3.455,0.562,0.0,0.001,0.0,-3.455,-100.0,0.0,0.0,0.0,False
+2025-10-11,Costa Rica (CR),9867419,2.941,CR_Doradobet_Generico_Deportivas_Popunder,0.0230,20,400,5795,0,0,0,0,0.0,0,2.941,0.508,0.0,0.001,0.0,-2.941,-100.0,0.0,0.0,0.0,False
+2025-10-11,Costa Rica (CR),9784377,3.653,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,7912,323,0,0,0,0.0,0,3.653,0.462,0.011,0.0,0.0,-3.653,-100.0,4.08,0.0,0.0,False
+2025-10-11,Democratic Republic Of The Congo (CD),9784377,0.019,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,2,1,0,0,0,0.0,0,0.019,9.707,0.019,0.01,0.0,-0.019,-100.0,50.0,0.0,0.0,False
+2025-10-11,Costa Rica (CR),9909805,1.139,Copy of CR_Doradobet_Generico_Deportivas_Popunder,0.0078,20,400,2912,0,0,0,0,0.0,0,1.139,0.391,0.0,0.0,0.0,-1.139,-100.0,0.0,0.0,0.0,False
+2025-10-11,Ecuador (EC),9937070,3.385,Copy of EC_Doradobet_Popunder_Generico_Liga_Pro,0.0036,60,500,10902,0,0,0,0,0.0,0,3.385,0.31,0.0,0.0,0.0,-3.385,-100.0,0.0,0.0,0.0,False
+2025-10-11,Guatemala (GT),9942710,5.815,Copy of GT_Doradobet_Popunder_Generico_Casino,0.0286,10,500,18271,0,0,0,0,0.0,0,5.815,0.318,0.0,0.0,0.0,-5.815,-100.0,0.0,0.0,0.0,False
+2025-10-11,Guatemala (GT),9867414,0.176,Copy of GT_Doradobet_Popunder_Generico_MLB,0.0033,10,100,887,0,0,0,0,0.0,0,0.176,0.199,0.0,0.0,0.0,-0.176,-100.0,0.0,0.0,0.0,False
+2025-10-11,Venezuela (VE),9942739,0.047,Copy of VZ_Camanbet_Popunder_Regalo_por_Registro,0.0016,10,200,176,0,0,0,0,0.0,0,0.047,0.268,0.0,0.0,0.0,-0.047,-100.0,0.0,0.0,0.0,False
+2025-10-11,Peru (PE),9427802,0.621,Duplicado_1_PE_Aciertala_Interstitial_Generica_Deportivas,0.1080,50,250,9383,1055,0,0,0,0.0,0,0.621,0.066,0.001,0.0,0.0,-0.621,-100.0,11.24,0.0,0.0,False
+2025-10-11,Ecuador (EC),9652793,0.251,EC_Doradobet_CPA_Popunder_Sorteo_Carros,0.0007,60,500,957,0,0,0,0,0.0,0,0.251,0.262,0.0,0.0,0.0,-0.251,-100.0,0.0,0.0,0.0,False
+2025-10-11,Ecuador (EC),9559315,0.765,EC_Doradobet_Popunder_Generico_Liga_Pro,0.0019,60,600,2306,0,0,0,0,0.0,0,0.765,0.332,0.0,0.0,0.0,-0.765,-100.0,0.0,0.0,0.0,False
+2025-10-11,Ecuador (EC),9630431,1.458,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,-,30,350,2959,0,0,0,0,0.0,0,1.458,0.493,0.0,0.0,0.0,-1.458,-100.0,0.0,0.0,0.0,False
+2025-10-11,Ecuador (EC),9674329,0.161,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,0.0007,30,200,919,0,0,0,0,0.0,0,0.161,0.175,0.0,0.0,0.0,-0.161,-100.0,0.0,0.0,0.0,False
+2025-10-11,Ecuador (EC),9776252,1.336,EC_Ecuabet_Popunder_ Sorteo_gana_tu_casa_V1,0.0036,30,250,2424,0,0,0,0,0.0,0,1.336,0.551,0.0,0.001,0.0,-1.336,-100.0,0.0,0.0,0.0,False
+2025-10-11,Ecuador (EC),9723758,0.035,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0005,30,100,69,0,0,0,0,0.0,0,0.035,0.501,0.0,0.001,0.0,-0.035,-100.0,0.0,0.0,0.0,False
+2025-10-11,Ecuador (EC),9674331,0.696,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0025,30,300,1369,0,0,0,0,0.0,0,0.696,0.508,0.0,0.001,0.0,-0.696,-100.0,0.0,0.0,0.0,False
+2025-10-11,Ecuador (EC),9610605,1.238,EC_Ecuabet_Popunder_Casino_Dinamico,0.0017,30,1200,2353,0,0,0,0,0.0,0,1.238,0.526,0.0,0.001,0.0,-1.238,-100.0,0.0,0.0,0.0,False
+2025-10-11,Ecuador (EC),9610590,1.524,EC_Ecuabet_Popunder_Regalo_Registro_Triple,0.0021,30,1000,7721,0,0,0,0,0.0,0,1.524,0.197,0.0,0.0,0.0,-1.524,-100.0,0.0,0.0,0.0,False
+2025-10-11,Argentina (AR),9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,65,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-11,Nicaragua (NI),9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-11,Germany (DE),9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-11,Ecuador (EC),9963724,2.162,EC_Ecuabet_Push_Concierto_Shakira,0.0020,30,300,12298,0,0,0,0,0.0,0,2.162,0.176,0.0,0.0,0.0,-2.162,-100.0,0.0,0.0,0.0,False
+2025-10-11,Mexico (MX),9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,5,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-11,Ecuador (EC),9963723,1.131,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,23084,375,0,0,0,0.0,0,1.131,0.049,0.003,0.0,0.0,-1.131,-100.0,1.62,0.0,0.0,False
+2025-10-11,El Salvador (SV),9652752,0.831,ES_Doradobet_Popunder_Generico_Casino,0.0038,70,400,2408,0,0,0,0,0.0,0,0.831,0.345,0.0,0.0,0.0,-0.831,-100.0,0.0,0.0,0.0,False
+2025-10-11,El Salvador (SV),9918572,2.418,ES_Doradobet_Popunder_Generico_Casino_Oct,0.0117,50,300,5776,0,0,0,0,0.0,0,2.418,0.419,0.0,0.0,0.0,-2.418,-100.0,0.0,0.0,0.0,False
+2025-10-11,El Salvador (SV),9658266,0.818,ES_Doradobet_Popunder_Generico_Deportivas,0.0039,100,400,2054,0,0,0,0,0.0,0,0.818,0.398,0.0,0.0,0.0,-0.818,-100.0,0.0,0.0,0.0,False
+2025-10-11,El Salvador (SV),9878794,2.01,ES_Doradobet_Popunder_Generico_Deportivas2,0.0104,90,300,3900,0,0,0,0,0.0,0,2.01,0.515,0.0,0.001,0.0,-2.01,-100.0,0.0,0.0,0.0,False
+2025-10-11,El Salvador (SV),9559395,5.257,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida,0.0140,80,500,10424,0,0,0,0,0.0,0,5.257,0.504,0.0,0.001,0.0,-5.257,-100.0,0.0,0.0,0.0,False
+2025-10-11,El Salvador (SV),9918573,2.929,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida_Oct,0.0131,60,300,6792,0,0,0,0,0.0,0,2.929,0.431,0.0,0.0,0.0,-2.929,-100.0,0.0,0.0,0.0,False
+2025-10-11,Guatemala (GT),9867415,0.63,GT_Doradobet_Popunder_Generico_Casino,0.0083,10,500,1632,0,0,0,0,0.0,0,0.63,0.386,0.0,0.0,0.0,-0.63,-100.0,0.0,0.0,0.0,False
+2025-10-11,Guatemala (GT),9753829,0.096,GT_Doradobet_Popunder_Regalo_Registro,0.0027,10,100,560,0,0,0,0,0.0,0,0.096,0.172,0.0,0.0,0.0,-0.096,-100.0,0.0,0.0,0.0,False
+2025-10-11,Honduras (HN),9937088,0.485,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0040,50,500,1575,0,0,0,0,0.0,0,0.485,0.308,0.0,0.0,0.0,-0.485,-100.0,0.0,0.0,0.0,False
+2025-10-11,Honduras (HN),9937086,0.533,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0117,50,500,1785,0,0,0,0,0.0,0,0.533,0.298,0.0,0.0,0.0,-0.533,-100.0,0.0,0.0,0.0,False
+2025-10-11,Honduras (HN),9937085,0.533,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0092,50,500,1733,0,0,0,0,0.0,0,0.533,0.308,0.0,0.0,0.0,-0.533,-100.0,0.0,0.0,0.0,False
+2025-10-11,Honduras (HN),9937087,0.587,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0106,50,500,1898,0,0,0,0,0.0,0,0.587,0.309,0.0,0.0,0.0,-0.587,-100.0,0.0,0.0,0.0,False
+2025-10-11,Honduras (HN),9812166,1.989,HN_Paniplay_Popunder_Generico_Casino_Online_Slot,0.0384,10,1000,4461,0,0,0,0,0.0,0,1.989,0.446,0.0,0.0,0.0,-1.989,-100.0,0.0,0.0,0.0,False
+2025-10-11,Honduras (HN),9559371,1.135,HN_Paniplay_Popunder_Loteria,0.0166,10,300,1939,0,0,0,0,0.0,0,1.135,0.585,0.0,0.001,0.0,-1.135,-100.0,0.0,0.0,0.0,False
+2025-10-11,Honduras (HN),9426139,1.034,HN_Paniplay_Popunder_Loteria,0.0154,10,300,1803,0,0,0,0,0.0,0,1.034,0.574,0.0,0.001,0.0,-1.034,-100.0,0.0,0.0,0.0,False
+2025-10-11,Honduras (HN),9416057,1.068,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0050,10,1000,1721,0,0,0,0,0.0,0,1.068,0.62,0.0,0.001,0.0,-1.068,-100.0,0.0,0.0,0.0,False
+2025-10-11,Honduras (HN),9652747,1.085,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0059,10,1000,1892,0,0,0,0,0.0,0,1.085,0.574,0.0,0.001,0.0,-1.085,-100.0,0.0,0.0,0.0,False
+2025-10-11,Nicaragua (NI),9762180,0.553,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0065,60,500,1114,0,0,0,0,0.0,0,0.553,0.497,0.0,0.0,0.0,-0.553,-100.0,0.0,0.0,0.0,False
+2025-10-11,Peru (PE),9643931,0.672,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,9417,1016,0,0,0,0.0,0,0.672,0.071,0.001,0.0,0.0,-0.672,-100.0,10.78,0.0,0.0,False
+2025-10-11,Peru (PE),9846194,0.814,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,20167,1943,0,0,0,0.0,0,0.814,0.04,0.0,0.0,0.0,-0.814,-100.0,9.63,0.0,0.0,False
+2025-10-11,Singapore (SG),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,787,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-11,Peru (PE),9874628,0.73,PE_Aciertala_Push_Champions_09,0.0405,50,200,26905,365,0,0,0,0.0,0,0.73,0.027,0.002,0.0,0.0,-0.73,-100.0,1.35,0.0,0.0,False
+2025-10-11,–,9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,0,1,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,-100.0,0.0,0.0,0.0,False
+2025-10-11,Dominican Republic (DO),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-11,Singapore (SG),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-11,Brazil (BR),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-11,Peru (PE),9874772,0.103,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,30332,499,0,0,0,0.0,0,0.103,0.003,0.0,0.0,0.0,-0.103,-100.0,1.64,0.0,0.0,False
+2025-10-11,Venezuela (VE),9736189,15.056,VZ_Camanbet_Popunder_Bono_de_Bienvenida_VEZ,-,15,1000,15056,0,0,0,0,0.0,0,15.056,1.0,0.0,0.001,0.0,-15.056,-100.0,0.0,0.0,0.0,False
+2025-10-11,Venezuela (VE),9867453,0.014,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0022,10,200,49,0,0,0,0,0.0,0,0.014,0.288,0.0,0.0,0.0,-0.014,-100.0,0.0,0.0,0.0,False
+2025-10-11,Venezuela (VE),9966032,3.875,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0057,10,200,12988,0,0,0,0,0.0,0,3.875,0.298,0.0,0.0,0.0,-3.875,-100.0,0.0,0.0,0.0,False
+2025-10-11,Venezuela (VE),9761636,0.011,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0019,15,200,38,0,0,0,0,0.0,0,0.011,0.299,0.0,0.0,0.0,-0.011,-100.0,0.0,0.0,0.0,False
+2025-10-11,Ecuador (EC),9963725,0.634,[Interstitial] EC_Ecuabet_Push_Concierto_Shakira,0.3541,30,300,12782,598,0,0,0,0.0,0,0.634,0.05,0.001,0.0,0.0,-0.634,-100.0,4.67,0.0,0.0,False
+2025-10-12,Chile (CL),9652709,1.476,CH_Doradobet_Popunder_Generica_Deportivas,0.0087,100,500,1046,0,0,0,0,0.0,0,1.476,1.411,0.0,0.001,0.0,-1.476,-100.0,0.0,0.0,0.0,False
+2025-10-12,Chile (CL),9634629,1.382,CH_Doradobet_Popunder_Generica_Deportivas,0.0076,100,500,1423,0,0,0,0,0.0,0,1.382,0.971,0.0,0.001,0.0,-1.382,-100.0,0.0,0.0,0.0,False
+2025-10-12,Chile (CL),9622781,0.526,CH_Doradobet_Popunder_Generico_Casino,0.0014,100,500,639,0,0,0,0,0.0,0,0.526,0.823,0.0,0.001,0.0,-0.526,-100.0,0.0,0.0,0.0,False
+2025-10-12,Costa Rica (CR),9808215,0.29,CR_Doradobet_Generico_Casino_Popunder,0.0059,20,100,993,0,0,0,0,0.0,0,0.29,0.292,0.0,0.0,0.0,-0.29,-100.0,0.0,0.0,0.0,False
+2025-10-12,Costa Rica (CR),9752655,0.057,CR_Doradobet_Generico_Casino_Popunder,0.0029,20,100,456,0,0,0,0,0.0,0,0.057,0.125,0.0,0.0,0.0,-0.057,-100.0,0.0,0.0,0.0,False
+2025-10-12,Costa Rica (CR),9808237,0.391,CR_Doradobet_Generico_Casino_Popunder_2,0.0056,20,200,1087,0,0,0,0,0.0,0,0.391,0.36,0.0,0.0,0.0,-0.391,-100.0,0.0,0.0,0.0,False
+2025-10-12,Costa Rica (CR),9824098,2.468,CR_Doradobet_Generico_Deportivas_Popunder,0.0328,20,400,4883,0,0,0,0,0.0,0,2.468,0.506,0.0,0.001,0.0,-2.468,-100.0,0.0,0.0,0.0,False
+2025-10-12,Costa Rica (CR),9867419,3.531,CR_Doradobet_Generico_Deportivas_Popunder,0.0230,20,400,6999,0,0,0,0,0.0,0,3.531,0.504,0.0,0.001,0.0,-3.531,-100.0,0.0,0.0,0.0,False
+2025-10-12,Costa Rica (CR),9784377,3.579,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,8519,326,0,0,0,0.0,0,3.579,0.42,0.011,0.0,0.0,-3.579,-100.0,3.82,0.0,0.0,False
+2025-10-12,Costa Rica (CR),9909805,1.525,Copy of CR_Doradobet_Generico_Deportivas_Popunder,0.0078,20,400,3824,0,0,0,0,0.0,0,1.525,0.399,0.0,0.0,0.0,-1.525,-100.0,0.0,0.0,0.0,False
+2025-10-12,Ecuador (EC),9937070,3.115,Copy of EC_Doradobet_Popunder_Generico_Liga_Pro,0.0036,60,500,11329,0,0,0,0,0.0,0,3.115,0.275,0.0,0.0,0.0,-3.115,-100.0,0.0,0.0,0.0,False
+2025-10-12,Guatemala (GT),9942710,5.185,Copy of GT_Doradobet_Popunder_Generico_Casino,0.0286,10,500,20199,0,0,0,0,0.0,0,5.185,0.257,0.0,0.0,0.0,-5.185,-100.0,0.0,0.0,0.0,False
+2025-10-12,Guatemala (GT),9867414,0.168,Copy of GT_Doradobet_Popunder_Generico_MLB,0.0033,10,100,1053,0,0,0,0,0.0,0,0.168,0.159,0.0,0.0,0.0,-0.168,-100.0,0.0,0.0,0.0,False
+2025-10-12,Peru (PE),9427802,0.542,Duplicado_1_PE_Aciertala_Interstitial_Generica_Deportivas,0.1080,50,250,10134,1129,0,0,0,0.0,0,0.542,0.053,0.0,0.0,0.0,-0.542,-100.0,11.14,0.0,0.0,False
+2025-10-12,Ecuador (EC),9652793,0.273,EC_Doradobet_CPA_Popunder_Sorteo_Carros,0.0007,60,500,911,0,0,0,0,0.0,0,0.273,0.299,0.0,0.0,0.0,-0.273,-100.0,0.0,0.0,0.0,False
+2025-10-12,Ecuador (EC),9559315,0.851,EC_Doradobet_Popunder_Generico_Liga_Pro,0.0019,60,600,3275,0,0,0,0,0.0,0,0.851,0.26,0.0,0.0,0.0,-0.851,-100.0,0.0,0.0,0.0,False
+2025-10-12,Ecuador (EC),9674329,0.126,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,0.0007,30,200,823,0,0,0,0,0.0,0,0.126,0.153,0.0,0.0,0.0,-0.126,-100.0,0.0,0.0,0.0,False
+2025-10-12,Ecuador (EC),9630431,1.356,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,-,30,350,2816,0,0,0,0,0.0,0,1.356,0.482,0.0,0.0,0.0,-1.356,-100.0,0.0,0.0,0.0,False
+2025-10-12,Ecuador (EC),9776252,1.831,EC_Ecuabet_Popunder_ Sorteo_gana_tu_casa_V1,0.0036,30,250,3291,0,0,0,0,0.0,0,1.831,0.556,0.0,0.001,0.0,-1.831,-100.0,0.0,0.0,0.0,False
+2025-10-12,Ecuador (EC),9723758,0.036,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0005,30,100,122,0,0,0,0,0.0,0,0.036,0.296,0.0,0.0,0.0,-0.036,-100.0,0.0,0.0,0.0,False
+2025-10-12,Ecuador (EC),9674331,0.326,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0025,30,300,993,0,0,0,0,0.0,0,0.326,0.328,0.0,0.0,0.0,-0.326,-100.0,0.0,0.0,0.0,False
+2025-10-12,Ecuador (EC),9610605,1.493,EC_Ecuabet_Popunder_Casino_Dinamico,0.0017,30,1200,4113,0,0,0,0,0.0,0,1.493,0.363,0.0,0.0,0.0,-1.493,-100.0,0.0,0.0,0.0,False
+2025-10-12,Ecuador (EC),9610590,2.026,EC_Ecuabet_Popunder_Regalo_Registro_Triple,0.0021,30,1000,10433,0,0,0,0,0.0,0,2.026,0.194,0.0,0.0,0.0,-2.026,-100.0,0.0,0.0,0.0,False
+2025-10-12,Germany (DE),9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,3,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-12,Venezuela (VE),9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,131,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-12,Argentina (AR),9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,15,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-12,Mexico (MX),9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-12,Ecuador (EC),9963724,1.629,EC_Ecuabet_Push_Concierto_Shakira,0.0020,30,300,9802,0,0,0,0,0.0,0,1.629,0.166,0.0,0.0,0.0,-1.629,-100.0,0.0,0.0,0.0,False
+2025-10-12,Ecuador (EC),9963723,0.634,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,24475,241,0,0,0,0.0,0,0.634,0.026,0.003,0.0,0.0,-0.634,-100.0,0.98,0.0,0.0,False
+2025-10-12,El Salvador (SV),9652752,0.96,ES_Doradobet_Popunder_Generico_Casino,0.0038,70,400,2364,0,0,0,0,0.0,0,0.96,0.406,0.0,0.0,0.0,-0.96,-100.0,0.0,0.0,0.0,False
+2025-10-12,El Salvador (SV),9918572,3.026,ES_Doradobet_Popunder_Generico_Casino_Oct,0.0117,50,300,7709,0,0,0,0,0.0,0,3.026,0.393,0.0,0.0,0.0,-3.026,-100.0,0.0,0.0,0.0,False
+2025-10-12,El Salvador (SV),9658266,0.983,ES_Doradobet_Popunder_Generico_Deportivas,0.0039,100,400,2404,0,0,0,0,0.0,0,0.983,0.409,0.0,0.0,0.0,-0.983,-100.0,0.0,0.0,0.0,False
+2025-10-12,El Salvador (SV),9878794,2.798,ES_Doradobet_Popunder_Generico_Deportivas2,0.0104,90,300,6071,0,0,0,0,0.0,0,2.798,0.461,0.0,0.0,0.0,-2.798,-100.0,0.0,0.0,0.0,False
+2025-10-12,El Salvador (SV),9559395,4.196,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida,0.0140,80,500,8181,0,0,0,0,0.0,0,4.196,0.513,0.0,0.001,0.0,-4.196,-100.0,0.0,0.0,0.0,False
+2025-10-12,El Salvador (SV),9918573,2.672,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida_Oct,0.0131,60,300,6808,0,0,0,0,0.0,0,2.672,0.393,0.0,0.0,0.0,-2.672,-100.0,0.0,0.0,0.0,False
+2025-10-12,Guatemala (GT),9867415,0.583,GT_Doradobet_Popunder_Generico_Casino,0.0083,10,500,937,0,0,0,0,0.0,0,0.583,0.623,0.0,0.001,0.0,-0.583,-100.0,0.0,0.0,0.0,False
+2025-10-12,Guatemala (GT),9753829,0.128,GT_Doradobet_Popunder_Regalo_Registro,0.0027,10,100,799,0,0,0,0,0.0,0,0.128,0.161,0.0,0.0,0.0,-0.128,-100.0,0.0,0.0,0.0,False
+2025-10-12,Honduras (HN),9937085,0.503,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0092,50,500,1473,0,0,0,0,0.0,0,0.503,0.341,0.0,0.0,0.0,-0.503,-100.0,0.0,0.0,0.0,False
+2025-10-12,Honduras (HN),9937088,0.512,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0040,50,500,1589,0,0,0,0,0.0,0,0.512,0.322,0.0,0.0,0.0,-0.512,-100.0,0.0,0.0,0.0,False
+2025-10-12,Honduras (HN),9937087,0.581,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0106,50,500,1661,0,0,0,0,0.0,0,0.581,0.35,0.0,0.0,0.0,-0.581,-100.0,0.0,0.0,0.0,False
+2025-10-12,Honduras (HN),9937086,0.583,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0117,50,500,1675,0,0,0,0,0.0,0,0.583,0.348,0.0,0.0,0.0,-0.583,-100.0,0.0,0.0,0.0,False
+2025-10-12,Honduras (HN),9812166,2.059,HN_Paniplay_Popunder_Generico_Casino_Online_Slot,0.0384,10,1000,4590,0,0,0,0,0.0,0,2.059,0.449,0.0,0.0,0.0,-2.059,-100.0,0.0,0.0,0.0,False
+2025-10-12,Honduras (HN),9559371,0.989,HN_Paniplay_Popunder_Loteria,0.0166,10,300,1589,0,0,0,0,0.0,0,0.989,0.622,0.0,0.001,0.0,-0.989,-100.0,0.0,0.0,0.0,False
+2025-10-12,Honduras (HN),9426139,0.943,HN_Paniplay_Popunder_Loteria,0.0154,10,300,1582,0,0,0,0,0.0,0,0.943,0.596,0.0,0.001,0.0,-0.943,-100.0,0.0,0.0,0.0,False
+2025-10-12,Honduras (HN),9652747,1.191,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0059,10,1000,1716,0,0,0,0,0.0,0,1.191,0.694,0.0,0.001,0.0,-1.191,-100.0,0.0,0.0,0.0,False
+2025-10-12,Honduras (HN),9416057,1.431,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0050,10,1000,1553,0,0,0,0,0.0,0,1.431,0.921,0.0,0.001,0.0,-1.431,-100.0,0.0,0.0,0.0,False
+2025-10-12,Nicaragua (NI),9762180,0.507,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0065,60,500,894,0,0,0,0,0.0,0,0.507,0.567,0.0,0.001,0.0,-0.507,-100.0,0.0,0.0,0.0,False
+2025-10-12,Peru (PE),9643931,0.722,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,11332,1252,0,0,0,0.0,0,0.722,0.064,0.001,0.0,0.0,-0.722,-100.0,11.04,0.0,0.0,False
+2025-10-12,Ecuador (EC),9846194,0.001,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,0,1,0,0,0,0.0,0,0.001,0.0,0.001,0.0,0.0,-0.001,-100.0,0.0,0.0,0.0,False
+2025-10-12,Peru (PE),9846194,0.763,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,21998,2149,0,0,0,0.0,0,0.763,0.035,0.0,0.0,0.0,-0.763,-100.0,9.76,0.0,0.0,False
+2025-10-12,Peru (PE),9874628,0.854,PE_Aciertala_Push_Champions_09,0.0405,50,200,37108,288,0,0,0,0.0,0,0.854,0.023,0.003,0.0,0.0,-0.854,-100.0,0.77,0.0,0.0,False
+2025-10-12,Colombia (CO),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-12,Singapore (SG),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1005,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-12,Ecuador (EC),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-12,Germany (DE),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-12,Germany (DE),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-12,Australia (AU),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-12,Chile (CL),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,0,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-12,Peru (PE),9874772,0.102,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,32265,554,0,0,0,0.0,0,0.102,0.003,0.0,0.0,0.0,-0.102,-100.0,1.71,0.0,0.0,False
+2025-10-12,Venezuela (VE),9736189,15.13,VZ_Camanbet_Popunder_Bono_de_Bienvenida_VEZ,-,15,1000,15130,0,0,0,0,0.0,0,15.13,1.0,0.0,0.001,0.0,-15.13,-100.0,0.0,0.0,0.0,False
+2025-10-12,Venezuela (VE),9966032,1.446,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0057,10,200,7068,0,0,0,0,0.0,0,1.446,0.205,0.0,0.0,0.0,-1.446,-100.0,0.0,0.0,0.0,False
+2025-10-12,Ecuador (EC),9963725,0.345,[Interstitial] EC_Ecuabet_Push_Concierto_Shakira,0.3541,30,300,8272,430,0,0,0,0.0,0,0.345,0.042,0.001,0.0,0.0,-0.345,-100.0,5.19,0.0,0.0,False
+2025-10-13,Chile (CL),9634629,2.138,CH_Doradobet_Popunder_Generica_Deportivas,0.0076,100,500,1567,0,0,0,0,0.0,0,2.138,1.364,0.0,0.001,0.0,-2.138,-100.0,0.0,0.0,0.0,False
+2025-10-13,Chile (CL),9652709,1.499,CH_Doradobet_Popunder_Generica_Deportivas,0.0087,100,500,1706,0,0,0,0,0.0,0,1.499,0.879,0.0,0.001,0.0,-1.499,-100.0,0.0,0.0,0.0,False
+2025-10-13,Chile (CL),9622781,0.588,CH_Doradobet_Popunder_Generico_Casino,0.0014,100,500,585,0,0,0,0,0.0,0,0.588,1.004,0.0,0.001,0.0,-0.588,-100.0,0.0,0.0,0.0,False
+2025-10-13,Costa Rica (CR),9808215,0.374,CR_Doradobet_Generico_Casino_Popunder,0.0059,20,100,1353,0,0,0,0,0.0,0,0.374,0.276,0.0,0.0,0.0,-0.374,-100.0,0.0,0.0,0.0,False
+2025-10-13,Costa Rica (CR),9752655,0.018,CR_Doradobet_Generico_Casino_Popunder,0.0029,20,100,50,0,0,0,0,0.0,0,0.018,0.355,0.0,0.0,0.0,-0.018,-100.0,0.0,0.0,0.0,False
+2025-10-13,Costa Rica (CR),9808237,0.365,CR_Doradobet_Generico_Casino_Popunder_2,0.0056,20,200,1275,0,0,0,0,0.0,0,0.365,0.287,0.0,0.0,0.0,-0.365,-100.0,0.0,0.0,0.0,False
+2025-10-13,Costa Rica (CR),9867419,3.872,CR_Doradobet_Generico_Deportivas_Popunder,0.0230,20,400,7629,0,0,0,0,0.0,0,3.872,0.507,0.0,0.001,0.0,-3.872,-100.0,0.0,0.0,0.0,False
+2025-10-13,Costa Rica (CR),9824098,2.057,CR_Doradobet_Generico_Deportivas_Popunder,0.0328,20,400,5344,0,0,0,0,0.0,0,2.057,0.385,0.0,0.0,0.0,-2.057,-100.0,0.0,0.0,0.0,False
+2025-10-13,Costa Rica (CR),9784377,3.939,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,8886,304,0,0,0,0.0,0,3.939,0.443,0.013,0.0,0.0,-3.939,-100.0,3.42,0.0,0.0,False
+2025-10-13,Costa Rica (CR),9909805,0.189,Copy of CR_Doradobet_Generico_Deportivas_Popunder,0.0078,20,400,433,0,0,0,0,0.0,0,0.189,0.437,0.0,0.0,0.0,-0.189,-100.0,0.0,0.0,0.0,False
+2025-10-13,Ecuador (EC),9937070,1.463,Copy of EC_Doradobet_Popunder_Generico_Liga_Pro,0.0036,60,500,4253,0,0,0,0,0.0,0,1.463,0.344,0.0,0.0,0.0,-1.463,-100.0,0.0,0.0,0.0,False
+2025-10-13,Guatemala (GT),9942710,3.997,Copy of GT_Doradobet_Popunder_Generico_Casino,0.0286,10,500,17730,0,0,0,0,0.0,0,3.997,0.225,0.0,0.0,0.0,-3.997,-100.0,0.0,0.0,0.0,False
+2025-10-13,Guatemala (GT),9867414,0.2,Copy of GT_Doradobet_Popunder_Generico_MLB,0.0033,10,100,1228,0,0,0,0,0.0,0,0.2,0.163,0.0,0.0,0.0,-0.2,-100.0,0.0,0.0,0.0,False
+2025-10-13,United States (US),9427802,0.0,Duplicado_1_PE_Aciertala_Interstitial_Generica_Deportivas,0.1080,50,250,1,1,0,0,0,0.0,0,0.0,0.218,0.0,0.0,0.0,0.0,-100.0,100.0,0.0,0.0,False
+2025-10-13,Peru (PE),9427802,0.609,Duplicado_1_PE_Aciertala_Interstitial_Generica_Deportivas,0.1080,50,250,11367,1115,0,0,0,0.0,0,0.609,0.054,0.001,0.0,0.0,-0.609,-100.0,9.8,0.0,0.0,False
+2025-10-13,Ecuador (EC),9652793,0.442,EC_Doradobet_CPA_Popunder_Sorteo_Carros,0.0007,60,500,645,0,0,0,0,0.0,0,0.442,0.685,0.0,0.001,0.0,-0.442,-100.0,0.0,0.0,0.0,False
+2025-10-13,Ecuador (EC),9559315,0.834,EC_Doradobet_Popunder_Generico_Liga_Pro,0.0019,60,600,2052,0,0,0,0,0.0,0,0.834,0.407,0.0,0.0,0.0,-0.834,-100.0,0.0,0.0,0.0,False
+2025-10-13,Ecuador (EC),9674329,0.082,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,0.0007,30,200,575,0,0,0,0,0.0,0,0.082,0.143,0.0,0.0,0.0,-0.082,-100.0,0.0,0.0,0.0,False
+2025-10-13,Ecuador (EC),9630431,0.846,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,-,30,350,1820,0,0,0,0,0.0,0,0.846,0.465,0.0,0.0,0.0,-0.846,-100.0,0.0,0.0,0.0,False
+2025-10-13,Ecuador (EC),9776252,1.715,EC_Ecuabet_Popunder_ Sorteo_gana_tu_casa_V1,0.0036,30,250,2658,0,0,0,0,0.0,0,1.715,0.645,0.0,0.001,0.0,-1.715,-100.0,0.0,0.0,0.0,False
+2025-10-13,Ecuador (EC),9674331,0.242,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0025,30,300,631,0,0,0,0,0.0,0,0.242,0.384,0.0,0.0,0.0,-0.242,-100.0,0.0,0.0,0.0,False
+2025-10-13,Ecuador (EC),9723758,0.032,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0005,30,100,64,0,0,0,0,0.0,0,0.032,0.497,0.0,0.0,0.0,-0.032,-100.0,0.0,0.0,0.0,False
+2025-10-13,Ecuador (EC),9610605,0.504,EC_Ecuabet_Popunder_Casino_Dinamico,0.0017,30,1200,1281,0,0,0,0,0.0,0,0.504,0.393,0.0,0.0,0.0,-0.504,-100.0,0.0,0.0,0.0,False
+2025-10-13,Ecuador (EC),9610590,1.003,EC_Ecuabet_Popunder_Regalo_Registro_Triple,0.0021,30,1000,5944,0,0,0,0,0.0,0,1.003,0.169,0.0,0.0,0.0,-1.003,-100.0,0.0,0.0,0.0,False
+2025-10-13,Ecuador (EC),9963724,1.198,EC_Ecuabet_Push_Concierto_Shakira,0.0020,30,300,5427,0,0,0,0,0.0,0,1.198,0.221,0.0,0.0,0.0,-1.198,-100.0,0.0,0.0,0.0,False
+2025-10-13,Germany (DE),9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,4,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-13,Ecuador (EC),9963723,0.491,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,18991,252,0,0,0,0.0,0,0.491,0.026,0.002,0.0,0.0,-0.491,-100.0,1.32,0.0,0.0,False
+2025-10-13,Argentina (AR),9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,25,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-13,Venezuela (VE),9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,649,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-13,El Salvador (SV),9652752,0.999,ES_Doradobet_Popunder_Generico_Casino,0.0038,70,400,2388,0,0,0,0,0.0,0,0.999,0.418,0.0,0.0,0.0,-0.999,-100.0,0.0,0.0,0.0,False
+2025-10-13,El Salvador (SV),9918572,2.981,ES_Doradobet_Popunder_Generico_Casino_Oct,0.0117,50,300,7467,0,0,0,0,0.0,0,2.981,0.399,0.0,0.0,0.0,-2.981,-100.0,0.0,0.0,0.0,False
+2025-10-13,El Salvador (SV),9658266,0.971,ES_Doradobet_Popunder_Generico_Deportivas,0.0039,100,400,2195,0,0,0,0,0.0,0,0.971,0.442,0.0,0.0,0.0,-0.971,-100.0,0.0,0.0,0.0,False
+2025-10-13,El Salvador (SV),9878794,1.862,ES_Doradobet_Popunder_Generico_Deportivas2,0.0104,90,300,4539,0,0,0,0,0.0,0,1.862,0.41,0.0,0.0,0.0,-1.862,-100.0,0.0,0.0,0.0,False
+2025-10-13,El Salvador (SV),9559395,4.2,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida,0.0140,80,500,8287,0,0,0,0,0.0,0,4.2,0.507,0.0,0.001,0.0,-4.2,-100.0,0.0,0.0,0.0,False
+2025-10-13,El Salvador (SV),9918573,3.27,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida_Oct,0.0131,60,300,7713,0,0,0,0,0.0,0,3.27,0.424,0.0,0.0,0.0,-3.27,-100.0,0.0,0.0,0.0,False
+2025-10-13,Guatemala (GT),9867415,0.445,GT_Doradobet_Popunder_Generico_Casino,0.0083,10,500,706,0,0,0,0,0.0,0,0.445,0.63,0.0,0.001,0.0,-0.445,-100.0,0.0,0.0,0.0,False
+2025-10-13,Guatemala (GT),9753829,0.109,GT_Doradobet_Popunder_Regalo_Registro,0.0027,10,100,798,0,0,0,0,0.0,0,0.109,0.136,0.0,0.0,0.0,-0.109,-100.0,0.0,0.0,0.0,False
+2025-10-13,Honduras (HN),9937087,0.722,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0106,50,500,2258,0,0,0,0,0.0,0,0.722,0.32,0.0,0.0,0.0,-0.722,-100.0,0.0,0.0,0.0,False
+2025-10-13,Honduras (HN),9937088,0.72,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0040,50,500,2406,0,0,0,0,0.0,0,0.72,0.299,0.0,0.0,0.0,-0.72,-100.0,0.0,0.0,0.0,False
+2025-10-13,Honduras (HN),9937086,0.726,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0117,50,500,2346,0,0,0,0,0.0,0,0.726,0.309,0.0,0.0,0.0,-0.726,-100.0,0.0,0.0,0.0,False
+2025-10-13,Honduras (HN),9937085,0.768,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0092,50,500,2453,0,0,0,0,0.0,0,0.768,0.313,0.0,0.0,0.0,-0.768,-100.0,0.0,0.0,0.0,False
+2025-10-13,Honduras (HN),9812166,2.362,HN_Paniplay_Popunder_Generico_Casino_Online_Slot,0.0384,10,1000,5090,0,0,0,0,0.0,0,2.362,0.464,0.0,0.0,0.0,-2.362,-100.0,0.0,0.0,0.0,False
+2025-10-13,Honduras (HN),9559371,0.046,HN_Paniplay_Popunder_Loteria,0.0166,10,300,54,0,0,0,0,0.0,0,0.046,0.861,0.0,0.001,0.0,-0.046,-100.0,0.0,0.0,0.0,False
+2025-10-13,Honduras (HN),9426139,0.043,HN_Paniplay_Popunder_Loteria,0.0154,10,300,62,0,0,0,0,0.0,0,0.043,0.693,0.0,0.001,0.0,-0.043,-100.0,0.0,0.0,0.0,False
+2025-10-13,Honduras (HN),9652747,0.041,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0059,10,1000,55,0,0,0,0,0.0,0,0.041,0.743,0.0,0.001,0.0,-0.041,-100.0,0.0,0.0,0.0,False
+2025-10-13,Honduras (HN),9416057,0.093,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0050,10,1000,58,0,0,0,0,0.0,0,0.093,1.611,0.0,0.002,0.0,-0.093,-100.0,0.0,0.0,0.0,False
+2025-10-13,Nicaragua (NI),9762180,0.325,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0065,60,500,1078,0,0,0,0,0.0,0,0.325,0.302,0.0,0.0,0.0,-0.325,-100.0,0.0,0.0,0.0,False
+2025-10-13,United States (US),9643931,0.0,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-13,Peru (PE),9643931,0.863,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,10387,1066,0,0,0,0.0,0,0.863,0.083,0.001,0.0,0.0,-0.863,-100.0,10.26,0.0,0.0,False
+2025-10-13,–,9643931,0.0,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-13,Peru (PE),9846194,0.756,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,21788,1985,0,0,0,0.0,0,0.756,0.035,0.0,0.0,0.0,-0.756,-100.0,9.11,0.0,0.0,False
+2025-10-13,Colombia (CO),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-13,Canada (CA),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-13,Peru (PE),9874628,0.562,PE_Aciertala_Push_Champions_09,0.0405,50,200,15215,344,0,0,0,0.0,0,0.562,0.037,0.002,0.0,0.0,-0.562,-100.0,2.26,0.0,0.0,False
+2025-10-13,Singapore (SG),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,248,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-13,Netherlands (NL),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-13,–,9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-13,Germany (DE),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-13,Peru (PE),9874772,0.105,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,46030,639,0,0,0,0.0,0,0.105,0.002,0.0,0.0,0.0,-0.105,-100.0,1.38,0.0,0.0,False
+2025-10-13,Germany (DE),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-13,Brazil (BR),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-13,–,9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-13,Netherlands (NL),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-13,Venezuela (VE),9736189,15.127,VZ_Camanbet_Popunder_Bono_de_Bienvenida_VEZ,-,15,1000,15127,0,0,0,0,0.0,0,15.127,1.0,0.0,0.001,0.0,-15.127,-100.0,0.0,0.0,0.0,False
+2025-10-13,Venezuela (VE),9966032,1.218,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0057,10,200,6087,0,0,0,0,0.0,0,1.218,0.2,0.0,0.0,0.0,-1.218,-100.0,0.0,0.0,0.0,False
+2025-10-13,Ecuador (EC),9963725,0.263,[Interstitial] EC_Ecuabet_Push_Concierto_Shakira,0.3541,30,300,6309,208,0,0,0,0.0,0,0.263,0.042,0.001,0.0,0.0,-0.263,-100.0,3.29,0.0,0.0,False
+2025-10-14,Chile (CL),9634629,1.513,CH_Doradobet_Popunder_Generica_Deportivas,0.0076,100,500,886,0,0,0,0,0.0,0,1.513,1.707,0.0,0.002,0.0,-1.513,-100.0,0.0,0.0,0.0,False
+2025-10-14,Chile (CL),9652709,1.628,CH_Doradobet_Popunder_Generica_Deportivas,0.0087,100,500,975,0,0,0,0,0.0,0,1.628,1.67,0.0,0.002,0.0,-1.628,-100.0,0.0,0.0,0.0,False
+2025-10-14,Chile (CL),9622781,0.433,CH_Doradobet_Popunder_Generico_Casino,0.0014,100,500,371,0,0,0,0,0.0,0,0.433,1.166,0.0,0.001,0.0,-0.433,-100.0,0.0,0.0,0.0,False
+2025-10-14,Costa Rica (CR),9808215,0.304,CR_Doradobet_Generico_Casino_Popunder,0.0059,20,100,934,0,0,0,0,0.0,0,0.304,0.326,0.0,0.0,0.0,-0.304,-100.0,0.0,0.0,0.0,False
+2025-10-14,Costa Rica (CR),9808237,0.377,CR_Doradobet_Generico_Casino_Popunder_2,0.0056,20,200,988,0,0,0,0,0.0,0,0.377,0.382,0.0,0.0,0.0,-0.377,-100.0,0.0,0.0,0.0,False
+2025-10-14,Costa Rica (CR),9867419,2.514,CR_Doradobet_Generico_Deportivas_Popunder,0.0230,20,400,4856,0,0,0,0,0.0,0,2.514,0.518,0.0,0.001,0.0,-2.514,-100.0,0.0,0.0,0.0,False
+2025-10-14,Costa Rica (CR),9824098,1.783,CR_Doradobet_Generico_Deportivas_Popunder,0.0328,20,400,4157,0,0,0,0,0.0,0,1.783,0.429,0.0,0.0,0.0,-1.783,-100.0,0.0,0.0,0.0,False
+2025-10-14,United States (US),9784377,0.0,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,2,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-14,Costa Rica (CR),9784377,3.305,CR_Doradobet_Telegram_Genericas_CPC,0.0703,40,650,6175,258,0,0,0,0.0,0,3.305,0.535,0.013,0.001,0.0,-3.305,-100.0,4.17,0.0,0.0,False
+2025-10-14,Ecuador (EC),9937070,2.189,Copy of EC_Doradobet_Popunder_Generico_Liga_Pro,0.0036,60,500,6015,0,0,0,0,0.0,0,2.189,0.364,0.0,0.0,0.0,-2.189,-100.0,0.0,0.0,0.0,False
+2025-10-14,Guatemala (GT),9942710,4.105,Copy of GT_Doradobet_Popunder_Generico_Casino,0.0286,10,500,17997,0,0,0,0,0.0,0,4.105,0.228,0.0,0.0,0.0,-4.105,-100.0,0.0,0.0,0.0,False
+2025-10-14,Guatemala (GT),9867414,0.026,Copy of GT_Doradobet_Popunder_Generico_MLB,0.0033,10,100,72,0,0,0,0,0.0,0,0.026,0.368,0.0,0.0,0.0,-0.026,-100.0,0.0,0.0,0.0,False
+2025-10-14,Peru (PE),9427802,0.896,Duplicado_1_PE_Aciertala_Interstitial_Generica_Deportivas,0.1080,50,250,10890,1168,0,0,0,0.0,0,0.896,0.082,0.001,0.0,0.0,-0.896,-100.0,10.72,0.0,0.0,False
+2025-10-14,Ecuador (EC),9652793,0.825,EC_Doradobet_CPA_Popunder_Sorteo_Carros,0.0007,60,500,3818,0,0,0,0,0.0,0,0.825,0.216,0.0,0.0,0.0,-0.825,-100.0,0.0,0.0,0.0,False
+2025-10-14,Ecuador (EC),9559315,1.552,EC_Doradobet_Popunder_Generico_Liga_Pro,0.0019,60,600,3405,0,0,0,0,0.0,0,1.552,0.456,0.0,0.0,0.0,-1.552,-100.0,0.0,0.0,0.0,False
+2025-10-14,Ecuador (EC),9630431,2.263,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,-,30,350,6565,0,0,0,0,0.0,0,2.263,0.345,0.0,0.0,0.0,-2.263,-100.0,0.0,0.0,0.0,False
+2025-10-14,Ecuador (EC),9674329,0.001,EC_Ecuabet_CPA_Popunder_Bono_Bienvenida,0.0007,30,200,10,0,0,0,0,0.0,0,0.001,0.096,0.0,0.0,0.0,-0.001,-100.0,0.0,0.0,0.0,False
+2025-10-14,Ecuador (EC),9776252,1.447,EC_Ecuabet_Popunder_ Sorteo_gana_tu_casa_V1,0.0036,30,250,4298,0,0,0,0,0.0,0,1.447,0.337,0.0,0.0,0.0,-1.447,-100.0,0.0,0.0,0.0,False
+2025-10-14,Ecuador (EC),9674331,0.028,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0025,30,300,79,0,0,0,0,0.0,0,0.028,0.353,0.0,0.0,0.0,-0.028,-100.0,0.0,0.0,0.0,False
+2025-10-14,Ecuador (EC),9723758,0.001,EC_Ecuabet_Popunder_Bono_Bienvenida,0.0005,30,100,1,0,0,0,0,0.0,0,0.001,0.528,0.0,0.001,0.0,-0.001,-100.0,0.0,0.0,0.0,False
+2025-10-14,Ecuador (EC),9610605,0.064,EC_Ecuabet_Popunder_Casino_Dinamico,0.0017,30,1200,111,0,0,0,0,0.0,0,0.064,0.573,0.0,0.001,0.0,-0.064,-100.0,0.0,0.0,0.0,False
+2025-10-14,Ecuador (EC),9610590,0.174,EC_Ecuabet_Popunder_Regalo_Registro_Triple,0.0021,30,1000,405,0,0,0,0,0.0,0,0.174,0.43,0.0,0.0,0.0,-0.174,-100.0,0.0,0.0,0.0,False
+2025-10-14,Argentina (AR),9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,16,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-14,Ecuador (EC),9963723,0.571,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,14964,234,0,0,0,0.0,0,0.571,0.038,0.002,0.0,0.0,-0.571,-100.0,1.56,0.0,0.0,False
+2025-10-14,United States (US),9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-14,Ecuador (EC),9963724,1.88,EC_Ecuabet_Push_Concierto_Shakira,0.0020,30,300,11174,0,0,0,0,0.0,0,1.88,0.168,0.0,0.0,0.0,-1.88,-100.0,0.0,0.0,0.0,False
+2025-10-14,Venezuela (VE),9963723,0.0,EC_Ecuabet_Push_Concierto_Shakira,0.0153,30,300,8,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-14,El Salvador (SV),9652752,1.037,ES_Doradobet_Popunder_Generico_Casino,0.0038,70,400,2447,0,0,0,0,0.0,0,1.037,0.424,0.0,0.0,0.0,-1.037,-100.0,0.0,0.0,0.0,False
+2025-10-14,El Salvador (SV),9918572,2.946,ES_Doradobet_Popunder_Generico_Casino_Oct,0.0117,50,300,7552,0,0,0,0,0.0,0,2.946,0.39,0.0,0.0,0.0,-2.946,-100.0,0.0,0.0,0.0,False
+2025-10-14,El Salvador (SV),9658266,1.289,ES_Doradobet_Popunder_Generico_Deportivas,0.0039,100,400,4292,0,0,0,0,0.0,0,1.289,0.3,0.0,0.0,0.0,-1.289,-100.0,0.0,0.0,0.0,False
+2025-10-14,El Salvador (SV),9878794,2.044,ES_Doradobet_Popunder_Generico_Deportivas2,0.0104,90,300,4632,0,0,0,0,0.0,0,2.044,0.441,0.0,0.0,0.0,-2.044,-100.0,0.0,0.0,0.0,False
+2025-10-14,El Salvador (SV),9559395,4.116,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida,0.0140,80,500,7610,0,0,0,0,0.0,0,4.116,0.541,0.0,0.001,0.0,-4.116,-100.0,0.0,0.0,0.0,False
+2025-10-14,El Salvador (SV),9918573,2.895,ES_Doradobet_Popunder_Regalo_Registro_Bono_Bienvenida_Oct,0.0131,60,300,6830,0,0,0,0,0.0,0,2.895,0.424,0.0,0.0,0.0,-2.895,-100.0,0.0,0.0,0.0,False
+2025-10-14,Guatemala (GT),9867415,0.334,GT_Doradobet_Popunder_Generico_Casino,0.0083,10,500,707,0,0,0,0,0.0,0,0.334,0.472,0.0,0.0,0.0,-0.334,-100.0,0.0,0.0,0.0,False
+2025-10-14,Guatemala (GT),9753800,1.24,GT_Doradobet_Popunder_Generico_MLB,0.0025,10,100,4120,0,0,0,0,0.0,0,1.24,0.301,0.0,0.0,0.0,-1.24,-100.0,0.0,0.0,0.0,False
+2025-10-14,Guatemala (GT),9753829,0.015,GT_Doradobet_Popunder_Regalo_Registro,0.0027,10,100,36,0,0,0,0,0.0,0,0.015,0.411,0.0,0.0,0.0,-0.015,-100.0,0.0,0.0,0.0,False
+2025-10-14,Honduras (HN),9937088,0.347,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0040,50,500,1202,0,0,0,0,0.0,0,0.347,0.288,0.0,0.0,0.0,-0.347,-100.0,0.0,0.0,0.0,False
+2025-10-14,Honduras (HN),9937086,0.368,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0117,50,500,1211,0,0,0,0,0.0,0,0.368,0.304,0.0,0.0,0.0,-0.368,-100.0,0.0,0.0,0.0,False
+2025-10-14,Honduras (HN),9937085,0.304,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0092,50,500,1132,0,0,0,0,0.0,0,0.304,0.269,0.0,0.0,0.0,-0.304,-100.0,0.0,0.0,0.0,False
+2025-10-14,Honduras (HN),9937087,0.351,HN_Doradobet_PopUnder_Reglo_Registro_CPA,0.0106,50,500,1204,0,0,0,0,0.0,0,0.351,0.291,0.0,0.0,0.0,-0.351,-100.0,0.0,0.0,0.0,False
+2025-10-14,Honduras (HN),9812166,0.672,HN_Paniplay_Popunder_Generico_Casino_Online_Slot,0.0384,10,1000,1455,0,0,0,0,0.0,0,0.672,0.462,0.0,0.0,0.0,-0.672,-100.0,0.0,0.0,0.0,False
+2025-10-14,Honduras (HN),9559371,1.396,HN_Paniplay_Popunder_Loteria,0.0166,10,300,2262,0,0,0,0,0.0,0,1.396,0.617,0.0,0.001,0.0,-1.396,-100.0,0.0,0.0,0.0,False
+2025-10-14,Honduras (HN),9426139,1.301,HN_Paniplay_Popunder_Loteria,0.0154,10,300,2273,0,0,0,0,0.0,0,1.301,0.572,0.0,0.001,0.0,-1.301,-100.0,0.0,0.0,0.0,False
+2025-10-14,Honduras (HN),9416057,1.701,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0050,10,1000,2500,0,0,0,0,0.0,0,1.701,0.681,0.0,0.001,0.0,-1.701,-100.0,0.0,0.0,0.0,False
+2025-10-14,Honduras (HN),9652747,2.495,HN_Paniplay_Popunder_Regalo_Registro_Bono_Bienvenida,0.0059,10,1000,3485,0,0,0,0,0.0,0,2.495,0.716,0.0,0.001,0.0,-2.495,-100.0,0.0,0.0,0.0,False
+2025-10-14,Nicaragua (NI),9762180,0.103,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0065,60,500,464,0,0,0,0,0.0,0,0.103,0.221,0.0,0.0,0.0,-0.103,-100.0,0.0,0.0,0.0,False
+2025-10-14,Nicaragua (NI),9652718,0.727,NC_Doradobet_CPA_Popunder_Regalo_Registro,0.0041,90,500,1939,0,0,0,0,0.0,0,0.727,0.375,0.0,0.0,0.0,-0.727,-100.0,0.0,0.0,0.0,False
+2025-10-14,Nicaragua (NI),9535742,3.102,NC_Doradobet_Popunder_Generico_Casino,0.0126,100,600,4862,0,0,0,0,0.0,0,3.102,0.638,0.0,0.001,0.0,-3.102,-100.0,0.0,0.0,0.0,False
+2025-10-14,Nicaragua (NI),9660643,2.77,NC_Doradobet_Popunder_Generico_Casino,0.0138,100,700,4513,0,0,0,0,0.0,0,2.77,0.614,0.0,0.001,0.0,-2.77,-100.0,0.0,0.0,0.0,False
+2025-10-14,Peru (PE),9643931,0.607,PE_Aciertala_Interstitial_Generica_Deportivas,0.1590,50,200,9873,1073,0,0,0,0.0,0,0.607,0.061,0.001,0.0,0.0,-0.607,-100.0,10.86,0.0,0.0,False
+2025-10-14,Peru (PE),9846194,0.883,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,22406,2012,0,0,0,0.0,0,0.883,0.039,0.0,0.0,0.0,-0.883,-100.0,8.97,0.0,0.0,False
+2025-10-14,United States (US),9846194,0.0,PE_Aciertala_Interstitial_Generica_Deportivas_09,0.3299,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-14,Germany (DE),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-14,Peru (PE),9874628,0.535,PE_Aciertala_Push_Champions_09,0.0405,50,200,11995,272,0,0,0,0.0,0,0.535,0.045,0.002,0.0,0.0,-0.535,-100.0,2.26,0.0,0.0,False
+2025-10-14,Singapore (SG),9874628,0.0,PE_Aciertala_Push_Champions_09,0.0405,50,200,97,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-14,United States (US),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-14,Singapore (SG),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,396,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-14,Brazil (BR),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,1,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-14,Chile (CL),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,7,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-14,Netherlands (NL),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,5,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-14,Germany (DE),9874772,0.0,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,8,0,0,0,0,0.0,0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,False
+2025-10-14,Peru (PE),9874772,0.187,PE_Aciertala_Push_Todo lo encuentras_09,0.0649,50,200,71892,598,0,0,0,0.0,0,0.187,0.003,0.0,0.0,0.0,-0.187,-100.0,0.83,0.0,0.0,False
+2025-10-14,Venezuela (VE),9736189,15.115,VZ_Camanbet_Popunder_Bono_de_Bienvenida_VEZ,-,15,1000,15115,0,0,0,0,0.0,0,15.115,1.0,0.0,0.001,0.0,-15.115,-100.0,0.0,0.0,0.0,False
+2025-10-14,Venezuela (VE),9966032,0.931,VZ_Camanbet_Popunder_Regalo_por_Registro,0.0057,10,200,4625,0,0,0,0,0.0,0,0.931,0.201,0.0,0.0,0.0,-0.931,-100.0,0.0,0.0,0.0,False
+2025-10-14,Ecuador (EC),9963725,0.18,[Interstitial] EC_Ecuabet_Push_Concierto_Shakira,0.3541,30,300,18907,984,0,0,0,0.0,0,0.18,0.01,0.0,0.0,0.0,-0.18,-100.0,5.2,0.0,0.0,False

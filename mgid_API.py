@@ -10,60 +10,68 @@ nombre_tabla_mgid = "general_mgid"
 ruta_db = Path("Archivos/Archivo_base_de_datos/base_de_datos_api")
 name_csv_mgid = Path("Archivos/Archivos_csv/reporte_mgid.csv")
 
-# === ⚙️ CONFIGURACIÓN GENERAL ===
-API_ID = "730589"  # tu APIId real
-TOKEN = "06426fb424b53f2e9b3753a6694f7ef2"  # tu token válido
+# ------- Credenciales de acceso ------ #
+API_ID = "730589"  
+TOKEN = "06426fb424b53f2e9b3753a6694f7ef2"  
 
+# ------- EndPoint para informe granulado ------- #
 API_URL = f"https://api.mgid.com/v1/goodhits/clients/{API_ID}/statistics-reports"
 
+# ------- Headers y autorización ------- #
 headers = {
     "Accept": "application/json",
     "Authorization": f"Bearer {TOKEN}"
 }
+# ------- Parametros generales ------- #
+# ------- Rango de fechas, debe ser en el formato indicado, para que extraiga unicamente los datos en el rango ------- #
+date_from = "2025-10-01"
+date_to = "2025-10-14"
 
-# === 📅 RANGO DE FECHAS (en formato ISO 8601) ===
-date_from = "2025-08-01"
-date_to = "2025-10-19"
+# ------- Parametros de dimensiones y metricas ------- #
+dimensions = ["day", "source", "campaignName"] ## Minimo 1, Maximo 3 (Se pueden cambiar revisando la documentacion de MGID) ##
 
-# === ⚙️ DIMENSIONES Y MÉTRICAS ===
-# Puedes agregar o quitar fácilmente
-dimensions = ["day", "source", "campaignName"]
 metrics = [
-    "spent", "clicks", "revenue",
-    "profit", "conversionsDecision", "conversionsBuy"
+    "spent", 
+    "clicks", 
+    "revenue",
+    "profit", 
+    "conversionsDecision", 
+    "conversionsBuy" ## Minimo debe especificarse una metrica ##
 ]
 
-# === 🔧 PARÁMETROS ===
+# ------- Parametros de fecha y limite de registros ------- #
 params = {
     "filters[dateRange][dateFrom]": date_from,
     "filters[dateRange][dateTo]": date_to,
-    "limit": 5000  # MGID máximo 5000 por página
+    "limit": 50000  ## El maximo que devuelve la API son 50000 registros, si no se especifica el parametro limit, trae 20 registros por default.
 }
 
-# Agregar dinámicamente las métricas y dimensiones al query
+# ------- Se formatean los dict de los parametros al formato que recibe la API mediante la URL ------- #
 for i, dim in enumerate(dimensions):
     params[f"dimensions[{i}]"] = dim
 for i, met in enumerate(metrics):
     params[f"metrics[{i}]"] = met
 
-# === 🚀 SOLICITUD A LA API ===
+# ------- Peticion a la API ------- #
 print("🔄 Consultando estadísticas de MGID...")
 response = requests.get(API_URL, headers=headers, params=params)
 print("Código HTTP:", response.status_code)
 
+# ------- Validacion: si el status_code es diferente a 200, error ------- #
 if response.status_code != 200:
     print("❌ Error al obtener datos:")
     print(response.text)
     exit()
 
+# ------- Se almacena la respuesta en la variable Data ------- #
 data = response.json()
 
-# === 📦 PROCESAR DATOS ===
+# ------- Validacion: Si la key "data" no esta en la respuesta Json, error ------- #
 if "data" not in data or not data["data"]:
     print("⚠️ No se encontraron datos para el rango de fechas dado.")
     exit()
 
-# Convertir los valores anidados a algo plano
+# ------- Se convierten los valores de diccionarios anidados devueltos en texto plano facil de convertir a DataFrame, y los valores devueltos se guardan en la lista records ------- #
 records = []
 for item in data["data"]:
     row = {}
@@ -74,17 +82,18 @@ for item in data["data"]:
             row[key] = value
     records.append(row)
 
-# === 📊 CREAR DATAFRAME Y GUARDAR ===
+# ------- Se crea un dataframe y se ordena primero por fecha y luego por nombre campaña ------- #
 df_mgid = pd.DataFrame(records)
 df_mgid.sort_values(by=["day", "campaignName"], inplace=True, ignore_index=True)
 
 print("\n✅ Muestra de datos obtenidos:")
 print(df_mgid.head())
 
-# Guardar a Excel con timestamp
+# ------- Se guardaN los resultados en un archivo CSV ------- #
 df_mgid.to_csv(name_csv_mgid, index=False, encoding="utf-8-sig")
 print(f"📁 Reporte guardado en '{name_csv_mgid.name}'")
 
+# ------- Funcion para guardar en SQLite ------- #
 def guardar_en_sqlite(df: pd.DataFrame, nombre_tabla: str, ruta_db: Path, if_exists: str = "replace") -> None:
     """
     Guarda un DataFrame en una base de datos SQLite, creando o actualizando la tabla según se especifique.
@@ -111,7 +120,7 @@ def guardar_en_sqlite(df: pd.DataFrame, nombre_tabla: str, ruta_db: Path, if_exi
     None
         Esta función no retorna un valor. Inserta los datos directamente en la base de datos.
     """
-    # Validar que el DataFrame no esté vacío
+    # Validar que el DataFrame esté vacío.
     if df.empty:
         print(f"\n ⚠️ El DataFrame está vacío. No se insertaron datos en la tabla '{nombre_tabla}'.\n ")
         return
@@ -119,9 +128,10 @@ def guardar_en_sqlite(df: pd.DataFrame, nombre_tabla: str, ruta_db: Path, if_exi
         # Conexión a SQLite
         with sqlite3.connect(ruta_db) as conn:
             df.to_sql(nombre_tabla, conn, if_exists=if_exists, index=False)
-        print(f"\n ✅ Se insertarón los datos con la tabla: '{nombre_tabla}' en la base de datos '{ruta_db.name}'.\n ")
+        print(f"\n ✅ Se insertaron los datos con la tabla '{nombre_tabla}' en la base de datos '{ruta_db.name}'.\n ")
     
     except Exception as e:
         print(f"\n ❌ Error al guardar en SQLite: {e}")
 
+# ------- Se guarda el dataframe en SQLite ------- #
 guardar_en_sqlite(df_mgid, nombre_tabla_mgid, ruta_db, if_exists="replace")
