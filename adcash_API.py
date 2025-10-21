@@ -22,7 +22,7 @@ auth_response = requests.post(auth_url, data=auth_data, headers=auth_headers)
 auth_response.raise_for_status()
 
 # ------- Se hace la peticion del token ------ #
-token = auth_response.json().get("token", "").strip()  # 👈 importante: limpia espacios
+token = auth_response.json().get("token", "").strip()  # limpia espacios
 print("✅ Token obtenido correctamente")
 
 
@@ -34,14 +34,14 @@ if not token:
 report_url = "https://api.myadcash.com/api/v1/advertiser-report"
 
 # ------- Se ingresa la fecha de inicio y fecha final ------ #
-start_date = "2025-09-10"
-end_date = "2025-10-13"
+start_date = "2025-10-01"
+end_date = "2025-10-14"
 
 params = {
     "start_date": start_date,
     "end_date": end_date,
     "advertiser_id": "174198",
-    "group_by": "date,country,campaignname" # Se puede agrupar por maximo 4 parametros
+    "group_by": "date,country,campaignid,campaignname" # Se puede agrupar por maximo 4 parametros
 
 }
 # ------- Parametros para agrupar ------ #
