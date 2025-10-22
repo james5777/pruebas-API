@@ -28,7 +28,7 @@ date_from = "2025-10-01"
 date_to = "2025-10-14"
 
 # ------- Parametros de dimensiones y metricas ------- #
-dimensions = ["day", "source", "campaignName"] ## Minimo 1, Maximo 3 (Se pueden cambiar revisando la documentacion de MGID) ##
+dimensions = ["day", "campaignId", "campaignName"] ## Minimo 1, Maximo 3 (Se pueden cambiar revisando la documentacion de MGID) ##
 
 metrics = [
     "spent", 
