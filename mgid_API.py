@@ -29,7 +29,7 @@ date_to = "2025-10-14"
 
 # ------- Parametros de dimensiones y metricas ------- #
 dimensions = ["day", "campaignId", "campaignName"] ## Minimo 1, Maximo 3 (Se pueden cambiar revisando la documentacion de MGID) ##
-
+ ### teaserId puede ser una dimension util ###
 metrics = [
     "spent", 
     "clicks", 

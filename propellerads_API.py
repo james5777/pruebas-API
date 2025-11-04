@@ -54,7 +54,7 @@ if response.status_code == 200:
         print(df_propellerads.head())
 
         # -------- Convierto el dataframe a CSV ------- #
-        df_propellerads.to_csv(name_csv_propellerads, index=False, encoding="utf-8-sig" )
+        df_propellerads.to_csv(name_csv_propellerads, index=False, encoding="utf-8-sig")
         print(f"📁 Reporte guardado en '{name_csv_propellerads.name}'")
     else:
         print("No se encontraron datos en el rango de fecha especificado")
