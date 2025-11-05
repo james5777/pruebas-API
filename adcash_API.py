@@ -5,16 +5,18 @@ from pathlib import Path
 import sqlite3
 import re
 
+print("Iniciando proceso de obtencion de datos de la API de Ad Cash...")
+
 # ------- Nombres de variables para rutas y nombres de tablas ------- #
 nombre_tabla_ad_cash = "general_adcash"
 ruta_db = Path("Archivos/Archivo_base_de_datos/base_de_datos_api")
 name_csv_ad_cash = Path("Archivos/Archivos_csv/reporte_adcash.csv")
 
-# ------- Nombres de variables para columnas ------- #
+# ------- Variables para nombres de columnas ------- #
 name_column_fecha = "Fecha"
 name_column_partner = "Partner"
 name_column_pais = "Pais"
-name_column_inversion = "Inversión"
+name_column_inversion = "Inversion"
 
 # ------- Nombres de partners ------- #
 name_partner_ecuabet = "Ecuabet"
@@ -24,7 +26,7 @@ name_partner_doradobet = "Doradobet"
 name_pais_ecuador = "Ecuador"
 name_pais_nicaragua = "Nicaragua"
 name_pais_peru = "Perú"
-name_pais_el_salvador = "El salvador"
+name_pais_el_salvador = "El Salvador"
 name_pais_costa_rica = "Costa Rica"
 
 # ------- Credenciales de acceso ------ #
@@ -139,7 +141,7 @@ df_ad_cash[name_column_partner] = (
 # ------- Normalizar columna country ------ #
 df_ad_cash["country"] = df_ad_cash["country"].str.lower().str.strip()
 
-# ------- Crear una columna partner y mapear valores de la columna campaignname ------ #
+# ------- Crear una columna Pais y mapear valores de la columna country ------ #
 df_ad_cash[name_column_pais] = (
     df_ad_cash["country"]
     .apply(lambda x: next((v for k, v in mapeo_paises.items() if pd.notna(x) and re.search(k, x)), "Desconocido"))
@@ -157,15 +159,13 @@ df_ad_cash.rename(columns={
 # print("Nombres de columnas renombrados correctamente.")
 # print(df_ad_cash.head())
 
-# ------- Se guardan los resultados en un archivo CSV ------ #
-df_ad_cash.to_csv(name_csv_ad_cash, index=False, encoding="utf-8-sig")
-print(f"📁 Reporte guardado en '{name_csv_ad_cash.name}'")
-
+# ------- Se crea el dataframe final solo con las columnas necesarias ------- #
 df_final_ad_cash = df_ad_cash[[name_column_fecha, name_column_partner, name_column_pais, name_column_inversion]]
 
 # print("Dataframe final con las columnas necesarias.")
 # print(df_final_ad_cash.head())
 
+# ------- Se agrupa el DataFrame por fecha, partner y pais y se suma la columna inversión ------- #
 df_final_ad_cash = df_final_ad_cash.groupby([name_column_fecha, name_column_partner, name_column_pais], as_index=False)[[name_column_inversion]].sum()
 
 print("Dataframe final con las columnas necesarias y agrupado.")
