@@ -3,11 +3,29 @@ import pandas as pd
 from datetime import date, timedelta
 from pathlib import Path
 import sqlite3
+import re
 
 # ------- Nombres de variables para rutas y nombres de tablas ------- #
 nombre_tabla_ad_cash = "general_adcash"
 ruta_db = Path("Archivos/Archivo_base_de_datos/base_de_datos_api")
 name_csv_ad_cash = Path("Archivos/Archivos_csv/reporte_adcash.csv")
+
+# ------- Nombres de variables para columnas ------- #
+name_column_fecha = "Fecha"
+name_column_partner = "Partner"
+name_column_pais = "Pais"
+name_column_inversion = "Inversión"
+
+# ------- Nombres de partners ------- #
+name_partner_ecuabet = "Ecuabet"
+name_partner_doradobet = "Doradobet"
+
+# ------- Nombres de paises ------- #
+name_pais_ecuador = "Ecuador"
+name_pais_nicaragua = "Nicaragua"
+name_pais_peru = "Perú"
+name_pais_el_salvador = "El salvador"
+name_pais_costa_rica = "Costa Rica"
 
 # ------- Credenciales de acceso ------ #
 USERNAME = "digital@quotamedia.co"
@@ -56,7 +74,7 @@ headers = {
 # ------- Se hace la peticion del reporte ------ #
 response = requests.get(report_url, headers=headers, params=params)
 print("🔎 Status code:", response.status_code)
-print("🔎 Respuesta:", response.text)  # 👈 ver respuesta real
+# print("🔎 Respuesta:", response.text)  # 👈 ver respuesta real
 
 if response.status_code != 200:
     print("❌ Error al obtener datos:", response.text)
@@ -72,50 +90,131 @@ else:
     print("✅ Datos recibidos correctamente")
     print(df_ad_cash.head())
 
-    # ------- Se guardan los resultados en un archivo CSV ------ #
+################################################
+####### Sección de diccionarios de mapeo #######
+################################################
+
+# ------- Creación de la columna partner ------ #
+mapeo_partner = {
+
+    # Ecuabet
+    r'ecuab': name_partner_ecuabet,
+
+    # Doradobet
+    r'db|doradobet|_dorado': name_partner_doradobet
+}
+
+# ------- Creación de la columna País ------ #
+mapeo_paises = {
+
+    # Ecuador
+    r'ec' : name_pais_ecuador,
+
+    # Nicaragua
+    r'ni' : name_pais_nicaragua,
+
+    # Perú
+    r'pe' : name_pais_peru,
+
+    # El salvador
+    r'sv' : name_pais_el_salvador,
+
+    # Costa rica
+    r'cr' : name_pais_costa_rica
+}
+
+###############################################
+###### Fin seccion diccionarios de mapeo ######
+###############################################
+
+# ------- Normalizar columna campaignname ------ #
+df_ad_cash["campaignname"] = df_ad_cash["campaignname"].str.lower().str.strip()
+
+# ------- Crear una columna partner y mapear valores de la columna campaignname ------ #
+df_ad_cash[name_column_partner] = (
+    df_ad_cash["campaignname"]
+    .apply(lambda x: next((v for k, v in mapeo_partner.items() if pd.notna(x) and re.search(k, x)), "Desconocido"))
+)
+
+# ------- Normalizar columna country ------ #
+df_ad_cash["country"] = df_ad_cash["country"].str.lower().str.strip()
+
+# ------- Crear una columna partner y mapear valores de la columna campaignname ------ #
+df_ad_cash[name_column_pais] = (
+    df_ad_cash["country"]
+    .apply(lambda x: next((v for k, v in mapeo_paises.items() if pd.notna(x) and re.search(k, x)), "Desconocido"))
+)
+
+# print("✅ Columna 'Partner' creada correctamente")
+# print(df_ad_cash.head())
+
+# ------- Se renombran columnas ------ #
+df_ad_cash.rename(columns={
+    "date": name_column_fecha,
+    "spending": name_column_inversion
+}, inplace=True)
+
+# print("Nombres de columnas renombrados correctamente.")
+# print(df_ad_cash.head())
+
+# ------- Se guardan los resultados en un archivo CSV ------ #
 df_ad_cash.to_csv(name_csv_ad_cash, index=False, encoding="utf-8-sig")
 print(f"📁 Reporte guardado en '{name_csv_ad_cash.name}'")
 
-# ------- Funcion para guardar en SQLite ------ #
-def guardar_en_sqlite(df: pd.DataFrame, nombre_tabla: str, ruta_db: Path, if_exists: str = "replace") -> None:
-    """
-    Guarda un DataFrame en una base de datos SQLite, creando o actualizando la tabla según se especifique.
+df_final_ad_cash = df_ad_cash[[name_column_fecha, name_column_partner, name_column_pais, name_column_inversion]]
 
-    Parámetros:
-    ----------
-    df : pd.DataFrame
-        El DataFrame que se desea guardar en la base de datos.
-    
-    nombre_tabla : str
-        El nombre de la tabla en la base de datos SQLite.
-    
-    ruta_db : Path
-        Ruta al archivo `.sqlite` o `.db` donde se guardarán los datos.
-    
-    if_exists : str, opcional
-        Comportamiento si la tabla ya existe. Valores permitidos:
-        - 'replace' (por defecto): elimina la tabla y la vuelve a crear.
-        - 'append': agrega los datos sin eliminar la tabla.
-        - 'fail': lanza una excepción si la tabla ya existe.
+# print("Dataframe final con las columnas necesarias.")
+# print(df_final_ad_cash.head())
 
-    Retorna:
-    -------
-    None
-        Esta función no retorna un valor. Inserta los datos directamente en la base de datos.
-    """
-    # Validar que el DataFrame no esté vacío
-    if df.empty:
-        print(f"\n ⚠️ El DataFrame está vacío. No se insertaron datos en la tabla '{nombre_tabla}'.\n ")
-        return
-    try:
-        # Conexión a SQLite
-        with sqlite3.connect(ruta_db) as conn:
-            df.to_sql(nombre_tabla, conn, if_exists=if_exists, index=False)
-        print(f"\n ✅ Se insertarón los datos con la tabla: '{nombre_tabla}' en la base de datos '{ruta_db.name}'.\n ")
-    
-    except Exception as e:
-        print(f"\n ❌ Error al guardar en SQLite: {e}")
+df_final_ad_cash = df_final_ad_cash.groupby([name_column_fecha, name_column_partner, name_column_pais], as_index=False)[[name_column_inversion]].sum()
 
-# ------- Se guarda el DataFrame en SQLite ------ #
-guardar_en_sqlite(df_ad_cash, nombre_tabla_ad_cash, ruta_db, if_exists="replace")
+print("Dataframe final con las columnas necesarias y agrupado.")
+print(df_final_ad_cash.head())
+
+# ------- Se guardan los resultados en un archivo CSV ------ #
+df_final_ad_cash.to_csv(name_csv_ad_cash, index=False, encoding="utf-8-sig")
+print(f"📁 Reporte guardado en '{name_csv_ad_cash.name}'")
+
+# # ------- Funcion para guardar en SQLite ------ #
+# def guardar_en_sqlite(df: pd.DataFrame, nombre_tabla: str, ruta_db: Path, if_exists: str = "replace") -> None:
+#     """
+#     Guarda un DataFrame en una base de datos SQLite, creando o actualizando la tabla según se especifique.
+
+#     Parámetros:
+#     ----------
+#     df : pd.DataFrame
+#         El DataFrame que se desea guardar en la base de datos.
+    
+#     nombre_tabla : str
+#         El nombre de la tabla en la base de datos SQLite.
+    
+#     ruta_db : Path
+#         Ruta al archivo `.sqlite` o `.db` donde se guardarán los datos.
+    
+#     if_exists : str, opcional
+#         Comportamiento si la tabla ya existe. Valores permitidos:
+#         - 'replace' (por defecto): elimina la tabla y la vuelve a crear.
+#         - 'append': agrega los datos sin eliminar la tabla.
+#         - 'fail': lanza una excepción si la tabla ya existe.
+
+#     Retorna:
+#     -------
+#     None
+#         Esta función no retorna un valor. Inserta los datos directamente en la base de datos.
+#     """
+#     # Validar que el DataFrame no esté vacío
+#     if df.empty:
+#         print(f"\n ⚠️ El DataFrame está vacío. No se insertaron datos en la tabla '{nombre_tabla}'.\n ")
+#         return
+#     try:
+#         # Conexión a SQLite
+#         with sqlite3.connect(ruta_db) as conn:
+#             df.to_sql(nombre_tabla, conn, if_exists=if_exists, index=False)
+#         print(f"\n ✅ Se insertarón los datos con la tabla: '{nombre_tabla}' en la base de datos '{ruta_db.name}'.\n ")
+    
+#     except Exception as e:
+#         print(f"\n ❌ Error al guardar en SQLite: {e}")
+
+# # ------- Se guarda el DataFrame en SQLite ------ #
+# guardar_en_sqlite(df_final_ad_cash, nombre_tabla_ad_cash, ruta_db, if_exists="replace")
 
