@@ -89,7 +89,7 @@ else:
     else:
         raise ValueError("❌ La respuesta no contiene datos tabulares válidos")
 
-    print("✅ Datos recibidos correctamente")
+    print("✅ Datos recibidos correctamente desde la API")
     print(df_ad_cash.head())
 
 ################################################

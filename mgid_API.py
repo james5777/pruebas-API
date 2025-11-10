@@ -4,11 +4,28 @@ import json
 from datetime import datetime
 from pathlib import Path
 import sqlite3
+import re
+
+print("Iniciando proceso de obtencion de datos de la API de MGID...")
 
 # ------- Nombres de variables para rutas y nombres de tablas ------- #
 nombre_tabla_mgid = "general_mgid"
 ruta_db = Path("Archivos/Archivo_base_de_datos/base_de_datos_api")
 name_csv_mgid = Path("Archivos/Archivos_csv/reporte_mgid.csv")
+
+# ------- Variables para nombres de columnas ------- #
+name_column_fecha = "Fecha"
+name_column_partner = "Partner"
+name_column_pais = "Pais"
+name_column_inversion = "Inversion"
+
+# ------- Nombres de partners ------- #
+name_partner_ecuabet = "Ecuabet"
+name_partner_aciertala = "Aciertala"
+
+# ------- Nombres de paises ------- #
+name_pais_ecuador = "Ecuador"
+name_pais_peru = "Perú"
 
 # ------- Credenciales de acceso ------ #
 API_ID = "730589"  
@@ -53,7 +70,6 @@ for i, met in enumerate(metrics):
     params[f"metrics[{i}]"] = met
 
 # ------- Peticion a la API ------- #
-print("🔄 Consultando estadísticas de MGID...")
 response = requests.get(API_URL, headers=headers, params=params)
 print("Código HTTP:", response.status_code)
 
@@ -86,52 +102,120 @@ for item in data["data"]:
 df_mgid = pd.DataFrame(records)
 df_mgid.sort_values(by=["day", "campaignName"], inplace=True, ignore_index=True)
 
-print("\n✅ Muestra de datos obtenidos:")
+print("Datos recibidos desde la API.")
 print(df_mgid.head())
 
-# ------- Se guardaN los resultados en un archivo CSV ------- #
-df_mgid.to_csv(name_csv_mgid, index=False, encoding="utf-8-sig")
+################################################
+####### Sección de diccionarios de mapeo #######
+################################################
+
+mapeo_partner = {
+
+    # Ecuabet
+    r'ecuab' : name_partner_ecuabet,
+
+    # Aciertala
+    r'aciert' : name_partner_aciertala
+}
+
+mapeo_paises = {
+
+    # Ecuador
+    r'ec_' : name_pais_ecuador,
+
+    # Perú
+    r'peru' : name_pais_peru
+}
+
+###############################################
+###### Fin seccion diccionarios de mapeo ######
+###############################################
+
+# ------- Normalizar columna campaignName ------- #
+df_mgid["campaignName"] = df_mgid["campaignName"].str.lower().str.strip()
+
+# ------- Crear una columna partner y mapear valores de la columna campaignName ------- #
+df_mgid[name_column_partner] = (
+    df_mgid["campaignName"]
+    .apply(lambda x: next((v for k, v in mapeo_partner.items() if pd.notna(x) and re.search(k, x)), "Desconocido"))
+)
+
+# print("Columna partner creada correctamente.")
+# print(df_mgid.head())
+
+# ------- Crear una columna Pais y mapear valores de la columna campaignName ------- #
+df_mgid[name_column_pais] = (
+    df_mgid["campaignName"]
+    .apply(lambda x: next((v for k, v in mapeo_paises.items() if pd.notna(x) and re.search(k, x)), "Desconocido"))
+)
+
+# print("Columna Pais creada correctaamente.")
+# print(df_mgid.head())
+
+# ------- Se renombran columnas ------- #
+df_mgid.rename(columns={
+    "day" : name_column_fecha,
+    "spent" : name_column_inversion
+}, inplace=True)
+
+# print("Nombres de columnas renombrados correctamente.")
+# print(df_mgid.head())
+
+# ------- Se crea el DataFrame final solo con las columnas necesarias ------- #
+df_final_mgid = df_mgid[[name_column_fecha, name_column_partner, name_column_pais,name_column_inversion]]
+
+# print("DataFrame final con las columnas necesarias.")
+# print(df_final_mgid.head())
+
+# ------- Se agrupa el DataFrame por fecha, partner y pais y se suma la columna inversion ------- #
+df_final_mgid = df_final_mgid.groupby([name_column_fecha, name_column_partner, name_column_pais], as_index=False)[[name_column_inversion]].sum()
+
+print("DataFrame final con las columnas necesarias y agrupado.")
+print(df_final_mgid.head())
+
+# ------- Se guardan los resultados en un archivo CSV ------- #
+df_final_mgid.to_csv(name_csv_mgid, index=False, encoding="utf-8-sig")
 print(f"📁 Reporte guardado en '{name_csv_mgid.name}'")
 
-# ------- Funcion para guardar en SQLite ------- #
-def guardar_en_sqlite(df: pd.DataFrame, nombre_tabla: str, ruta_db: Path, if_exists: str = "replace") -> None:
-    """
-    Guarda un DataFrame en una base de datos SQLite, creando o actualizando la tabla según se especifique.
+# # ------- Funcion para guardar en SQLite ------- #
+# def guardar_en_sqlite(df: pd.DataFrame, nombre_tabla: str, ruta_db: Path, if_exists: str = "replace") -> None:
+#     """
+#     Guarda un DataFrame en una base de datos SQLite, creando o actualizando la tabla según se especifique.
 
-    Parámetros:
-    ----------
-    df : pd.DataFrame
-        El DataFrame que se desea guardar en la base de datos.
+#     Parámetros:
+#     ----------
+#     df : pd.DataFrame
+#         El DataFrame que se desea guardar en la base de datos.
     
-    nombre_tabla : str
-        El nombre de la tabla en la base de datos SQLite.
+#     nombre_tabla : str
+#         El nombre de la tabla en la base de datos SQLite.
     
-    ruta_db : Path
-        Ruta al archivo `.sqlite` o `.db` donde se guardarán los datos.
+#     ruta_db : Path
+#         Ruta al archivo `.sqlite` o `.db` donde se guardarán los datos.
     
-    if_exists : str, opcional
-        Comportamiento si la tabla ya existe. Valores permitidos:
-        - 'replace' (por defecto): elimina la tabla y la vuelve a crear.
-        - 'append': agrega los datos sin eliminar la tabla.
-        - 'fail': lanza una excepción si la tabla ya existe.
+#     if_exists : str, opcional
+#         Comportamiento si la tabla ya existe. Valores permitidos:
+#         - 'replace' (por defecto): elimina la tabla y la vuelve a crear.
+#         - 'append': agrega los datos sin eliminar la tabla.
+#         - 'fail': lanza una excepción si la tabla ya existe.
 
-    Retorna:
-    -------
-    None
-        Esta función no retorna un valor. Inserta los datos directamente en la base de datos.
-    """
-    # Validar que el DataFrame esté vacío.
-    if df.empty:
-        print(f"\n ⚠️ El DataFrame está vacío. No se insertaron datos en la tabla '{nombre_tabla}'.\n ")
-        return
-    try:
-        # Conexión a SQLite
-        with sqlite3.connect(ruta_db) as conn:
-            df.to_sql(nombre_tabla, conn, if_exists=if_exists, index=False)
-        print(f"\n ✅ Se insertaron los datos con la tabla '{nombre_tabla}' en la base de datos '{ruta_db.name}'.\n ")
+#     Retorna:
+#     -------
+#     None
+#         Esta función no retorna un valor. Inserta los datos directamente en la base de datos.
+#     """
+#     # Validar que el DataFrame esté vacío.
+#     if df.empty:
+#         print(f"\n ⚠️ El DataFrame está vacío. No se insertaron datos en la tabla '{nombre_tabla}'.\n ")
+#         return
+#     try:
+#         # Conexión a SQLite
+#         with sqlite3.connect(ruta_db) as conn:
+#             df.to_sql(nombre_tabla, conn, if_exists=if_exists, index=False)
+#         print(f"\n ✅ Se insertaron los datos con la tabla '{nombre_tabla}' en la base de datos '{ruta_db.name}'.\n ")
     
-    except Exception as e:
-        print(f"\n ❌ Error al guardar en SQLite: {e}")
+#     except Exception as e:
+#         print(f"\n ❌ Error al guardar en SQLite: {e}")
 
-# ------- Se guarda el dataframe en SQLite ------- #
-guardar_en_sqlite(df_mgid, nombre_tabla_mgid, ruta_db, if_exists="replace")
+# # ------- Se guarda el dataframe en SQLite ------- #
+# guardar_en_sqlite(df_mgid, nombre_tabla_mgid, ruta_db, if_exists="replace")
