@@ -7,6 +7,10 @@ import re
 
 print("Iniciando proceso de obtencion de datos de la API de Ad Cash...")
 
+# ------- Se ingresa la fecha de inicio y fecha final ------ #
+start_date = "2025-10-01"
+end_date = "2025-10-14"
+
 # ------- Nombres de variables para rutas y nombres de tablas ------- #
 nombre_tabla_ad_cash = "general_adcash"
 ruta_db = Path("Archivos/Archivo_base_de_datos/base_de_datos_api")
@@ -53,9 +57,6 @@ if not token:
 # ------- Parametros y EndPoint para el reporte ------ #
 report_url = "https://api.myadcash.com/api/v1/advertiser-report"
 
-# ------- Se ingresa la fecha de inicio y fecha final ------ #
-start_date = "2025-10-01"
-end_date = "2025-10-14"
 
 params = {
     "start_date": start_date,
