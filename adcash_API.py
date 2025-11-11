@@ -22,6 +22,7 @@ def obtener_datos_ad_cash() -> pd.DataFrame:
     name_column_partner = "Partner"
     name_column_pais = "Pais"
     name_column_inversion = "Inversion"
+    name_column_plataforma = "Plataforma"
 
     # ------- Nombres de partners ------- #
     name_partner_ecuabet = "Ecuabet"
@@ -33,6 +34,9 @@ def obtener_datos_ad_cash() -> pd.DataFrame:
     name_pais_peru = "Perú"
     name_pais_el_salvador = "El Salvador"
     name_pais_costa_rica = "Costa Rica"
+
+    # ------- Nombre de la plataforma ------- #
+    name_plataforma = "Ad_Cash_Push_Ads_1"
 
     # ------- Credenciales de acceso ------ #
     USERNAME = "digital@quotamedia.co"
@@ -149,7 +153,10 @@ def obtener_datos_ad_cash() -> pd.DataFrame:
         .apply(lambda x: next((v for k, v in mapeo_paises.items() if pd.notna(x) and re.search(k, x)), "Desconocido"))
     )
 
-    # print("✅ Columna 'Partner' creada correctamente")
+    # ------- Se crea una columna nueva con el nombre de la API ------- #
+    df_ad_cash[name_column_plataforma] = name_plataforma
+
+    # print("✅ Columna 'plataforma' creada correctamente")
     # print(df_ad_cash.head())
 
     # ------- Se renombran columnas ------ #
@@ -162,13 +169,13 @@ def obtener_datos_ad_cash() -> pd.DataFrame:
     # print(df_ad_cash.head())
 
     # ------- Se crea el dataframe final solo con las columnas necesarias ------- #
-    df_final_ad_cash = df_ad_cash[[name_column_fecha, name_column_partner, name_column_pais, name_column_inversion]]
+    df_final_ad_cash = df_ad_cash[[name_column_fecha, name_column_partner, name_column_pais, name_column_inversion, name_column_plataforma]]
 
     # print("Dataframe final con las columnas necesarias.")
     # print(df_final_ad_cash.head())
 
     # ------- Se agrupa el DataFrame por fecha, partner y pais y se suma la columna inversión ------- #
-    df_final_ad_cash = df_final_ad_cash.groupby([name_column_fecha, name_column_partner, name_column_pais], as_index=False)[[name_column_inversion]].sum()
+    df_final_ad_cash = df_final_ad_cash.groupby([name_column_fecha, name_column_partner, name_column_pais, name_column_plataforma], as_index=False)[[name_column_inversion]].sum()
 
     print("Dataframe final con las columnas necesarias y agrupado.")
     print(df_final_ad_cash.head())
@@ -177,6 +184,7 @@ def obtener_datos_ad_cash() -> pd.DataFrame:
     df_final_ad_cash.to_csv(name_csv_ad_cash, index=False, encoding="utf-8-sig")
     print(f"📁 Reporte guardado en '{name_csv_ad_cash.name}'")
     return df_final_ad_cash
+
 
     # # ------- Funcion para guardar en SQLite ------ #
     # def guardar_en_sqlite(df: pd.DataFrame, nombre_tabla: str, ruta_db: Path, if_exists: str = "replace") -> None:

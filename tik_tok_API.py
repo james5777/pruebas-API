@@ -23,12 +23,16 @@ def obtener_datos_tiktok() -> pd.DataFrame:
     name_column_partner = "Partner"
     name_column_pais = "Pais"
     name_column_inversion = "Inversion"
+    name_column_plataforma = "Plataforma"
 
     # ------- Nombres de partners ------- #
     name_partner_ecuabet = "Ecuabet"
 
     # -------- Nombres de paises ------- #
     name_pais_ecuador = "Ecuador"
+
+    # ------- Nombre de la plataforma ------- #
+    name_plataforma = "Tik tok"
 
     # ------- Credenciales y token de acceso ------- #
     ACCESS_TOKEN = "e5fc2d03f36ad3313f3895050ba9123070890785"
@@ -197,6 +201,12 @@ def obtener_datos_tiktok() -> pd.DataFrame:
     # print("dataframe con trm USD-COP")
     # print(df_tiktok.head())
 
+    # ------- Se crea una nueva columna con el nombre de la API ------- #
+    df_tiktok[name_column_plataforma] = name_plataforma
+
+    # print("Columna plataforma creada correctamente")
+    # print(df_tiktok.head())
+
     # ------- Se renombran columnas ------- #
     df_tiktok.rename(columns={
         "stat_time_day" : name_column_fecha,
@@ -207,13 +217,13 @@ def obtener_datos_tiktok() -> pd.DataFrame:
     # print(df_tiktok.head())
 
     # ------- Se crea un DataFrame final solo con las columnas necesarias ------- #
-    df_final_tiktok = df_tiktok[[name_column_fecha, name_column_partner, name_column_pais, name_column_inversion]]
+    df_final_tiktok = df_tiktok[[name_column_fecha, name_column_partner, name_column_pais, name_column_inversion, name_column_plataforma]]
 
     # print("Dataframe final con las columnas necesarias.")
     # print(df_final_tiktok.head())
 
     # ------- Se agrupa el dataframe por fecha, partner y pais y se suma la columna inversion (en dolares)------- #
-    df_final_tiktok = df_final_tiktok.groupby([name_column_fecha, name_column_partner, name_column_pais], as_index=False)[[name_column_inversion]].sum()
+    df_final_tiktok = df_final_tiktok.groupby([name_column_fecha, name_column_partner, name_column_pais, name_column_plataforma], as_index=False)[[name_column_inversion]].sum()
 
     print("DataFrame final con las columnas necesarias y agrupado.")
     print(df_final_tiktok.head())
@@ -263,3 +273,4 @@ def obtener_datos_tiktok() -> pd.DataFrame:
     #         print(f"\n ❌ Error al guardar en SQLite: {e}")
 
     # guardar_en_sqlite(df_tiktok, nombre_tabla_tiktok, ruta_db, if_exists="replace")
+

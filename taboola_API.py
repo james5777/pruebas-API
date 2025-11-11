@@ -21,12 +21,16 @@ def obtener_datos_taboola() -> pd.DataFrame:
     name_column_partner = "Partner"
     name_column_pais = "Pais"
     name_column_inversion = "Inversion"
+    name_column_plataforma = "Plataforma"
 
     # ------- Nombres de partners ------- #
     name_partner_doradobet = "Doradobet"
 
     # ------- Nombres de paises ------- #
     name_pais_costa_rica = "Costa Rica"
+
+    # ------- Nombre de la plataforma ------- #
+    name_plataforma = "Taboola_Nativo_2"
 
     # ------- Funcion para obtener token y acceso ------- #
     def get_access_token():
@@ -145,6 +149,12 @@ def obtener_datos_taboola() -> pd.DataFrame:
     # print("Columna Pais creada correctamente")
     # print(df_taboola.head())
 
+    # ------- Se crea una nueva columna con el nombre de la API ------- #
+    df_taboola[name_column_plataforma] = name_plataforma
+
+    print("Columna plataforma creada correctamente.")
+    print(df_taboola.head())
+
     # ------- Se renombran columnas ------- #
     df_taboola.rename(columns={
         "date" : name_column_fecha,
@@ -154,13 +164,13 @@ def obtener_datos_taboola() -> pd.DataFrame:
     # print("Nombres de columnas renombrados correctamente.")
     # print(df_taboola.head())
 
-    df_final_taboola = df_taboola[[name_column_fecha, name_column_partner, name_column_pais, name_column_inversion]]
+    df_final_taboola = df_taboola[[name_column_fecha, name_column_partner, name_column_pais, name_column_inversion, name_column_plataforma]]
 
     # print("DataFrame final con las columnas necesarias.")
     # print(df_final_taboola.head())
 
     # ------- Se agrupa el DataFrame por fecha, partner y pais y se suma la columna inversion ------- #
-    df_final_taboola = df_final_taboola.groupby([name_column_fecha, name_column_partner, name_column_pais], as_index=False)[[name_column_inversion]].sum()
+    df_final_taboola = df_final_taboola.groupby([name_column_fecha, name_column_partner, name_column_pais, name_column_plataforma], as_index=False)[[name_column_inversion]].sum()
 
     print("DataFrame final con las columnas necesarias y agrupado.")
     print(df_final_taboola.head())
@@ -212,3 +222,4 @@ def obtener_datos_taboola() -> pd.DataFrame:
 
     # # # ------- Se guarda el DataFrame en SQLite ------- #
     # # guardar_en_sqlite(df_taboola, nombre_tabla_taboola, ruta_db, if_exists="replace")
+

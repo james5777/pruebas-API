@@ -18,6 +18,7 @@ def obtener_datos_propellerads() -> pd.DataFrame:
     name_column_partner = "Partner"
     name_column_pais = "Pais"
     name_column_inversion = "Inversion"
+    name_column_plataforma = "Plataforma"
 
     # ------- Nombres de partners ------- #
     name_partner_doradobet = "Doradobet"
@@ -36,6 +37,9 @@ def obtener_datos_propellerads() -> pd.DataFrame:
     name_pais_honduras = "Honduras"
     name_pais_nicaragua = "Nicaragua"
     name_pais_venezuela = "Venezuela"
+
+    # ------- Nombre de la plataforma ------- #
+    name_plataforma = "Propellerads_Push_Ads_4"
 
     # -------- Token de acceso ------- #
     TOKEN = "5e6cae2a20cdcda167cd0437d3097da7c1a92758f9c3c2ed"
@@ -164,6 +168,12 @@ def obtener_datos_propellerads() -> pd.DataFrame:
     # print("Columna Pais creada correctamente")
     # print(df_propellerads.head())
 
+    # ------- Se crea ima columna nueva con el nombre de la API ------- #
+    df_propellerads[name_column_plataforma] = name_plataforma
+
+    # print("Columna plataforma creada correctamente.")
+    # print(df_propellerads.head())
+
     # ------- Se renombran columnas ------- #
     df_propellerads.rename(columns={
         "date_time" : name_column_fecha,
@@ -171,13 +181,13 @@ def obtener_datos_propellerads() -> pd.DataFrame:
     }, inplace=True)
 
     # ------- Se crea el dataframe final solo con las columnas necesarias ------- #
-    df_final_propellerads = df_propellerads[[name_column_fecha, name_column_partner, name_column_pais, name_column_inversion]]
+    df_final_propellerads = df_propellerads[[name_column_fecha, name_column_partner, name_column_pais, name_column_inversion, name_column_plataforma]]
 
     # print("Dataframe final solo con las columnas necesarias.")
     # print(df_final_propellerads.head())
 
     # ------- Se agrupa el DataFrame por fecha, partner y pais, y se suma la columna inversion ------- #
-    df_final_propellerads = df_final_propellerads.groupby([name_column_fecha, name_column_partner, name_column_pais], as_index=False)[[name_column_inversion]].sum()
+    df_final_propellerads = df_final_propellerads.groupby([name_column_fecha, name_column_partner, name_column_pais, name_column_plataforma], as_index=False)[[name_column_inversion]].sum()
 
     print("Dataframe final con las columnas necesarias y agrupado")
     print(df_final_propellerads.head())
@@ -229,9 +239,5 @@ def obtener_datos_propellerads() -> pd.DataFrame:
 
     # # -------- Se guarda el DataFrame en SQLite ------- #
     # guardar_en_sqlite(df_propellerads, nombre_tabla_propellerads, ruta_db, if_exists="replace")
-
-
-
-
 
 

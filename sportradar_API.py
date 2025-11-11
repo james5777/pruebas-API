@@ -28,6 +28,7 @@ def obtener_datos_sportradar() -> pd.DataFrame:
     name_column_inversion = "Inversion"
     name_column_registros = "Registros"
     name_column_primeros_depositos = "primeros_Depositos"
+    name_column_plataforma = "Plataforma"
 
     # ------- Nombres de Partners ------- #
     name_partner_doradobet = "Doradobet"
@@ -44,6 +45,8 @@ def obtener_datos_sportradar() -> pd.DataFrame:
     name_pais_peru = "Perú"
     name_pais_el_salvador = "El Salvador"
 
+    # ------- Nombre de la plataforma ------- #
+    name_plataforma = "Sport_Radar_Programática_3"
     
     # token_expiration = datetime.datetime.now() + datetime.timedelta(hours=6)
 
@@ -222,6 +225,12 @@ def obtener_datos_sportradar() -> pd.DataFrame:
     # print("Dataframe con columna Pais creada.")
     # print(df_sportradar.head())
 
+    # ------- Se crea una nueva columna con el nombre de la API ------- #
+    df_sportradar[name_column_plataforma] = name_plataforma
+
+    # print("Columna plataforma creada correctamente.")
+    # print(df_sportradar.head())
+
     # ------- Se renombran las columnas necesarias ------- #
     df_sportradar.rename(columns={
         "day" : name_column_fecha,
@@ -234,13 +243,13 @@ def obtener_datos_sportradar() -> pd.DataFrame:
     # print(df_sportradar.head())
 
     # ------- Se crea un nuevo DataFrame solo con las columnas necesarias ------- #
-    df_final_sportradar = df_sportradar[[name_column_fecha, name_column_partner, name_column_pais, name_column_registros, name_column_primeros_depositos, name_column_inversion]]
+    df_final_sportradar = df_sportradar[[name_column_fecha, name_column_partner, name_column_pais, name_column_registros, name_column_primeros_depositos, name_column_inversion, name_column_plataforma]]
 
     # print("Dataframe final con las columnas necesarias.")
     # print(df_final_sportradar.head())
 
     # ------- Se agrupa el DataFrame por fecha, partner y pais y se suman las columnas de registros, ftds e inversión ------- #
-    df_final_sportradar = df_final_sportradar.groupby([name_column_fecha, name_column_partner, name_column_pais], as_index=False)[[name_column_registros,name_column_primeros_depositos,name_column_inversion]].sum()
+    df_final_sportradar = df_final_sportradar.groupby([name_column_fecha, name_column_partner, name_column_pais, name_column_plataforma], as_index=False)[[name_column_registros,name_column_primeros_depositos,name_column_inversion]].sum()
 
     print("DataFrame final con las columnas necesarias y agrupado")
     print(df_final_sportradar.head())

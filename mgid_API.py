@@ -19,6 +19,7 @@ def obtener_datos_mgid() -> pd.DataFrame:
     name_column_partner = "Partner"
     name_column_pais = "Pais"
     name_column_inversion = "Inversion"
+    name_column_plataforma = "Plataforma"
 
     # ------- Nombres de partners ------- #
     name_partner_ecuabet = "Ecuabet"
@@ -27,6 +28,9 @@ def obtener_datos_mgid() -> pd.DataFrame:
     # ------- Nombres de paises ------- #
     name_pais_ecuador = "Ecuador"
     name_pais_peru = "Perú"
+
+    # ------- Nombre de la plataforma ------- #
+    name_plataforma = "MGID_Nativo_1"
 
     # ------- Credenciales de acceso ------ #
     API_ID = "730589"  
@@ -153,6 +157,12 @@ def obtener_datos_mgid() -> pd.DataFrame:
     # print("Columna Pais creada correctaamente.")
     # print(df_mgid.head())
 
+    # ------- Se crea una nueva columna con el nombre de la API ------- #
+    df_mgid[name_column_plataforma] = name_plataforma
+
+    # print("Columna plataforma creada correctamente")
+    # print(df_mgid.head())
+
     # ------- Se renombran columnas ------- #
     df_mgid.rename(columns={
         "day" : name_column_fecha,
@@ -163,13 +173,13 @@ def obtener_datos_mgid() -> pd.DataFrame:
     # print(df_mgid.head())
 
     # ------- Se crea el DataFrame final solo con las columnas necesarias ------- #
-    df_final_mgid = df_mgid[[name_column_fecha, name_column_partner, name_column_pais,name_column_inversion]]
+    df_final_mgid = df_mgid[[name_column_fecha, name_column_partner, name_column_pais,name_column_inversion, name_column_plataforma]]
 
     # print("DataFrame final con las columnas necesarias.")
     # print(df_final_mgid.head())
 
     # ------- Se agrupa el DataFrame por fecha, partner y pais y se suma la columna inversion ------- #
-    df_final_mgid = df_final_mgid.groupby([name_column_fecha, name_column_partner, name_column_pais], as_index=False)[[name_column_inversion]].sum()
+    df_final_mgid = df_final_mgid.groupby([name_column_fecha, name_column_partner, name_column_pais, name_column_plataforma], as_index=False)[[name_column_inversion]].sum()
 
     print("DataFrame final con las columnas necesarias y agrupado.")
     print(df_final_mgid.head())
@@ -221,3 +231,4 @@ def obtener_datos_mgid() -> pd.DataFrame:
 
     # # ------- Se guarda el dataframe en SQLite ------- #
     # guardar_en_sqlite(df_mgid, nombre_tabla_mgid, ruta_db, if_exists="replace")
+
