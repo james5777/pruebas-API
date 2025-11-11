@@ -9,7 +9,7 @@ def obtener_datos_ad_cash() -> pd.DataFrame:
     print("Iniciando proceso de obtencion de datos de la API de Ad Cash...")
 
     # ------- Se ingresa la fecha de inicio y fecha final ------ #
-    start_date = "2025-10-01"
+    start_date = "2025-10-02"
     end_date = "2025-10-14"
 
     # ------- Nombres de variables para rutas y nombres de tablas ------- #
